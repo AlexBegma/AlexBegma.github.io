@@ -1,0 +1,81 @@
+* {
+	-webkit-box-sizing: border-box;
+		moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	color: #c2c2c2;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 3;
+	background-color: rgba(118, 117, 128, 0.05);
+}
+.search {
+	border: none;
+}
+.search_place, .img {
+	height: 150px;
+}
+form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #;
+}
+.img {
+	width: 15%;
+	background-color: #e5e5e5;
+}
+.search_place {
+	background-color: #e5e5e5;
+	width: 85%;
+	font-size: 80px;
+}
+input {
+	border: none;
+}
+p {
+	text-transform: uppercase;font-weight: bold;
+}
+.main {
+	background-color: #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+}
+a {
+	/* background-color: rgba(118, 117, 128, 0.05); */
+	text-decoration: none;
+	display: flex;
+	padding: 1px 0;
+	color: #c2c2c2;
+	align-content: center;
+}
+a:link {
+	background-color: rgba(118, 117, 128, 0.05);
+}
+a:hover {
+	background-color: rgba(118, 117, 128, 0.1);
+	color: #ec5a62;
+}
+.search_place:hover {
+	color: #ec5a62;
+}
+li {
+	margin: 3px;
+}
+.people {
+	margin-left: 15%;
+	width: 25%;
+}
+.popular {
+	width: 25%;
+}
+.recent {
+	margin-right: 15%;
+	width: 25%;
+}
