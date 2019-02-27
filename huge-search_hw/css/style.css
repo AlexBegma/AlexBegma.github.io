@@ -40,7 +40,8 @@ input {
 	border: none;
 }
 p {
-	text-transform: uppercase;font-weight: bold;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .main {
 	background-color: #e5e5e5;
