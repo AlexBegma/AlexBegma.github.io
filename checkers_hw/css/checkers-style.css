@@ -1,0 +1,26 @@
+
+h1{
+	font-size: 20px;
+	justify-content: center;
+}
+.container{
+	width: 800px;
+	height: 800px;
+	border: 1px solid;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	position: relative;
+	display: flex;
+}
+li{
+	width: 100px;
+	height: 100px;
+	flex-direction: row;
+}
+.odd{
+	background-color: white;	
+}
+.even{
+	background-color: black;
+}
