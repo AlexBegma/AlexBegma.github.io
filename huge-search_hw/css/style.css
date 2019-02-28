@@ -17,8 +17,9 @@ body {
 	max-width: 1140px;
 	margin: auto;
 }
-.search {
+.search_place {
 	font-size: 0;
+	font-weight: 600;
 	margin-bottom: 2rem;
 	border: none;
 	width: 100%;
@@ -39,7 +40,7 @@ body {
 .img {
 	width: 150px;
 	height: 150px;
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat; */
  	background-size: 35%;
 	background-position: center;
 	background-color: #e5e5e5;
@@ -58,6 +59,9 @@ body {
 .picture {
 	border-radius: 50%;
 }
+input[type="submit"] {
+
+}
 input {
 	border: none;
 }
@@ -73,12 +77,11 @@ a {
 	display: flex;
 	padding: 1px 0;
 	color: #c2c2c2;
-	/* align-content: center; */
 	border-radius: 6px;
-	width: 100%;
+	align-content: center;
 }
 span {
-	/* text-align: center; */
+	margin-left: 10px;
 }
 a:link {
 	background-color: rgba(118, 117, 128, 0.05);
