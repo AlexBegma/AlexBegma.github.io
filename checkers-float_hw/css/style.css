@@ -1,5 +1,6 @@
 .container {
 	margin: auto;
+	border: 8px double;
 }
 h1 {
 	text-transform: uppercase;
