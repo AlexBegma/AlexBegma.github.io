@@ -59,8 +59,8 @@ body {
 .picture {
 	border-radius: 50%;
 }
-input[type="submit"] {
-
+input[type=submit] {
+	src="https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png";
 }
 input {
 	border: none;
@@ -78,7 +78,6 @@ a {
 	padding: 1px 0;
 	color: #c2c2c2;
 	border-radius: 6px;
-	align-content: center;
 }
 span {
 	margin-left: 10px;
