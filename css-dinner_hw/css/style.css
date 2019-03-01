@@ -28,9 +28,9 @@ body {
 	text-align: center;
 }
 .form {
+	max-width: 75%;
 	margin-top: 45px;
 	font-size: 1.2em;
-	/* vertical-align: baseline; */
 }
 .menu{
 	width: 920px;
@@ -42,14 +42,16 @@ body {
 }
 .food {
 	list-style-type: none;
+	width: 100%;
+	min-height: 55px;
+}
+label {
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	border-left: none;
 	border-right: none;
 	background-color: #88839e;
 	cursor: pointer;
-	width: 100%;
-	height: 55px;
 }
 .selection {
 	display: inline-block; 
@@ -83,10 +85,8 @@ em{
 .food:nth-child(2n) {
 	background-color: #76747f;
 }
-.food:hover, .food:focus {
+label:hover, label:focus {
 	background-color: #625e77;
-	border-top: 3px solid white;
-	border-bottom: 3px solid white;
 }
 .btn-bonapp .selection:checked {
 	text-decoration: line-through;

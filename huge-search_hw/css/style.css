@@ -11,32 +11,36 @@ html, body {
 body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
-	background-color: #c2c2c2;
+	background-color: #e5e5e5;
 }
 .container {
 	max-width: 1140px;
+	height: 10%;
 	margin: auto;
+	background-color: #e5e5e5;
+	color: #c2c2c2;
 }
 .search_place {
-	font-size: 0;
 	font-weight: 600;
-	margin-bottom: 2rem;
 	border: none;
-	width: 100%;
+	width: 990px;
+	height: 150px;
+	background-color: #e5e5e5;
+	font-size: 80px;
+}
+input::placeholder {
+	color: #c2c2c2;
 }
 .search {
 	display: flex;
 	flex-direction: row;
 	font-size: 6rem;
+	/* color: #c2c2c2; */
 	border: none;
 	background-color: transparent;
+	margin-bottom: 2rem;
 }
-.search_place {
-	height: 150px;
-	background-color: #e5e5e5;
-	/* width: 980px;
- */	font-size: 80px;
-}
+
 .img {
 	width: 150px;
 	height: 150px;
@@ -49,13 +53,14 @@ body {
 	background-color: #e5e5e5;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 .main-1,
 .main-2,
 .main-3 {
 	min-width: 31%;
-	margin-right: 2%;
 }
+
 .picture {
 	border-radius: 50%;
 }
@@ -65,7 +70,7 @@ input[type="submit"] {
 input {
 	border: none;
 }
-h1, h2, h3 {
+h1 {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 23px;
@@ -76,6 +81,8 @@ a {
 	text-decoration: none;
 	display: flex;
 	padding: 1px 0;
+	height: 50px;
+	line-height: 50px;
 	color: #c2c2c2;
 	border-radius: 6px;
 }
@@ -96,7 +103,6 @@ li {
 	margin: 3px;
 }
 .people {
-	margin-left: 15%;
 	width: 25%;
 }
 .popular {
