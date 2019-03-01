@@ -40,7 +40,7 @@ body {
 .img {
 	width: 150px;
 	height: 150px;
-	/* background-repeat: no-repeat; */
+	background-repeat: no-repeat;
  	background-size: 35%;
 	background-position: center;
 	background-color: #e5e5e5;
@@ -59,8 +59,8 @@ body {
 .picture {
 	border-radius: 50%;
 }
-input[type=submit] {
-	src="https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png";
+input[type="submit"] {
+	background-image: url('https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png');
 }
 input {
 	border: none;
