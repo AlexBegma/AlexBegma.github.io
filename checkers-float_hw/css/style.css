@@ -9,30 +9,19 @@ html, body {
 
 .container {
 	margin: auto;
-	border: 8px double;
-	/* max-width: 800px; */
-}
-h1 {
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 800;
-}
-.row{
-	margin-left: 10%;
-	margin-right: 10%;
-	position: relative;
-}
-.white, .black {
-	border: 1px solid black;
-	width: 10%;
-	height: 100px;
-	float: left;
-}
-.clear {
-	clear: both;
+	max-width: 640px;
+	max-height: 640px;
 }
 
-/* .row:before,
+.row{
+/* 	margin-left: 10%; */
+	/* margin-right: 10%; */
+	margin: auto;
+	width: 100%;
+/* 	position: relative; */
+}
+
+.row:before,
 .row:after {
 	content: "";
 	display: table;
@@ -42,7 +31,13 @@ h1 {
 }
 .row {
 	*zoom: 1;
-} */
+}
+.white, .black {
+	border: 1px solid black;
+	width: 12.5%;
+	height: 80px;
+	float: left;
+}
 .white {
 	background-color: white;
 }
