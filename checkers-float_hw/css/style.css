@@ -14,22 +14,20 @@ html, body {
 }
 
 .row{
-/* 	margin-left: 10%; */
-	/* margin-right: 10%; */
 	margin: auto;
 	width: 100%;
 }
 
-/* .row:before,
-.row:after {
+.row::before,
+.row::after {
 	content: "";
 	display: table;
-} */
+}
 .row::after {
 	clear: both;
 }
 .row {
-	*zoom: 1;
+	transform: scale(1);
 }
 .white, .black {
 	border: 1px solid black;
