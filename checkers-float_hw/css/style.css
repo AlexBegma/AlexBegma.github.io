@@ -18,14 +18,13 @@ html, body {
 	/* margin-right: 10%; */
 	margin: auto;
 	width: 100%;
-/* 	position: relative; */
 }
 
-.row:before,
+/* .row:before,
 .row:after {
 	content: "";
 	display: table;
-}
+} */
 .row::after {
 	clear: both;
 }
