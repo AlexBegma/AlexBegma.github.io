@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 21" width="22" height="21">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="crayon" class="shp0" d="M17.87 0C19.6 0 21 1.4 21 3.13C21 3.83 20.77 4.48 20.37 5L19.13 6.25L14.75 1.88L16 0.63C16.52 0.23 17.17 0 17.87 0ZM2.25 14.37L1 20L6.62 18.75L18.19 7.19L13.81 2.81L2.25 14.37ZM14.98 7.1L6.23 15.85L5.15 14.77L13.9 6.02L14.98 7.1Z" />
+</svg>
