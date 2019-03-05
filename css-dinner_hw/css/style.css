@@ -3,9 +3,11 @@
 	padding: 0;
 	margin: 0;
 }
+
 html, body {
 	height: 100%;
 }
+
 body {
 	font-size: 32px;
 	font-family: sans-serif;
@@ -13,12 +15,14 @@ body {
 	font-size: 22px;
 	background: #0e0e0e;
 }
+
 .out-box {
 	min-height: 100%;
 	border: 18px solid white;
 	text-align: center;
 	background-color: #3B3f45;
 }
+
 .header {
 	width: 100%;
 	display: inline-block;
@@ -26,12 +30,15 @@ body {
 	color: #eb7e7f;
 	padding: 20px 0;
 	text-align: center;
+	margin-bottom: 45px;
 }
+
 .form {
 	max-width: 75%;
-	margin-top: 45px;
+	margin: auto;
 	font-size: 1.2em;
 }
+
 .menu{
 	width: 920px;
 	margin-bottom: 30px;
@@ -40,38 +47,61 @@ body {
 	text-align: left;
 	display: inline-block;
 }
+
 .food {
 	list-style-type: none;
 	width: 100%;
 	min-height: 55px;
 }
-label {
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
-	border-left: none;
-	border-right: none;
-	background-color: #88839e;
-	cursor: pointer;
-}
+
 .selection {
+	cursor: pointer;
 	display: inline-block; 
 	width: 100%;
 	line-height: 55px;
 }
+
 .food [type="checkbox"]:checked ~ * {
 	text-decoration: line-through;
+	opacity: .5;
+	color: #625e77;
 }
+
 input[type="checkbox"] {
 	margin-left: 10px;
 	width: 22px;
 	height: 22px;
 }
+
 span {
 	margin-left: 8px;
 }
-em{
+
+em {
 	font-size: 14px;
 }
+
+.food:nth-child(2n+1) {
+	background-color: #a3a0b5;
+}
+
+.food:nth-child(2n) {
+	background-color: #88839e;
+}
+
+label:hover, label:focus {
+	background-color: #76747f;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: none;
+	border-right: none;
+	border-color: #f7f7f7;
+}
+
+label:active {
+	background-color: #ea2045;
+}
+
 .btn-bonapp {
 	color: #eb7e7f;
 	background-color: #4a4f56;
@@ -81,17 +111,4 @@ em{
 	display: inline-block;
 	border: none;
 	width: 920px;
-}
-.food:nth-child(2n) {
-	background-color: #76747f;
-}
-label:hover, label:focus {
-	background-color: #625e77;
-}
-.btn-bonapp .selection:checked {
-	text-decoration: line-through;
-	color: #a3a0b5;
-}
-.food:active {
-	background-color: rgb(241, 8, 41);
 }
