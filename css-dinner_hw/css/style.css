@@ -55,6 +55,9 @@ body {
 }
 
 .selection {
+	border-left: none;
+	border-right: none;
+	border-color: #f7f7f7;
 	cursor: pointer;
 	display: inline-block; 
 	width: 100%;
@@ -63,7 +66,7 @@ body {
 
 .food [type="checkbox"]:checked ~ * {
 	text-decoration: line-through;
-	opacity: .5;
+	opacity: .4;
 	color: #625e77;
 }
 
@@ -91,6 +94,7 @@ em {
 
 label:hover, label:focus {
 	background-color: #76747f;
+	border: none;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	border-left: none;
