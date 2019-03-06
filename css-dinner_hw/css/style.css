@@ -41,7 +41,6 @@ body {
 
 .menu{
 	width: 920px;
-	margin-bottom: 30px;
 	background-color: #3b3f45;
 	color: white;
 	text-align: left;
@@ -51,17 +50,19 @@ body {
 .food {
 	list-style-type: none;
 	width: 100%;
-	min-height: 55px;
 }
 
 .selection {
 	border-left: none;
 	border-right: none;
-	border-color: #f7f7f7;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	/* border-color: #f7f7f7; */
 	cursor: pointer;
 	display: inline-block; 
 	width: 100%;
 	line-height: 55px;
+	min-height: 55px;
 }
 
 .food [type="checkbox"]:checked ~ * {
@@ -94,16 +95,16 @@ em {
 
 label:hover, label:focus {
 	background-color: #76747f;
-	border: none;
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
+	/* border: none; */
+	/* border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent; */
 	border-left: none;
 	border-right: none;
 	border-color: #f7f7f7;
 }
 
 label:active {
-	background-color: #ea2045;
+	background-color: #4a4f56;
 }
 
 .btn-bonapp {
