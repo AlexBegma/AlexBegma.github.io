@@ -82,6 +82,7 @@ input[type="text"] {
 	width: calc(100% - 150px);
 	margin: 0;
 	border: none;
+	color: #ec5a62;
 }
 
 input[type="submit"] {
