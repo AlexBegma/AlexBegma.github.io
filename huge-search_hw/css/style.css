@@ -22,7 +22,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	font-size: 6rem;
-	height: 150px;
 	border: none;
 	background-color: transparent;
 	margin-bottom: 2rem;
@@ -40,7 +39,7 @@ input::placeholder {
 }
 
 .img {
-	width: 14%;
+	width: 150px;
 	height: 150px;
 	background-repeat: no-repeat;
  	background-size: 35%;
@@ -61,19 +60,29 @@ input::placeholder {
 	min-width: 31%;
 }
 
+.items li:last-of-type {
+	margin-bottom: 0;
+}
+
+.name {
+	margin-bottom: 3px;
+}
+
+.face {
+	border-radius: 50%;
+}
+
 .picture {
 	display: inline-block;
-	border-radius: 50%;
 	width: 40px;
 	height: 40px;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin-right: 10px;
 }
 
 input[type="text"] {
 	min-height: 150px;
 	height: 100%;
-	width: calc(100%-150px);
+	width: calc(100% - 150px);
 	margin: 0;
 	border: none;
 }
@@ -81,16 +90,19 @@ input[type="text"] {
 input[type="submit"] {
 	background-image: url('https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png');
 	width: 150px;
-	height: 100%;
+	min-height: 100%;
 	vertical-align: top;
 	background-position: center center;
 	background-size: 50%;
 	background-color: transparent;
 	background-repeat: no-repeat;
 }
-/* input[type="submit"]:hover {
-	transition: all .5s ease-in;
-} */
+
+input[type="submit"]:hover {
+	background-size: 100%;
+	transition: all .3s ease-in;
+}
+
 .search_place, .img {
 	border: none;
 }
@@ -106,14 +118,14 @@ input[type="submit"] {
 	background-color: rgba(118, 117, 128, 0.05);
 	text-decoration: none;
 	display: flex;
-	padding: 1px 0;
+	padding: 5px;
 	height: 50px;
 	line-height: 50px;
 	color: #c2c2c2;
 	border-radius: 5px;
 }
 span {
-	margin-left: 10px;
+	/* margin-left: 10px; */
 }
 .ancor:link {
 	background-color: rgba(118, 117, 128, 0.05);
@@ -129,7 +141,4 @@ span {
 }
 .search_place:hover {
 	color: #ec5a62;
-}
-.name {
-	margin-bottom: 3px;
 }
