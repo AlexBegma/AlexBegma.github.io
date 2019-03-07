@@ -49,12 +49,13 @@ a {
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	padding: 1.2em 0;
+	padding: 1.2rem 0;
 	min-height: 100px;
 }
 
 p {
 	text-align: center;
+	margin: 0;
 }
 
 span {
@@ -110,8 +111,12 @@ span {
 .footer {
 	width: 100%;
 	box-sizing: border-box;
-	margin-top: 25px;
+	margin: 25px 0;
 	font-size: 20px;
+	text-align: left;
+}
+
+.footer-text {
 	text-align: left;
 }
 .towns:hover li {
