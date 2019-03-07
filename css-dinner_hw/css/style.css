@@ -37,7 +37,6 @@ body {
 	max-width: 65%;
 	margin: auto;
 	font-size: 1.2em;
-	margin-bottom: 35px;
 }
 
 .menu{
@@ -45,7 +44,6 @@ body {
 	color: white;
 	text-align: left;
 	display: block;
-	margin-bottom: 35px;
 }
 
 .food {
@@ -112,4 +110,6 @@ label:active {
 	display: inline-block;
 	border: none;
 	width: 100%;
+	cursor: pointer;
+	margin: 25px 0;
 }
