@@ -21,7 +21,7 @@ body {
 .search {
 	display: flex;
 	flex-direction: row;
-	font-size: 6rem;
+	font-size: 2rem;
 	border: none;
 	background-color: transparent;
 	margin-bottom: 2rem;
@@ -37,13 +37,6 @@ input::placeholder {
 	color: #c2c2c2;
 }
 
-.img {
-	background-repeat: no-repeat;
- 	background-size: 35%;
-	background-position: center;
-	background-color: #e5e5e5;
-	cursor: pointer;
-}
 .main {
 	background-color: #e5e5e5;
 	display: flex;
@@ -77,9 +70,7 @@ input::placeholder {
 }
 
 input[type="text"] {
-	min-height: 150px;
-	height: 100%;
-	width: calc(100% - 150px);
+	width: calc(100% - 94px);
 	margin: 0;
 	border: none;
 	color: #ec5a62;
@@ -87,13 +78,16 @@ input[type="text"] {
 
 input[type="submit"] {
 	background-image: url('https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png');
-	width: 150px;
+	width: 94px;
 	min-height: 100%;
 	vertical-align: top;
-	background-position: center center;
+	background-position: center;
 	background-size: 50%;
 	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: #e5e5e5;
+	border: none;
+	cursor: pointer;
 }
 
 input[type="submit"]:hover {
@@ -101,9 +95,6 @@ input[type="submit"]:hover {
 	transition: all .3s ease-in;
 }
 
-.search_place, .img {
-	border: none;
-}
 .title {
 	text-transform: uppercase;
 	font-weight: 900;
@@ -115,13 +106,15 @@ input[type="submit"]:hover {
 .ancor {
 	background-color: rgba(118, 117, 128, 0.05);
 	text-decoration: none;
-	display: flex;
 	padding: 5px;
 	color: #c2c2c2;
 	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 span {
-	/* margin-left: 10px; */
+	
 }
 .ancor:link {
 	background-color: rgba(118, 117, 128, 0.05);
