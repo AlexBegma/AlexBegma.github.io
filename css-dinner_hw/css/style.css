@@ -37,6 +37,7 @@ body {
 	max-width: 65%;
 	margin: auto;
 	font-size: 1.2em;
+	margin-bottom: 35px;
 }
 
 .menu{
@@ -44,6 +45,7 @@ body {
 	color: white;
 	text-align: left;
 	display: block;
+	margin-bottom: 35px;
 }
 
 .food {
@@ -105,8 +107,8 @@ label:active {
 .btn-bonapp {
 	color: #eb7e7f;
 	background-color: #4a4f56;
-	margin-top: 35px;
-	margin-bottom: 35px;
+	/* margin-top: 35px;
+	margin-bottom: 35px; */
 	height: 55px;
 	font-size: 20px;
 	display: inline-block;
