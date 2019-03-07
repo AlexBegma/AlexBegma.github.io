@@ -41,26 +41,14 @@ li {
 }
 
 .row-1>li:nth-child(odd),
-.row-2>li:nth-child(even),
-.row-3>li:nth-child(odd),
-.row-4>li:nth-child(even),
-.row-5>li:nth-child(odd),
-.row-6>li:nth-child(even),
-.row-7>li:nth-child(odd),
-.row-8>li:nth-child(even) {
+.row-2>li:nth-child(even) {
   background-color: white;
 }
+
 .row-1>li:nth-child(even),
-.row-2>li:nth-child(odd),
-.row-3>li:nth-child(even),
-.row-4>li:nth-child(odd),
-.row-5>li:nth-child(even),
-.row-6>li:nth-child(odd),
-.row-7>li:nth-child(even),
-.row-8>li:nth-child(odd) {
+.row-2>li:nth-child(odd) {
   background-color: black;
 }
-
 
 .odd-1 {
   top: 0;
