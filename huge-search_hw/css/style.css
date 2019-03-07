@@ -29,7 +29,6 @@ body {
 .search_place {
 	font-weight: 600;
 	border: none;
-	width: 86%;
 	height: 100%;
 	background-color: #e5e5e5;
 	font-size: 80px;
@@ -39,8 +38,6 @@ input::placeholder {
 }
 
 .img {
-	width: 150px;
-	height: 150px;
 	background-repeat: no-repeat;
  	background-size: 35%;
 	background-position: center;
@@ -119,8 +116,6 @@ input[type="submit"]:hover {
 	text-decoration: none;
 	display: flex;
 	padding: 5px;
-	height: 50px;
-	line-height: 50px;
 	color: #c2c2c2;
 	border-radius: 5px;
 }
@@ -135,10 +130,10 @@ span {
 	color: #ec5a62;
 	transition: all .3s ease-in;
 }
-.ancor:active {
+/* .ancor:active {
 	background: #ec5a62;
 	transition: all .3s ease-in;
-}
+} */
 .search_place:hover {
 	color: #ec5a62;
 }
