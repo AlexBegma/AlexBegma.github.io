@@ -54,9 +54,8 @@ body {
 .selection {
 	border-left: none;
 	border-right: none;
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
-	/* border-color: #f7f7f7; */
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
 	cursor: pointer;
 	display: inline-block; 
 	width: 100%;
@@ -68,11 +67,10 @@ body {
 .food [type="checkbox"]:checked ~ * {
 	text-decoration: line-through;
 	opacity: .4;
-	color: #625e77;
+	color: #a3a0b5;
 }
 
 input[type="checkbox"] {
-	/* margin-left: 10px; */
 	width: 22px;
 	height: 22px;
 }
@@ -86,18 +84,15 @@ em {
 }
 
 .food:nth-child(2n+1) {
-	background-color: #a3a0b5;
-}
-
-.food:nth-child(2n) {
 	background-color: #88839e;
 }
 
+.food:nth-child(2n) {
+	background-color: #7a7593;
+}
+
 label:hover, label:focus {
-	background-color: #76747f;
-	/* border: none; */
-	/* border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent; */
+	background-color: #625e77;
 	border-left: none;
 	border-right: none;
 	border-color: #f7f7f7;
@@ -111,9 +106,10 @@ label:active {
 	color: #eb7e7f;
 	background-color: #4a4f56;
 	margin-top: 35px;
+	margin-bottom: 35px;
 	height: 55px;
 	font-size: 20px;
 	display: inline-block;
 	border: none;
-	width: 920px;
+	width: 100%;
 }
