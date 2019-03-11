@@ -1,0 +1,51 @@
+.about {
+	// @include section-padding;
+	background: url("../img/man.jpg") no-repeat 0 0;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	color: $white;
+	display: flex;
+	align-items: center;
+	min-height: 50vh;
+	padding: 70px 0;
+
+
+	&::before {
+		content: "";
+		@include overlay;
+		background-color: rgba($first-screen-bg, .7);
+	}
+
+	.row {
+		justify-content: flex-end;
+		position: relative;
+		z-index: 2;
+	}
+
+	&__block {
+		flex-basis: 50%;
+		padding-right: 15%;
+	}
+
+	&__title {
+		font-size: 32px;
+		margin: 0 0 .2rem;
+		font-weight: 700;
+	}
+
+	&__prof {
+		font-size: 22px;
+		margin: 0 0 1rem;
+	}
+
+	&__text {
+		font-size: 16px;
+		margin: 0 0 1rem;
+		line-height: 1.4;
+	}
+
+	&__btn {
+		@include btn($dark-text);
+	}
+}

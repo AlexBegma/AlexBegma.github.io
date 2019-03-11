@@ -1,0 +1,147 @@
+.contacts {
+    padding: 50px 0;
+
+    .container {
+        max-width: 700px;
+    }
+
+    .input-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-size: 26px;
+        color: $green-color;
+        font-family: $fat-font;
+        text-align: center;
+        margin-bottom: 2.3rem;
+    }
+
+    &__form {
+
+        & > * {
+            display: flex;
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0;               
+            }
+        }
+    }
+
+    &__label {
+        max-width: 330px;
+    }
+
+    $input-height: 50;
+
+    &__label,
+    &__textarea-label {
+        width: 100%;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+        }
+
+        &::before {
+            top: 0;
+            left: 0;
+            @include square(#{$input-height}px);
+            background-color: $form-blue;
+            border-radius: 3px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        &::after {
+            left: #{$input-height}px;
+            border: 10px solid transparent;
+            border-left-color: $form-blue;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+        @each $id, $img in $bg_icons {
+        &__label[for="#{$id}"],
+        &__textarea-label[for="#{$id}"]{
+
+            &::before {
+                background: $form-blue url('../img/#{$img}') no-repeat center;
+                background-size: 50%;
+            }
+        }   
+    }
+
+    &__textarea-label[for="3"]{
+
+        &::before {
+            background-position: center 15px;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        min-height: #{$input-height}px;
+    }
+
+    &__input,
+    &__textarea {
+        border: 2px solid $form-blue;
+        padding-left: calc(#{$input-height + 20}px);
+        font-weight: 700;
+    }
+
+    &__textarea,
+    [type="submit"] {
+        width: 100%;
+    }
+
+    [type="submit"]{
+        background-color: $green-color;
+        color: $white;
+        padding: 15px 0;
+        border: none;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: background-color .2s ease;
+
+        &:hover {
+            background-color: lighten($green-color, 10%);
+        }
+    }
+
+    &__input,
+    &__textarea,
+    [type="submit"] {
+        border-radius: 3px;
+    }
+
+    &__textarea {
+        min-height: 225px;
+        max-height: 225px;
+
+        &::before {
+
+            bottom: 0;
+            height: initial;
+        }
+
+        &::after {
+            top: 27px;
+        }
+    }
+
+    &__textarea {
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,53 @@
+.first-screen {
+    min-height: 100vh;
+    background: $first-screen-bg url("../img/header-img.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    .row {
+
+        @include row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
+
+        & > * {
+            text-align: center;
+        }
+       }
+    }
+
+    &::before {
+        content: "";
+        background-color: rgba($first-screen-bg, .7);
+        @include overlay;
+    }
+
+    & > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    
+    
+    .title {
+        font-family: $fat-font;
+        font-size: 46px;
+        margin: 0 0 20px;
+    }
+
+    .subtitle {
+        font-family: $slim-font;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    .btn {
+        @include btn($green-color);
+    }
+}

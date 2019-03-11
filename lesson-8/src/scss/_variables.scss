@@ -1,0 +1,39 @@
+//COLORS
+$white: #ffffff;
+$black: #000000;
+$grey: #eaeaea;
+$green-color: #48bf72;
+$first-screen-bg: #3c4955;
+$placeholder-grey: #a6a5a5;
+
+$twitter: #55abed;
+$linkedin: #0975b3;
+$dribbble: #e94b89;
+$behance: #1769ff;
+
+
+$light-grey: lighten($black, 50%);
+$dark-text: $first-screen-bg;
+$form-blue: $first-screen-bg;
+
+
+//FONTS
+$fat-font: 'Big John';
+$slim-font: 'Slim Joe';
+
+// SIZES
+$container-width: 1140px;
+
+// MAP
+$bg_icons: (
+	1: 'user.svg',
+	2: 'mail.svg',
+	3: 'crayon.svg'
+);
+
+$soc_icons: (
+	'twitter': $twitter,
+	'linkedin': $linkedin,
+	'dribbble': $dribbble,
+	'behance': $behance
+);

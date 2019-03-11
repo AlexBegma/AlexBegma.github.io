@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+.container {
+	margin: auto;
+	max-width: 640px;
+	max-height: 640px;
+}
+
+.row{
+	margin: auto;
+	width: 100%;
+}
+
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+}
+.row::after {
+	clear: both;
+}
+.row {
+	transform: scale(1);
+}
+.white, .black {
+	border: 1px solid black;
+	width: 12.5%;
+	height: 80px;
+	float: left;
+}
+.white {
+	background-color: white;
+}
+.black {
+	background-color: black;
+}
