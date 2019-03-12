@@ -12,14 +12,9 @@ body {
 	font-family: sans-serif;
 	color: white;
 	font-size: 22px;
-	background: #0e0e0e;
-}
-
-.out-box {
 	border: 18px solid white;
 	text-align: center;
 	background-color: #3B3f45;
-	padding-bottom: 25px;
 }
 
 .header {
@@ -105,7 +100,7 @@ label:active {
 .btn-bonapp {
 	color: #eb7e7f;
 	background-color: #4a4f56;
-	height: 55px;
+	height: 45px;
 	font-size: 20px;
 	display: inline-block;
 	border: none;
