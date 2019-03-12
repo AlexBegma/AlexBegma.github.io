@@ -9,7 +9,6 @@ html, body {
 }
 
 body {
-	font-size: 32px;
 	font-family: sans-serif;
 	color: white;
 	font-size: 22px;
@@ -17,10 +16,10 @@ body {
 }
 
 .out-box {
-	min-height: 100%;
 	border: 18px solid white;
 	text-align: center;
 	background-color: #3B3f45;
+	padding-bottom: 25px;
 }
 
 .header {
@@ -37,7 +36,6 @@ body {
 	max-width: 65%;
 	margin: auto;
 	font-size: 1.2em;
-	margin-bottom: 35px;
 }
 
 .menu{
