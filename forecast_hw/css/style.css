@@ -37,6 +37,7 @@ h1 {
 	width: 100%;
 	text-align: center;
 	border: 3px solid white;
+	margin-bottom: 25px;
 }
 .towns li{
 	display: inline-block;
@@ -111,7 +112,7 @@ span {
 .footer {
 	width: 100%;
 	box-sizing: border-box;
-	margin: 25px 0;
+	/* margin: 25px 0; */
 	font-size: 20px;
 	text-align: left;
 }
