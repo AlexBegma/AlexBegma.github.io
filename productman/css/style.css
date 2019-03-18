@@ -4,5 +4,128 @@
 	margin: 0;
 }
 html, body {
-	height: 100%;
+	min-height: 100vh;
+}
+body {
+	font-size: 100%;
+	font-family: Roboto, sans-serif;
+	background-color: #eeeeee;
+}
+.container {
+	width: 100%;
+	max-width: 1140px;
+	margin: auto;
+}
+.navbar {
+
+}
+.logo {
+
+}
+a {
+
+}
+.logo__link {
+
+}
+.navigator {
+
+}
+.menu {
+
+}
+.menu__item {
+
+}
+.menu__link {
+
+}
+.fa-bars {
+
+}
+
+
+.content {
+
+}
+.slider {
+
+}
+.slider__blackwhite {
+
+}
+.slider__blackwhite-title {
+
+}
+.slider__blackwhite-text {
+
+}
+.slider__blackwhite-link {
+
+}
+.slider__picture {
+
+}
+.slider__link {
+
+}
+.slider__image {
+
+}
+.point {
+
+}
+.point__one {
+
+}
+.point__two {
+
+}
+.point__three {
+
+}
+.point__link {
+
+}
+
+
+.featured-work {
+
+}
+.featured-work__text {
+
+}
+.text__title {
+
+}
+.wavy-line {
+
+}
+
+.gallery {
+
+}
+.gallery__upper {
+
+}
+.card {
+
+}
+.card__link {
+
+}
+.card__image {
+
+}
+.card__upper-layer {
+
+}
+.text-layer {
+
+}
+.text-layer__underline {
+
+}
+.gallery__lower {
+
 }

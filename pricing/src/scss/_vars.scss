@@ -1,0 +1,43 @@
+//colors
+$violet: #9789f9;
+$light-grey: #f5f4f9;
+$pink: #fd8d7b;
+$aqua: #6fcffb;
+$dark: #3b4040;
+$black-text: #181818;
+$light-text: #a9a9a9;
+$white: #fff;
+$black: #000;
+
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+@font-face {
+ font-family: "Bebas Bold";
+ src: url("../fonts/BebasNeue Bold.otf") format("OpenType");
+}
+
+@font-face {
+ font-family: "Bebas Light";
+ src: url("../fonts/BebasNeue Light.otf") format("OpenType");
+}
+
+$main-font: 'Roboto', sans-serif;
+$sec-bold: "Bebas Bold", Arial, sans-serif;
+$sec-light: "Bebas Light", Arial, sans-serif;
+
+
+//sizes
+@function px_to_rem($target, $context: $base-size) {
+  @if $target == 0 { @return 0 }
+  @return $target / $context + 0rem;
+}
+
+$base-size: 16px;
+
+$huge-size: px_to_rem(60px);
+$large-size: px_to_rem(24px);
+$middle-size: px_to_rem(18px);
+$small-size: px_to_rem(11px);
+
