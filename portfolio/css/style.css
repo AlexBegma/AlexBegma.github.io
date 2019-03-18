@@ -35,4 +35,5 @@ body {
 	display: block;
 	margin: auto;
 	text-align: center;
+	columns: 2;
  }
