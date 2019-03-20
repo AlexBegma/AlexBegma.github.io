@@ -104,13 +104,15 @@ a {
 	margin-bottom: 15px;	
 }
 
-.view {
+/* .view {
 	display: inline-block;
 	text-align: right;
 }
-
+ */
 .slider__link {
 	display: inline-block;
+	/* text-align: right; */
+	align-self: flex-end;
 	font-family: "Roboto", sans-serif;
 	font-size: 24px;
 	font-weight: 700;
@@ -125,8 +127,9 @@ a {
 .slider__image {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
-	background-size: contain;
+	flex-basis: 50%;
+	justify-content: center;
+	align-items: center;
 }
 
 .point {
