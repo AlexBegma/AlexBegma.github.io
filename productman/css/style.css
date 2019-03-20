@@ -23,8 +23,7 @@ body {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	max-width: 1140px;
-	min-height: 100%;
+	width: 100%;
 	margin: auto;
 	padding-top: 60px;
 	margin-bottom: 105px;
@@ -33,7 +32,9 @@ body {
 }
 
 .logo {
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 a {
@@ -52,20 +53,11 @@ a {
 	color: #E10011;
 }
 
-.navigator {
-	display: flex;
-	flex-basis: 33%;
-	align-items: center;
-}
-
 .menu {
 	display: flex;
 	justify-content: space-between;
-	flex-basis: 100%;
-}
-
-.menu__item {
-
+	flex-basis: 30%;
+	align-items: center;
 }
 
 .menu__link {
@@ -112,12 +104,18 @@ a {
 	margin-bottom: 15px;	
 }
 
+.view {
+	display: inline-block;
+	text-align: right;
+}
+
 .slider__link {
+	display: inline-block;
 	font-family: "Roboto", sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 36px;
-	text-align: right: ;
+	text-transform: capitalize;
 }
 
 .slider__link:hover {
@@ -140,21 +138,24 @@ a {
 .point__one,
 .point__two,
 .point__three {
-	background-color: #000000;
-	width: 11px;
-	height: 11px;
-	border-radius: 50%;
 	margin-right: 5px;
-}
-
-.point__one:hover,
-.point__two:hover,
-.point__three:hover {
-	background-color: #e10011;
 }
 
 .point__three {
 	margin-right: 0;
+}
+
+.point__link {
+	display: block;
+	background-color: #000000;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+}
+
+.point__link:hover {
+	background-color: #e10011;
+	border-radius: 50%;
 }
 
 .main-slider {
@@ -180,10 +181,10 @@ a {
 .title {
 	font-family: Raleway, sans-serif;
 	font-size: 48px;
-	line-height: 100px;
 	text-align: center;
 	font-weight: 900;
 	text-transform: capitalize;
+	margin-bottom: 20px;
 }
 
 .wavy-line {
@@ -191,7 +192,7 @@ a {
 	min-width: 30%;
 	min-height: 20px;
 	background: url("../imgs/wavy-line.png") no-repeat 50% 50%;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 }
 
 .paragraf {
