@@ -104,14 +104,8 @@ a {
 	margin-bottom: 15px;	
 }
 
-/* .view {
-	display: inline-block;
-	text-align: right;
-}
- */
 .slider__link {
 	display: inline-block;
-	/* text-align: right; */
 	align-self: flex-end;
 	font-family: "Roboto", sans-serif;
 	font-size: 24px;

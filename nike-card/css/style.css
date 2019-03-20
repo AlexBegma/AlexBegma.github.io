@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: 100%;
+	background: url('../images/bg.png') no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	font-family: Museo Sans Rounded, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 685px;
+	max-height: 390px;
+	border-radius: 10px;
+	background-color:  #111a28;
+	box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+	margin: auto;
+	padding: 25px;
+}
+
+.logo {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.logo__link,
+.logo__image {
+	width: 65px;
+	height: 35px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-around;
+}
+
+.picture {
+	width: 60%;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 7%;
+}
+
+.shop-window {
+	width: 330px;
+	height: 160px;
+	margin-bottom: 40px;
+}
+
+.shop-window__link {
+	display: block;
+	position: relative;
+	padding-top: 55%;
+}
+
+.shop-window__image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.points {
+
+}
+
+.circle {
+
+}
+
+.radio-1 {
+
+}
+
+.radio-2 {
+	
+}
+
+.radio-3 {
+	
+}
+
+.radio-4 {
+	
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+
+.info__title {
+	font-family: Museo Sans Rounded, sans-serif;
+	color:  #e1e1e1;
+	font-size: 24px;
+	line-height: 26px;
+	text-align: left;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.info__text {
+	font-family: Museo Sans Rounded, sans-serif;
+	color:  #e1e1e1;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	opacity: .5;
+	margin-bottom: 20px;
+}
+
+.star {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 25px;
+}
+
+.star__item {
+
+}
+
+.star__link {
+	display: block;
+}
+
+.far {
+	width: 12px;
+	height: 12px;
+}
+
+.gold {
+	color: #f4be0e;
+}
+
+.grey {
+	color: #989ca2;
+}
+
+.form {
+	opacity: .5;
+}
+
+.size-box {
+
+}
+
+.sizes {
+
+}
+
+.quantity-box {
+
+}
+
+.quantity {
+
+}
+
+.sending {
+
+}

@@ -15,7 +15,6 @@
 </head>
 <body>
 	<div class="container">
-		<div class="card">
 			
 			<div class="logo">
 				<a class="logo-link" href="#">
@@ -30,20 +29,85 @@
 							<img class="shop-window__image" src="images/Nike-SB-Stefan-Janoski-Max.png">
 						</a>
 					</div>
+
 					<ul class="points">
-						<li class="button">
-							<input type="radio" name="radio" id="dot" value="1" checked form="">
-							<label class="" for="dot"></label>
+						<li class="circle">
+							<input type="radio" name="radio" id="dot-1" value="1" checked form="">
+							<label class="radio-1" for="dot-1"></label>
+						</li>
+						<li class="circle">
+							<input type="radio" name="radio" id="dot-2" value="1" checked form="">
+							<label class="radio-2" for="dot-2"></label>
+						</li>
+						<li class="circle">
+							<input type="radio" name="radio" id="dot-3" value="1" checked form="">
+							<label class="radio-3" for="dot-3"></label>
+						</li>
+						<li class="circle">
+							<input type="radio" name="radio" id="dot-4" value="1" checked form="">
+							<label class="radio-4" for="dot-4"></label>
 						</li>
 					</ul>
 				</div>
+
 				<div class="info">
 					
+					<h2 class="info__title">Nike SB Stefan Janoski Max</h2>
+					<p class="info__text">Unisex Skateboarding Shoe</p>
+
+					<ul class="star">
+						<li class="star__item">
+							<a href="#" class="star__link">
+								<i class="far fa-star gold"></i>
+							</a>
+						</li>
+						<li class="star__item">
+							<a href="#" class="star__link">
+								<i class="far fa-star gold"></i>
+							</a>
+						</li>
+						<li class="star__item">
+							<a href="#" class="star__link">
+								<i class="far fa-star gold"></i>
+							</a>
+						</li>
+						<li class="star__item">
+							<a href="#" class="star__link">
+								<i class="far fa-star grey"></i>
+							</a>
+						</li>
+						<li class="star__item">
+							<a href="#" class="star__link">
+								<i class="far fa-star grey"></i>
+							</a>
+						</li>
+					</ul>
+
+					<form action="#" class="form" id="#">
+						<label class="size-box" for="111">
+							<select name="size" class="sizes" id="111" required="#">
+								<option value="Size" selected="">Size</option>
+								<option value="1">38</option>
+								<option value="2">39</option>
+								<option value="3">40</option>
+								<option value="4">41</option>
+								<option value="5">42</option>
+							</select>
+						</label>
+						<label class="quantity-box" for="222">
+							<select class="quantity" name="quantity" id="222" required="#">
+								<option value="quantity" selected="">Qty</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</label>
+						<input type="submit" name="submit" value="Add to cart" class="sending" id="submit">
+					</form>
 				</div>
 			</div>
-
-
-		</div>
 	</div>
 
 </body>
