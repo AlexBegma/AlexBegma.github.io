@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="imgs/ficon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="images/icons8-trainers-24.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -26,28 +26,20 @@
 				<div class="picture">
 					<div class="shop-window">
 						<a class="shop-window__link" href="#">
-							<img class="shop-window__image" src="images/Nike-SB-Stefan-Janoski-Max.png">
+							<img class="shop-window__image" src="images/Nike-SB-Stefan-Janoski-Max.png" alt="Nike Shoe">
 						</a>
 					</div>
 
-					<ul class="points">
-						<li class="circle">
-							<input type="radio" name="radio" id="dot-1" value="1" checked form="">
-							<label class="radio-1" for="dot-1"></label>
-						</li>
-						<li class="circle">
-							<input type="radio" name="radio" id="dot-2" value="1" checked form="">
-							<label class="radio-2" for="dot-2"></label>
-						</li>
-						<li class="circle">
-							<input type="radio" name="radio" id="dot-3" value="1" checked form="">
-							<label class="radio-3" for="dot-3"></label>
-						</li>
-						<li class="circle">
-							<input type="radio" name="radio" id="dot-4" value="1" checked form="">
-							<label class="radio-4" for="dot-4"></label>
-						</li>
-					</ul>
+					<div class="points">
+							<input type="radio" name="radio" id="dot-1" value="#" form="choose" checked>
+							<label class="radio-1 push" for="dot-1"></label>
+							<input type="radio" name="radio" id="dot-2" value="#" form="choose">
+							<label class="radio-2 push" for="dot-2"></label>
+							<input type="radio" name="radio" id="dot-3" value="#" form="choose">
+							<label class="radio-3 push" for="dot-3"></label>
+							<input type="radio" name="radio" id="dot-4" value="#" form="choose">
+							<label class="radio-4 push" for="dot-4"></label>
+					</div>
 				</div>
 
 				<div class="info">
@@ -56,37 +48,28 @@
 					<p class="info__text">Unisex Skateboarding Shoe</p>
 
 					<ul class="star">
-						<li class="star__item">
-							<a href="#" class="star__link">
-								<i class="far fa-star gold"></i>
-							</a>
+						<li class="star__item gold">
+								<!-- <i class="far fa-star gold"></i> -->
 						</li>
-						<li class="star__item">
-							<a href="#" class="star__link">
-								<i class="far fa-star gold"></i>
-							</a>
+						<li class="star__item gold">
+								<!-- <i class="far fa-star gold"></i> -->
 						</li>
-						<li class="star__item">
-							<a href="#" class="star__link">
-								<i class="far fa-star gold"></i>
-							</a>
+						<li class="star__item gold">
+								<!-- <i class="far fa-star gold"></i> -->
 						</li>
-						<li class="star__item">
-							<a href="#" class="star__link">
-								<i class="far fa-star grey"></i>
-							</a>
+						<li class="star__item gray">
+								<!-- <i class="far fa-star gray"></i> -->
 						</li>
-						<li class="star__item">
-							<a href="#" class="star__link">
-								<i class="far fa-star grey"></i>
-							</a>
+						<li class="star__item gray">
+								<!-- <i class="far fa-star gray"></i> -->
 						</li>
 					</ul>
 
-					<form action="#" class="form" id="#">
-						<label class="size-box" for="111">
-							<select name="size" class="sizes" id="111" required="#">
-								<option value="Size" selected="">Size</option>
+					<form class="form" action="#">
+						<div class="size-qty">
+						<label class="size" for="111">
+							<select name="size" class="order" id="111" required="#">
+								<option value="size" selected="">Size</option>
 								<option value="1">38</option>
 								<option value="2">39</option>
 								<option value="3">40</option>
@@ -104,7 +87,8 @@
 								<option value="5">5</option>
 							</select>
 						</label>
-						<input type="submit" name="submit" value="Add to cart" class="sending" id="submit">
+					</div>
+						<input type="submit" name="submit" value="Add to cart" class="sending" id="submit" required="#">
 					</form>
 				</div>
 			</div>

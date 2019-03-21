@@ -32,7 +32,7 @@ body {
 
 .logo {
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .logo__link,
@@ -48,15 +48,16 @@ body {
 
 .picture {
 	width: 60%;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 7%;
+	padding-top: 4%;
 }
 
 .shop-window {
 	width: 330px;
 	height: 160px;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .shop-window__link {
@@ -77,27 +78,61 @@ body {
 }
 
 .points {
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.circle {
-
-}
-
-.radio-1 {
-
-}
-
-.radio-2 {
-	
-}
-
-.radio-3 {
-	
+.radio-1,
+.radio-2,
+.radio-3,
+.radio-4 {
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 5px;
+	cursor: pointer;
+	width: 9px;
+	height: 9px;
 }
 
 .radio-4 {
-	
+	margin-right: 0;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.radio-1 {
+	border-radius: 50%;
+	border: 1px solid #7e838b;
+	background-color:  #1f273f;
+	width: 10px;
+	height: 10px;
+}
+
+.radio-1 {
+	background-color: #3a1af2;
+}
+
+.radio-2 {
+	background-color: #fcfcfc;
+}
+
+.radio-3 {
+	background-color: #ea2f2f;
+}
+
+.radio-4 {
+	background-color: #24e1e8;
+}
+
+.push:hover {
+	background-color: #6d6d6d;
+	transform: scale(1.4, 1.4);
+	transition: .2s ease;
+	box-shadow: -1px -1px -1px -1px;
 }
 
 .info {
@@ -123,56 +158,79 @@ body {
 	line-height: 26px;
 	text-align: left;
 	opacity: .5;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .star {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .star__item {
-
+	margin-right: 5px;
 }
 
-.star__link {
-	display: block;
+.star__item:last-child {
+	margin-right: 0;
 }
 
-.far {
-	width: 12px;
-	height: 12px;
-}
-
-.gold {
+.gold::before {
+	content: "\2605";
+	font-size: 16px;
 	color: #f4be0e;
 }
 
-.grey {
+.gray::before {
+	content: "\2605";
+	font-size: 16px;
 	color: #989ca2;
 }
 
+/* .star__link {
+	display: block;
+} */
+
+/* .far {
+	width: 12px;
+	height: 12px;
+} */
+
+/* .gold {
+	color: #f4be0e;
+}
+
+.gray {
+	color: #989ca2;
+} */
+
 .form {
-	opacity: .5;
+	display: flex;
+	flex-direction: column;
 }
 
-.size-box {
-
+.size-qty {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	max-width: 150px;
 }
 
-.sizes {
-
-}
-
-.quantity-box {
-
-}
-
+.order,
 .quantity {
-
+	background-color:  #111a28;
+	color: #e1e1e1;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
 }
 
 .sending {
-
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 0;
+	background-color: #1a2330;
+	color: #93969b;
+	border: 1px solid #93969b;
+	cursor: pointer;
 }
