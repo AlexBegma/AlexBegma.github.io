@@ -270,7 +270,7 @@ a {
 	padding: 0 30px 50px;
 	color: #ffffff;
 	z-index: 4;
-	/* opacity: 0; */
+	opacity: 0;
 }
 
 .card__layer span {
