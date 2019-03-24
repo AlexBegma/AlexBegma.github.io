@@ -11,7 +11,7 @@ html, body {
 body {
 	font-size: 100%;
 	font-family: Roboto, sans-serif;
-	background-color: #eeeeee;
+	background-color: red;
 }
 
 .container {
@@ -27,8 +27,9 @@ body {
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
-    background-image: url("../img/header-bg.png");
+    background: url("../img/header-bg.png");
 }
+
 .search {
     display: flex;
     flex-direction: row;
