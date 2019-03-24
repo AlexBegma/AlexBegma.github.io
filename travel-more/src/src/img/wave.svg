@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 779 95" width="779" height="95">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.502;fill: none;stroke: #ffffff;stroke-linecap:round;stroke-dasharray: 0,5 } 
+	</style>
+	<path id="wave" class="shp0" d="M778,95c-207.67,-213.75 -383.94,0 -383.94,0c-200.58,-212.46 -393.06,0 -393.06,0" />
+</svg>

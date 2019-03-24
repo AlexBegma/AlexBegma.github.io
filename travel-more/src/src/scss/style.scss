@@ -1,0 +1,212 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: 100%;
+	font-family: Roboto, sans-serif;
+	background-color: #eeeeee;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+    height: 100vh;
+	margin: auto;
+}
+.first-screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+    background-image: url("../img/header-bg.png");
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    margin:  auto;
+    margin-bottom: 66px;
+}
+.search__place {
+    font-weight: 600;
+    border: none;
+    height: 100%;
+    background-color: #e5e5e5;
+    font-size: 80px;
+}
+input::placeholder {
+    color: #c2c2c2;
+}
+input[type="text"] {
+    width: calc(100% - 94px);
+    margin: 0;
+    border: none;
+    color: #ec5a62;
+}
+input[type="submit"] {
+    background-image: url('https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png');
+    width: 94px;
+    min-height: 100%;
+    vertical-align: top;
+    background-position: center;
+    background-size: 50%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-color: #e5e5e5;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-size: 100%;
+    transition: all .3s ease-in;
+}
+
+.navigation {
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__logo {
+
+    }
+}
+
+.menu {
+   flex-direction: row;
+   justify-content: space-between;
+
+   &__item {
+
+   }
+
+   &__link {
+
+   }
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: $sections url("img/choose-bg.png") no-repeat;
+
+    &__left {
+        flex-direction: column;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__button {
+
+    }
+
+    &__upper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    &__lower {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}
+
+h3 {
+   text-transform: capitalize;
+}
+
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__how {
+
+    }
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+
+    &__grouup {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    &__grouplow {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    &__button {
+
+    }
+}
+
+.testimonial {
+    
+    &__block {
+
+    }
+
+    &__img {
+
+    }
+}
+
+.footer {
+
+
+    &__text {
+
+    }
+
+    &__bhromaon {
+
+    }
+
+    &__save {
+
+    }
+}
+
+
+.social {
+
+
+    &__menu {
+
+    }
+
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+}

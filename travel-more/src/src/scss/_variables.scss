@@ -1,0 +1,39 @@
+pp@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@font-face {
+ font-family: "Aleo";
+ src: url("../fonts/aleo/aleo-regular-webfont.eot"),
+        url("../fonts/aleo/aleo-regular-webfont.woff"),
+        url("../fonts/aleo/aleo-regular-webfont.woff2"),
+        url("../fonts/aleo/aleo-regular-webfont.ttf"),
+        url("../fonts/aleo/aleo-regular-webfont.svg");
+}
+
+$white-color: #fff;
+$light-color: #e8e8e8;
+$light-blue-color: #5474fd;
+$dark-blue-color: #496bfe;
+$light-grey-color: #333333;
+$dark-grey-color: #232323;
+$pink-color: #714141;
+$red-color: red;
+
+$main-color: $white-color;
+$secondary-color: $light-color;
+
+$main-font: 'Aleo', sans-serif;
+$secondary-font: 'Josefin Sans', sans-serif;
+
+$font-size: 16px;
+
+$img-path: '../img/';
+
+$color: black;
+
+
+$sections: (
+	first-screen: 'header-bg.png',
+	choose: 'choose-bg.png',
+	travel-first: 'house.png',
+	travel-last: 'rocks.png',
+	testimonials: 'testimonials-bg.png' 
+);
