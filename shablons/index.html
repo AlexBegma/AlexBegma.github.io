@@ -15,36 +15,111 @@
 </head>
 <body>
 
+  <!-- PLACEHOLDER -->
+  <label class="selectGeneral" placeholder="select your OS...">
+    <input type="radio" name="OS">
 
-<label class="selectGeneral" placeholder="select your OS...">
-  <input type="radio" name="OS">
+    <div>
+      <input type="radio" name="OS" value="Linux" id="OS[Linux]">
+      <label for="OS[Linux]">linux</label>
 
-  <div>
-    <input
-      type="radio"
-      name="OS"
-      value="Linux"
-      id="OS[Linux]"
-    >
-    <label for="OS[Linux]">linux</label>
-  
-    <input
-      type="radio"
-      name="OS"
-      value="Windows"
-      id="OS[Windows]"
-    >
-    <label for="OS[Windows]">windows</label>
-    
-    <input
-      type="radio"
-      name="OS"
-      value="Other"
-      id="OS[Other]"
-    >
-    <label for="OS[Other]">other</label>
+      <input type="radio" name="OS" value="Windows" id="OS[Windows]">
+      <label for="OS[Windows]">windows</label>
+
+      <input type="radio" name="OS" value="Other" id="OS[Other]">
+      <label for="OS[Other]">other</label>
+    </div>
+
+  </label>
+
+
+
+  <!-- PADDING HACK from CODEPEN -->
+  <div class="paragraf">
+    <p>PADDING HACK from CODEPEN</p>
   </div>
-</label>
+  <div class="ba-square-box">
+   <div class="ba-square-content">  
+     Content
+   </div>
+ </div>
+ <!--  -->
+
+
+ <!-- ПОЛЕ ВВОДА HUGE-SEARCH from Beetroot-->
+ <form action="#" method="get" name="form" class="search">
+  <input type="text" name="search" class="search__place" placeholder="Search...">
+  <input type="submit" name="" value=" ">
+</form>
+<!--  -->
+
+
+<!-- FORM from proglib.io -->
+<div class="proglib">FORM from proglib.io</div>
+<div class="form-proglib">
+  <form action="index.html" method="post" class="fp-student">
+    <h2>Your basic info</h2>
+
+    <label for="name" class="#">Name</label>
+    <input type="email" id="name" name="student_name" class="input-info">
+
+    <label for="mail" class="#">Email</label>
+    <input type="email" id="mail" name="student_email" class="input-info">
+
+    <label for="password" class="#">Password</label>
+    <input type="password" id="password" name="student_password" class="input-info">
+
+    <label>Age:</label>
+    <div class="under">
+      <input type="radio" id="under_16" value="under_16" name="user_age">
+      <label for="under_16" class="under_16">Under 16</label>
+    </div>
+    <div class="over">
+      <input type="radio" id="over_16" value="over_16" name="user_age">
+      <label for="over_16" class="over_16">16 or Older</label>
+    </div>
+
+    <h2>Your profile</h2>
+
+    <label for="bio">Biography</label>
+    <textarea id="bio" name="student_bio" class="biography" cols="33" rows="4"></textarea>
+
+    <label for="courses">Select Courses</label>
+    <select id="courses" name="student_courses" class="courses">
+      <optgroup label="Engineering">
+        <option value="computer_engineering"> Computer Science</option>
+        <option value="electrical_engineering">Electrical</option>
+        <option value="mechanical_engineering">Mechanical</option>
+        <option value="chemical_engineering">Chemical</option>
+        <option value="civil_engineering">Civil</option>
+      </optgroup>
+      <optgroup label="Management">
+        <option value="finance_management">Finance Management</option>
+        <option value="technology_managemen">Technology</option>
+        <option value="marketing_managemen">Marketing</option>
+        <option value="business_administration">Business</option>
+      </optgroup>
+    </select>
+
+
+    <label>Interests:</label>
+    <div class="engineering">
+      <input type="checkbox" id="engineering" value="interest_engineering" name="user_interest">
+      <label class="light" for="engineering">Engineering</label>
+    </div>
+    <div class="business">
+      <input type="checkbox" id="business" value="interest_business" name="user_interest">
+      <label class="light" for="business">Business</label>
+    </div>
+    <div class="law">
+      <input type="checkbox" id="law" value="interest_law" name="user_interest">
+      <label class="light" for="law">Law</label>
+    </div>
+
+    <button type="submit" class="submit-student" required>Submit</button>
+  </form>
+</div>
+
 
 </body>
 </html>

@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: 100%;
+	font-family: Roboto, sans-serif;
+	background-color: #eeeeee;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	padding-top: 60px;
+	margin-bottom: 105px;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
