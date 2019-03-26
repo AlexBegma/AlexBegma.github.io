@@ -33,10 +33,13 @@ body {
 .logo {
 	display: flex;
 	margin-bottom: 10px;
+	max-height: 33px;
+	border: none;
 }
 
 .logo__link,
 .logo__image {
+	display: block;
 	width: 65px;
 	height: 35px;
 }
@@ -55,8 +58,7 @@ body {
 }
 
 .shop-window {
-	width: 330px;
-	height: 160px;
+	min-width: 330px;
 	margin-bottom: 60px;
 }
 
@@ -105,14 +107,6 @@ input[type="radio"] {
 }
 
 .radio-1 {
-	border-radius: 50%;
-	border: 1px solid #7e838b;
-	background-color:  #1f273f;
-	width: 10px;
-	height: 10px;
-}
-
-.radio-1 {
 	background-color: #3a1af2;
 }
 
@@ -128,8 +122,9 @@ input[type="radio"] {
 	background-color: #24e1e8;
 }
 
-.push:hover {
+input[type="radio"]:checked + label {
 	background-color: #6d6d6d;
+	border: 1px solid #7e838b;
 	transform: scale(1.4, 1.4);
 	transition: .2s ease;
 	box-shadow: -1px -1px -1px -1px;
@@ -214,6 +209,27 @@ input[type="radio"] {
 	justify-content: space-between;
 	margin-bottom: 25px;
 	max-width: 150px;
+}
+
+.window {
+	position: relative;
+}
+
+.window::after {
+	display: block;
+	position: absolute;
+	content: "";
+	font-size: 16px;
+	width: 8px;
+	height: 8px;
+	top: 6px;
+	right: 8px;
+	color: #e1e1e1;
+	border: 1px solid #e1e1e1;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	transform: rotate(45deg);
+	pointer-events: none;
 }
 
 .order,
