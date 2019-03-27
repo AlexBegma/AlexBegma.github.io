@@ -107,22 +107,17 @@ label.selectGeneral input[type="radio"]:not(:checked) ~ div > input[type="radio"
 
 
 /* PADDING HACK from CODEPEN*/
-body {
-  font: 24px sans-serif;
-}
-* {
-  box-sizing: border-box;
-}
 .paragraf {
     display: flex;
     justify-content: center;
+    font: 24px sans-serif;
 }
 .ba-square-box{
   background: green;
   max-width: 200px;
   margin: auto;
   position: relative;
-  padding: 40px;
+  padding: 5px;
   margin-bottom: 66px;
 }
 .ba-square-box::before{
