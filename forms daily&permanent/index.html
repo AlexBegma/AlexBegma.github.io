@@ -5,7 +5,8 @@
 	<title>Forms daily & paymanent</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900" rel="stylesheet"> -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/icons8-credit-control-16.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -14,8 +15,71 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="container-daily">
+		<form action="index.html" method="get" name="account" class="form-account">
+			<h1><img class="logo" src="images/sign-up-icon.png">Create your free account
+			</h1>
+			<p class="up-text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <span class="log-in">Log in.</span></p>
+			<input type="text" class="first-name" name="#" placeholder="First name" required="#">
+			<input type="text" class="last-name" name="#" placeholder="Last name" required="#">
+			<input type="email" class="email" name="#" placeholder="Email address" required="#">
+			<input type="password" class="password" name="#" placeholder="Pasword" required="#">
+			<input type="submit" class="clicking" name="#" placeholder="Sign up for free" value="Sign up for free" required="#">
+			<p class="low-text">By clicking on "Sign up for free", you agree to the <span class="log-in">Terms of Service</span> and the <span class="log-in">Privacy Policy</span></p>
+		</form>
+		<p></p>
+	</div>
 
 
-
+	<div class="container-payment">
+<!-- 		<img src="images/Layer 2.png">
+ -->		<div class="container-payment__form">
+			<div class="header">
+				<div class="left-block">
+					<p class="header__title">harold finch</p>
+					<p class="header__p">your total</p>
+				</div>
+				<span class="price">$88</span>
+			</div>
+			<form action="index.html" method="get" name="#" class="payment">
+				<label class="credit" for="credit">Credit card number</label>
+				<input type="text" class="number" id="credit" name="#" placeholder="4321" pattern="[0-9]{16}"  required>
+				<label class="date" for="date">Expiration date</label>
+				<div class="date-row">
+					<!-- <label for="date"></label> -->
+					<select class="month" id="date" name="#" required>
+						<option value="#">Month</option>
+						<option value="1">January</option>
+						<option value="2">February</option>
+						<option value="3">March</option>
+						<option value="4">April</option>
+						<option value="5">May</option>
+						<option value="6">June</option>
+						<option value="7">July</option>
+						<option value="8">August</option>
+						<option value="9">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+					<select class="year-number" id="year" name="#" required>
+						<option value="#">Year</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+					</select>
+				</div>
+				<label class="cvv" for="cvv">CVV</label>
+				<div class="cvv-block">
+					<input type="password" id="cvv" class="cvv__password" name="#" pattern="[0-9]{3,4}" required>
+					<p class="digits">3 or 4 digits - <a href="#" class="example">view example</a></p>
+				</div>
+				<hr class="hr-one">
+				<button type="submit" class="pay" name="#" value="Pay" required>Pay</button>
+				<a href="#" class="cancel-order">Cancel order</a>
+			</form>
+		</div>
+	</div>
 </body>
 </html>
