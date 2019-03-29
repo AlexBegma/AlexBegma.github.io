@@ -34,7 +34,6 @@ body {
 	border-radius: 3px;
 	background: #fff;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
-
 }
 
 .logo {
@@ -133,15 +132,7 @@ h1 {
 	max-width: 650px;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
-	background: url('../images/Layer 2.png');
-/* 	background: url('../images/unsplash.png'); */ 
-}
-
-img {
-	position: absolute;
-	background: cover;
-	width: 536px;
-	height: 535px;
+	background: url('../images/Layer 2.png'); 
 }
 
 .container-payment__form {
@@ -197,7 +188,7 @@ img {
 	width: 336px;
 	height: 450px;
 	background-color: #ffffff;
-	padding: 45px 25px 20px;
+	padding: 45px 25px 35px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -240,9 +231,9 @@ img {
 .date-row {
 	position: relative;
 	display: flex;
-	/* flex-direction: row; */
+	flex-direction: row;
 	justify-content: space-between;
-	/* align-items: center; */
+	align-items: center;
 	margin-bottom: 30px;
 }
 
@@ -329,10 +320,4 @@ img {
 	font-family: "Montserrat";
 	font-weight: 400;
 	margin: auto;
-	margin-bottom: 20px;
 }
-
-/* font-size: 20px;
-color: #ffffff;
-font-family: "Montserrat";
-font-weight: 700; */
