@@ -128,7 +128,7 @@ h1 {
 .container-payment {
 	display: block;
 	position: relative;
-	padding: 60px 100px 70px;
+	padding: 60px;
 	max-width: 650px;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
@@ -136,7 +136,7 @@ h1 {
 }
 
 .container-payment__form {
-	width: 336px;
+	width: 335px;
 	height: 535px;
 	background-color: #ffffff;
 	display: flex;
@@ -149,7 +149,7 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 25px;
-	width: 336px;
+	width: 335px;
 	height: 72px;
 	background-color: #f8edaf;
 }
@@ -173,7 +173,7 @@ h1 {
 
 .price {
 	font-size: 36px;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 	color: #637570;
 	font-family: "Montserrat";
 	font-weight: 600;
