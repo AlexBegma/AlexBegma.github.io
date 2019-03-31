@@ -19,20 +19,18 @@
 		<form action="index.html" method="get" name="account" class="form-account">
 			<h1><img class="logo" src="images/sign-up-icon.png">Create your free account
 			</h1>
-			<p class="up-text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <span class="log-in">Log in.</span></p>
-			<input type="text" class="first-name" name="#" placeholder="First name" required="#">
-			<input type="text" class="last-name" name="#" placeholder="Last name" required="#">
-			<input type="email" class="email" name="#" placeholder="Email address" required="#">
-			<input type="password" class="password" name="#" placeholder="Pasword" required="#">
-			<input type="submit" class="clicking" name="#" placeholder="Sign up for free" value="Sign up for free" required="#">
-			<p class="low-text">By clicking on "Sign up for free", you agree to the <span class="log-in">Terms of Service</span> and the <span class="log-in">Privacy Policy</span></p>
+			<p class="up-text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="log-in">Log in.</a></p>
+			<input type="text" class="first-name" name="#" placeholder="First name" required>
+			<input type="text" class="last-name" name="#" placeholder="Last name" required>
+			<input type="email" class="email" name="#" placeholder="Email address" required>
+			<input type="password" class="password" name="#" placeholder="Pasword" required>
+			<input type="submit" class="clicking" name="#" placeholder="Sign up for free" value="Sign up for free" required>
+			<p class="low-text">By clicking on "Sign up for free", you agree to the <a href="#" class="log-in">Terms of Service</a> and the <a href="#" class="log-in">Privacy Policy</a></p>
 		</form>
-		<p></p>
 	</div>
 
 
 	<div class="container-payment">
-		<div class="container-payment__form">
 			<div class="header">
 				<div class="left-block">
 					<p class="header__title">harold finch</p>
@@ -74,10 +72,11 @@
 					<p class="digits">3 or 4 digits - <a href="#" class="example">view example</a></p>
 				</div>
 				<hr class="hr-one">
-				<button type="submit" class="pay" name="#" value="Pay" required>Pay</button>
-				<a href="#" class="cancel-order">Cancel order</a>
+				<div class="btn-pay">
+					<button type="submit" class="pay" name="#" value="Pay" required>Pay</button>
+					<a href="#" class="cancel-order">Cancel order</a>
+				</div>
 			</form>
-		</div>
 	</div>
 </body>
 </html>
