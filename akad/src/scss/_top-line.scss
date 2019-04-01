@@ -1,0 +1,58 @@
+.top-line {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-family: $secondary-font;
+	padding-top: px_to_rem(30px); 
+
+	&__logo {
+		text-transform: uppercase;
+		font-size: $logo-size;
+		font-weight: 700;
+		@include transition(color);
+
+		&:hover {
+			color: $corp-green;
+		}
+	}
+
+	&__menu {
+		$border: 1px solid $dark-text;
+		background: none;
+		border: none;
+		min-width: 31px;
+		min-height: 15px;
+		border-top: $border;
+		position: relative;
+		@include transition(border-color);
+
+		&::before,
+		&::after {
+			content: "";
+			border-top: $border;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			@include transition(border-color);
+		}
+
+		&::before {
+			width: 50%;
+			top: 50%;
+		}
+
+		&::after {
+			bottom: 0;
+			width: 75%;
+		}
+
+		&:hover {
+			border-color: $corp-green;
+
+			&::before,
+			&::after {
+				border-color: $corp-green;				
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.section-icons {
+	
+	&__item {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	&__item-title {
+		@include title($logo-size);
+		margin-bottom: px_to_rem(15px);
+	}
+
+	&__item-text {
+		line-height: 2;
+		margin: 0;
+	}
+
+	.img-wrapper {
+		@include padding-hack(21%);
+		width: 23.7%;
+		margin-bottom: px_to_rem(25px);
+		@include green-line(50px, 20px);
+	}
+}

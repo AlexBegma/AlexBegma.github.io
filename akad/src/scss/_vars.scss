@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans');
 $main-font: 'Open Sans', sans-serif;
 $secondary-font: 'Montserrat', sans-serif;
-
-
 
 $dark-text: #60606e;
 $corp-green: #7beec7;
 $white: #ffffff;
-
+$middle-grey: #e2e2e2;
 
 $base-size: 14px;
 @function px_to_rem($target, $context: $base-size) {
@@ -18,3 +16,5 @@ $base-size: 14px;
 $logo-size: px_to_rem(18px);
 $main-title: px_to_rem(36px);
 $section-title: px_to_rem(30px);
+
+$img-path: "../img";

@@ -1,0 +1,57 @@
+.plans {
+
+	.section-description {
+		margin-bottom: px_to_rem(100px);
+	}
+
+	&__card {
+		border-top: 5px solid $corp-green;
+		padding: px_to_rem(30px);
+		position: relative;
+		@include transition;
+
+		&:hover {
+			box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+		}
+
+		&::before {
+			content: "";
+			border: 10px solid transparent;
+			border-right-color: $corp-green;
+			border-top-color: $corp-green;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+
+	&__card-title {
+		@include title($section-title);
+		margin-bottom: px_to_rem(15px);
+	}
+
+	&__card-price {
+		color: $white;
+		background-color: $corp-green;
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 5px 20px;
+		margin-bottom: px_to_rem(50px);
+	}
+
+	&__card-btn {
+		color: $white;
+		background-color: $corp-green;
+		text-transform: uppercase;
+		padding: 15px 25px;
+
+		&:hover {
+			background-color: lighten($corp-green, 10%);
+			color: $white;
+		}
+	}
+
+	.marked-list {
+		margin-bottom: px_to_rem(50px);
+	}
+}

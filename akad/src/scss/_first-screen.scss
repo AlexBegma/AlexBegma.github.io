@@ -1,0 +1,22 @@
+.first-screen {
+
+	&::before {
+		@include layout;
+		background: $middle-grey url("#{$img-path}/header_bg.jpg") no-repeat;
+		background-size: cover;
+		filter: grayscale(100%);
+		z-index: -1;
+	}
+
+	.row {
+		min-height: 100vh;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__title {
+		@include title($main-title);
+		margin-bottom: px_to_rem(20px);
+	}
+}
