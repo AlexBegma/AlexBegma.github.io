@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 19" width="452" height="19">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffcc00 } 
+		.txt1 { font-size: 20px;letter-spacing: 0px;line-height: 24px;fill: #ffcc00;font-family: "Ionicons";text-anchor: middle } 
+	</style>
+	<g id="top">
+		<g id="devider">
+			<path id="Rectangle 1" class="shp0" d="M1,10.2h210v-1h-210z" />
+			<path id="Rectangle 1 copy" class="shp0" d="M241,10.2h210v-1h-210z" />
+			<text id="bonfire icon" style="transform: matrix(1,0,0,1,226,17)" >
+				<tspan x="0" y="0" class="txt1"></tspan>
+			</text>
+		</g>
+	</g>
+</svg>

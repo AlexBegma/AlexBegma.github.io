@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 2" width="212" height="2">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffcc00 } 
+	</style>
+	<g id="top">
+		<g id="devider">
+			<path id="Rectangle 1 copy" class="shp0" d="M1,1.2h210v-1h-210z" />
+		</g>
+	</g>
+</svg>

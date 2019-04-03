@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: 100%;
+	background: ;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	/* font-family: sans-serif; */
+}
+
+.main {
+	max-width: 1200px;
+	width: 100%;
+	font-family: ;
+	font-size: 100%;
+	/* margin: auto; */
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	padding-top: 105px;
+}
+
+.up-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	color: #898f8f;
+	font-family: Raleway, sans-serif;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.big-title {
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 66px;
+	color: #fc0;
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+.bonfire-icon {
+	width: 18px;
+	height: 22px;
+	text-align: center;
+	background-image: url('../image/bonfire-icon.png');
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+rectangle {
+	width: 1px;
+	height: 560px;
+	background-color: #fc0;
+}
