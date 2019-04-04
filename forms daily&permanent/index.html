@@ -31,22 +31,24 @@
 	</div>
 
 
-	<div class="container-payment">
-		<form action="index.html" method="get" name="#" class="payment">
+	<section class="container-payment">
+		<form class="payment" action="index.html" method="get" name="#">
+			
 			<div class="header">
-				<div class="left-block">
-					<p class="header__title">harold finch</p>
-					<p class="header__p">your total</p>
+				<div class="title-block">
+					<p class="header-title">harold finch</p>
+					<p class="header-p">your total</p>
 				</div>
 				<span class="price">$88</span>
 			</div>
-			<!-- <form action="index.html" method="get" name="#" class="payment"> -->
+
+			<div class="info">
 				<label class="credit" for="credit">Credit card number</label>
 				<input type="text" class="number" id="credit" name="#" placeholder="4321" pattern="[0-9]{16}"  required>
 				<label class="date" for="date">Expiration date</label>
 				<div class="date-row">
 					<select class="month" id="date" name="#" required>
-						<option value="#">Month</option>
+						<option value="0">Month</option>
 						<option value="1">January</option>
 						<option value="2">February</option>
 						<option value="3">March</option>
@@ -78,7 +80,8 @@
 					<button type="submit" class="pay" name="#" value="Pay" required>Pay</button>
 					<a href="#" class="cancel-order">Cancel order</a>
 				</div>
-			</form>
-	</div>
+			</div>
+		</form>
+	</section>
 </body>
 </html>

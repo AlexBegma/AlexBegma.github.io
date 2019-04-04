@@ -18,6 +18,7 @@ body {
 }
 
 .container-daily {
+	min-width: 50%;
 	max-width: 650px;
 	padding: 70px 90px;
 	background-image: linear-gradient(29deg, #ff512f 0%, #dd2476 100%);
@@ -127,23 +128,44 @@ h1 {
 
 
 .container-payment {
-	display: block;
-	position: relative;
-	padding: 45px 100px;
-	max-width: 800px;
+	/* 	display: flex; */
+	/* justify-content: center;
+	align-items: center; */
+	/* position: relative; */
+	width: 100%;
+	max-width: 650px;
+/* 	height: 100vh;
+*/	padding: 50px 0;
+	margin: auto;
 	font-family: 'Montserrat', sans-serif;
-	background: url('../images/unsplash-bg.png') 40% 90%;
+	background: #4a4f50 url('../images/unsplash.png') 35% 90%;
+}
+
+.payment {
+	max-width: 335px;
+	background-color: #ffffff;
+	margin: auto;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 25px;
+	max-width: 100%;
+	padding: 20px 25px 20px;
 	background-color: #f8edaf;
 }
 
-.header__title {
+.title-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	max-width: 100%;
+	background-color: #f8edaf;
+}
+
+.header-title {
 	font-size: 14px;
 	color: #6e7f7b;
 	font-family: "Montserrat", sans-serif;
@@ -151,7 +173,7 @@ h1 {
 	text-transform: capitalize;
 }
 
-.header__p {
+.header-p {
 	font-size: 10px;
 	letter-spacing: 1px;
 	color: #a6a28d;
@@ -161,6 +183,8 @@ h1 {
 }
 
 .price {
+	justify-content: space-between;
+	align-items: center;
 	font-size: 36px;
 	letter-spacing: -1px;
 	color: #637570;
@@ -168,18 +192,8 @@ h1 {
 	font-weight: 600;
 }
 
-.left-block {
-	display: flex;
-	flex-direction: column;
-}
-
-.payment {
-	width: 335px;
-	height: 500px;
-	background-color: #ffffff;
+.info {
 	padding: 45px 25px 35px;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .credit {
@@ -192,7 +206,7 @@ h1 {
 }
 
 .number {
-	width: 288px;
+	min-width: 285px;
 	height: 44px;
 	background-color: #ffffff;
 	border: 2px solid #82d4e7;
