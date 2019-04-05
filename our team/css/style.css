@@ -61,12 +61,48 @@ body {
 
 }
 
+.horizont-divider {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 500px;
+	margin:  auto;
+	margin-bottom: 40px;
+
+}
+
 .bonfire-icon {
 	width: 18px;
 	height: 22px;
 	text-align: center;
 	background-image: url('../image/bonfire-icon.png');
 	background-repeat: no-repeat;
+}
+
+.horizont-divider-left,
+.horizont-divider-right {
+	width: 210px;
+	height: 1px;
+	background-color: #ffcc00;
+}
+
+.developer-page {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.picture-side {
+
+}
+
+.left-anchor {
+
+}
+
+.photo {
+
 }
 
 
