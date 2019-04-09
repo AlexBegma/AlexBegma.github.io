@@ -22,8 +22,8 @@ body {
 	justify-content: center;
 	min-width: 50%;
 	max-width: 650px;
-	padding: 70px;
-	height: 100vh;
+	padding: 95px;
+/* 	height: 100vh; */
 	background-image: linear-gradient(29deg, #ff512f 0%, #dd2476 100%);
 }
 
@@ -147,20 +147,21 @@ h1 {
 }
 
 
-.container-payment {
+.contain-payment {
 	display: flex;
 	min-width: 50%;
-	width: 100%;
+	/* width: 100%; */
 	max-width: 650px;
-	height: 100vh;
-	padding: 50px;
+	/* height: 100vh; */
+	padding: 54px;
 	font-family: 'Montserrat', sans-serif;
 	background: #4a4f50 url('../images/unsplash.png') 35% 90%;
 }
 
 .payment {
+	/* width: 100%; */
 	max-width: 335px;
-	height: 100%;
+	/* height: 100%; */
 	background-color: #ffffff;
 	margin: auto;
 }
@@ -211,7 +212,7 @@ h1 {
 }
 
 .info {
-	padding: 45px 25px 35px;
+	padding: 45px 25px 50px;
 }
 
 .credit {
@@ -224,6 +225,7 @@ h1 {
 }
 
 .number {
+	width: 100%;
 	min-width: 285px;
 	height: 44px;
 	background-color: #ffffff;
@@ -329,7 +331,8 @@ h1 {
 }
 
 .pay {
-	width: 285px;
+	width: 100%;
+	min-width: 285px;
 	height: 50px;
 	background-color: #25b86a;
 	font-size: 20px;
