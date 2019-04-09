@@ -6,10 +6,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900" rel="stylesheet"> -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/icons8-credit-control-16.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -18,23 +16,22 @@
 	<div class="container-daily">
 		<form action="index.html" method="get" name="account" class="form-account">
 			<div class="form-account_block">
-			<h1><div class="logo"></div>
-				Create your free account
-			</h1>
-			<p class="up-text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="log-in">Log in.</a></p>
-			<div class="name-row">
-				<input type="text" class="first-name" placeholder="First name" required>
-				<input type="text" class="last-name" placeholder="Last name" required>
+				<h1><div class="logo"></div>
+					Create your free account
+				</h1>
+				<p class="up-text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="log-in">Log in.</a></p>
+				<div class="name-row">
+					<input type="text" class="first-name" placeholder="First name" required>
+					<input type="text" class="last-name" placeholder="Last name" required>
+				</div>
+				<input type="email" class="email" placeholder="Email address" required>
+				<input type="password" class="password" placeholder="Pasword" required>
+				<input type="submit" class="clicking" value="Sign up for free">
+				<p class="low-text">By clicking on "Sign up for free", you agree to the <a href="#" class="log-in">Terms of Service</a> and the <a href="#" class="log-in">Privacy Policy</a></p>
 			</div>
-			<input type="email" class="email" placeholder="Email address" required>
-			<input type="password" class="password" placeholder="Pasword" required>
-			<input type="submit" class="clicking" value="Sign up for free">
-			<p class="low-text">By clicking on "Sign up for free", you agree to the <a href="#" class="log-in">Terms of Service</a> and the <a href="#" class="log-in">Privacy Policy</a></p>
-		</div>
 		</form>
 	</div>
-
-
+	
 	<section class="container-payment">
 		<form class="payment" action="index.html" method="get">
 			
@@ -45,7 +42,6 @@
 				</div>
 				<span class="price">$88</span>
 			</div>
-
 			<div class="info">
 				<label class="credit" for="credit">Credit card number</label>
 				<input type="text" class="number" id="credit" placeholder="4321" pattern="[0-9]{16}"  required>
