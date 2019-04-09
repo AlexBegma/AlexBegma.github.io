@@ -17,22 +17,26 @@
 <body>
 	<div class="container-daily">
 		<form action="index.html" method="get" name="account" class="form-account">
+			<div class="form-account_block">
 			<h1><div class="logo"></div>
 				Create your free account
 			</h1>
 			<p class="up-text">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="log-in">Log in.</a></p>
-			<input type="text" class="first-name" name="#" placeholder="First name" required>
-			<input type="text" class="last-name" name="#" placeholder="Last name" required>
-			<input type="email" class="email" name="#" placeholder="Email address" required>
-			<input type="password" class="password" name="#" placeholder="Pasword" required>
-			<input type="submit" class="clicking" name="#" value="Sign up for free">
+			<div class="name-row">
+				<input type="text" class="first-name" placeholder="First name" required>
+				<input type="text" class="last-name" placeholder="Last name" required>
+			</div>
+			<input type="email" class="email" placeholder="Email address" required>
+			<input type="password" class="password" placeholder="Pasword" required>
+			<input type="submit" class="clicking" value="Sign up for free">
 			<p class="low-text">By clicking on "Sign up for free", you agree to the <a href="#" class="log-in">Terms of Service</a> and the <a href="#" class="log-in">Privacy Policy</a></p>
+		</div>
 		</form>
 	</div>
 
 
 	<section class="container-payment">
-		<form class="payment" action="index.html" method="get" name="#">
+		<form class="payment" action="index.html" method="get">
 			
 			<div class="header">
 				<div class="title-block">
@@ -44,10 +48,10 @@
 
 			<div class="info">
 				<label class="credit" for="credit">Credit card number</label>
-				<input type="text" class="number" id="credit" name="#" placeholder="4321" pattern="[0-9]{16}"  required>
+				<input type="text" class="number" id="credit" placeholder="4321" pattern="[0-9]{16}"  required>
 				<label class="date" for="date">Expiration date</label>
 				<div class="date-row">
-					<select class="month" id="date" name="#" required>
+					<select class="month" id="date" required>
 						<option value="0">Month</option>
 						<option value="1">January</option>
 						<option value="2">February</option>
@@ -62,7 +66,7 @@
 						<option value="11">November</option>
 						<option value="12">December</option>
 					</select>
-					<select class="year-number" id="year" name="#" required>
+					<select class="year-number" id="year" required>
 						<option value="#">Year</option>
 						<option value="2019">2019</option>
 						<option value="2020">2020</option>
@@ -72,12 +76,12 @@
 				</div>
 				<label class="cvv" for="cvv">CVV</label>
 				<div class="cvv-block">
-					<input type="password" id="cvv" class="cvv__password" name="#" pattern="[0-9]{3,4}" required>
+					<input type="password" id="cvv" class="cvv__password" pattern="[0-9]{3,4}" required>
 					<p class="digits">3 or 4 digits - <a href="#" class="example">view example</a></p>
 				</div>
 				<hr class="hr-one">
 				<div class="btn-pay">
-					<button type="submit" class="pay" name="#" value="Pay" required>Pay</button>
+					<button type="submit" class="pay" value="Pay" required>Pay</button>
 					<a href="#" class="cancel-order">Cancel order</a>
 				</div>
 			</div>
