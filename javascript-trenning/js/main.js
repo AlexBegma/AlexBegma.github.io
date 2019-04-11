@@ -1,20 +1,20 @@
-var userName = ("Введите имя!", "Макс");
-var isTeaWanted = confirm('Вы чаю хотите?');
+// var userName = ("Введите имя!", "Макс");
+// var isTeaWanted = confirm('Вы чаю хотите?');
 
-alert('Посетитель:' + userName);
-alert('Чай:' + isTeaWanted);
+// alert('Посетитель:' + userName);
+// alert('Чай:' + isTeaWanted);
 
 
 
-;(function IIFE(){
+// ;(function IIFE(){
 
-  console.log('Hello!');
+//   console.log('Hello!');
 
-  const text = 'I love BMW';
+//   const text = 'I love BMW';
 
-  document.write('Very good!');
+//   document.write('Very good!');
 
-})();
+// })();
 
 
 
@@ -39,13 +39,13 @@ document.write(message);
   alert = prompt(name);
 }
 
-// var userLogin = prompt('Введите логин', 'default');
+var userLogin = prompt('Введите логин', 'default');
 
-// if (userLogin == 'Админ') {
-//   alert = prompt('Ваш пароль');
-// } else if ('escape') {
-//   alert('Вход отменён');
-// }
+if (userLogin === 'Админ') {
+  alert = prompt('Ваш пароль');
+} else if ('escape') {
+  alert = prompt('Вход отменён');
+}
 
 
 
