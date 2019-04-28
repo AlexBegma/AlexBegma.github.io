@@ -1,0 +1,502 @@
+#wb_CssMenu14 {
+   border: 0px #898900 solid;
+   background-color: transparent;
+}
+#wb_CssMenu14 ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#wb_CssMenu14 li {
+   float: left;
+   margin: 0;
+   padding: 0px 3px 0px 0px;
+   width: 188px;
+}
+#wb_CssMenu14 a {
+   display: block;
+   float: left;
+   color: #FFFFA0;
+   border: 0px #FFFFA0 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #898900;
+   /*   background-image: url(images/1.png); */
+   background-repeat: repeat;
+   background-position: center top;
+   font-family: Arial;
+   font-size: 17px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   width: 178px;
+   height: 28px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 28px;
+   text-align: center;
+   -moz-box-shadow: 3px -3px 3px #000000;
+   -webkit-box-shadow: 3px -3px 3px #000000;
+   box-shadow: 3px -3px 3px #000000;
+}
+#wb_CssMenu14 li:hover a,
+#wb_CssMenu14 a:hover {
+   color: #003300;
+   background-color: #E0E000;
+   /*   background-image: url(images/4.png); */
+   background-repeat: repeat;
+   background-position: center bottom;
+   border: 0px #E0E000 solid;
+}
+#wb_CssMenu14 li .firstmain {
+   padding-left: 0px;
+}
+#wb_CssMenu14 li .lastmain {
+   padding-right: 0px;
+}
+#wb_CssMenu14 li:hover,
+#wb_CssMenu14 li a:hover {
+   position: relative;
+}
+#wb_CssMenu14 a .withsubmenu {
+   padding: 0 5px 0 5px;
+   width: 178px;
+   /*    background-image: url(images/1.png); */
+   background-repeat: repeat;
+   background-position: center top;
+}
+#wb_CssMenu14 li:hover a .withsubmenu,
+#wb_CssMenu14 a .withsubmenu:hover {
+  /*   background-image: url(images/4.png); */
+  background-repeat: repeat;
+  background-position: center bottom;
+}
+#wb_CssMenu14 ul ul {
+   position: absolute;
+   left: -9999px;
+   top: -9999px;
+   width: 192px;
+   height: auto;
+   border: none;
+   background-color: transparent;
+}
+#wb_CssMenu14 ul:hover ul {
+   left: -2px;
+   top: 28px;
+   padding-top: 0px;
+}
+#wb_CssMenu14 .firstmain:hover ul {
+   left: -2px;
+}
+#wb_CssMenu14 li li {
+   width: 188px;
+   padding: 0 2px 2px 2px;
+   border: 0px #898900 solid;
+   border-width: 0 0px;
+}
+#wb_CssMenu14 li li .firstitem {
+   border-top: 0px #898900 solid;
+}
+#wb_CssMenu14 li li.lastitem {
+   border-bottom: 0px #898900 solid;
+}
+#wb_CssMenu14 ul ul a,
+#wb_CssMenu14 ul:hover ul a {
+   float: none;
+   margin: 0;
+   width: 174px;
+   height: auto;
+   white-space: normal;
+   padding: 4px 5px 3px 5px;
+   background-color: #898900;
+   /*    background-image: url(images/1.png); */
+   background-repeat: repeat;
+   background-position: center top;
+   border: 2px #000000 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   color: #FFFFA0;
+   font-family: Arial;
+   font-size: 17px;
+   font-weight: bold;
+   font-style: normal;
+   line-height: 17px;
+   text-align: center;
+   text-decoration: none;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+#wb_CssMenu14 ul:hover ul .firstitem a {
+   margin-top: 2px;
+}
+#wb_CssMenu14 ul ul:hover a,
+#wb_CssMenu14 ul ul a:hover,
+#wb_CssMenu14 ul ul:hover ul:hover a,
+#wb_CssMenu14 ul ul:hover ul a:hover {
+   background-color: #E0E000;
+   /*   background-image: url(images/4.png); */
+   background-repeat: repeat;
+   background-position: center bottom;
+   border: 2px #000000 solid;
+   color: #003300;
+}
+#wb_CssMenu14 br {
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+
+
+/* VARIANT # 2 */
+.sub-menu {
+   display: none;
+}
+.main-item:focus ~ .sub-menu,
+.main-item:active ~ .sub-menu,
+.sub-menu:hover {
+   display: block;
+}
+.main-item {
+   display: flex;
+   position: relative;
+   margin: auto;
+   margin-top:50px;
+   width: 200px;
+   height: 100px;
+   border: 1px solid #000;
+}
+.open-item {
+
+}
+.sub-menu {
+   display: none;
+}
+.main-item:focus ~ .sub-menu,
+.main-item:active ~ .sub-menu,
+.sub-menu:hover {
+   display: block;
+}
+
+
+
+/* VARIANT # 3 */
+.variant3 {
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border: 2px solid #bb1;
+   color: #bb1;
+   padding: 6px;
+   width: 35%;
+   margin-bottom: 20px;
+}
+.nav-data {
+  width: 100%;
+  font-weight: bold;
+}
+.nav-data li {
+  margin-right: 0px;
+  position: relative;
+  display: block;
+}
+.nav-data li a {
+  display: block;
+  width: 430px;
+  padding: 10px;
+  color: #fff;
+  background: #2f2f2f;
+  text-decoration: none;
+}
+.nav-data ul li {
+  padding-top: 5px;
+}
+.nav-data li:hover ul
+.nav-data a:hover {
+   background: #2f2f2f;
+}
+.main-item {
+   height: 10%;
+}
+.green a:hover {
+  background: green;
+}
+.yellow a:hover {
+  background: #FFA500;
+}
+.red a:hover {
+   background: #B22222;
+}
+.sub-menu-1 {
+ display: none;
+}
+.main-item:focus ~ .sub-menu-1,
+.main-item:active ~ .sub-menu-1,
+.sub-menu-1:hover {
+ display: block;
+}
+.sub-menu-2 {
+ display: none;
+}
+.main-item:focus ~ .sub-menu-2,
+.main-item:active ~ .sub-menu-2,
+.sub-menu-2:hover {
+ display: block;
+}
+.nav-data li a.item {
+   width: 230px;
+}
+ul {
+   padding: 0;
+   margin: 0;
+}
+
+
+/* VARIANT # 4 */
+.variant4 {
+   display: flex;
+   flex-direction: column;
+}
+.main_nav {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   top: 15px;
+   margin-top: 14px 0 0 280px;
+}
+.main_nav li{
+   display: inline;
+   padding: 0 8px;
+   border-left: 1px dotted #8b6619;
+   position: relative;
+   /*  z-index: 2; */
+}
+.main_nav li:first-child,
+.main_nav ul li {
+   border-left: none;
+}
+.main_nav ~ ul {
+   display: none;
+   position: absolute;
+   top: 19px;
+   left: 0;
+   z-index: 1;
+   width: 155px;
+}
+.main_nav li a,
+.main_nav li ul li a {
+   color: #8b6619;
+   font-family: "Times New Roman", serif;
+   font-size: 0.9em;
+   font-weight: bold;
+   text-decoration: none;
+   outline: none;
+   padding-bottom: 17px;
+}
+.main_nav li a:hover,
+.main_nav li ul a:hover {
+   color: black;
+}
+.main_nav li:hover ul {
+  display: block;
+}
+
+
+
+/* VARIANT # 5*/
+.variant-5 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 35%;
+   background: #fff200;
+}
+p {
+   padding-top: 15px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-bottom: 20px;
+  list-style: none;
+}
+.nav li {
+  /*  display: flex;
+  flex-direction: row; */
+  width: 100px;
+  background: #ccc;
+  position: relative;
+  z-index: 500;
+  margin: 0 1px;
+}
+
+.nav li a {
+   display: block;
+   padding: 8px 5px 0 5px;
+   font-weight: 700;
+   height: 23px;
+   text-decoration: none;
+   color: #fff;
+   text-align: center;
+   color: #333;
+}
+.nav li a:hover {
+   color: #fff;
+}
+.nav:active ~ a,
+a:hover {
+   color: #f00;
+   display: block;
+}
+.nav ul {
+   position: absolute;
+   left: 0;
+   display: none;
+   margin: 0 0 0 -1px;
+   padding: 0;
+   list-style: none;
+}
+.nav ul li {
+   width: 100px;
+   float: left;
+   border-top: 1px solid #fff;
+}
+.nav ul a {
+   display: block;
+   height: 15px;
+   padding: 8px 5px;
+   color: #666;
+}
+.nav ul a:hover {
+   text-decoration: underline;
+}
+*html .nav ul {
+   margin: 0 0 0 -2px;
+}
+.parent2:active ~ a,
+a:hover {
+   color: #f00;
+   display: block;
+}
+
+
+
+/* VARIANT # 6 */
+.variant-6 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   padding: 10px;
+   background: #ff1900;
+   width: 10%;
+}
+p {
+   margin-bottom: 15px;
+}
+
+/*скрываем наше меню и checkbox*/
+.menu, #go {
+ display: none;
+}
+
+/*стилизуем кнопочку*/
+.st {
+   display: flex;
+  /*  justify-content: center;
+  align-items: center; */
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  background: green;
+  cursor: pointer;
+  color: white;
+}
+
+/*а вот собственно и само действие*/
+#go:checked ~ .menu {
+ display: block;
+}
+
+
+
+
+/*------------------------------------*\
+   НАВИГАЦИЯ
+   \*------------------------------------*/
+   #nav{
+      float:left;
+      width:100%;
+      list-style:none;
+      font-weight:bold;
+      margin-bottom:10px;
+   }
+   #nav li{
+      float:left;
+      margin-right:10px;
+      position:relative;
+      display:block;
+   }
+   #nav li a{
+      display:block;
+      padding:5px;
+      color:#fff;
+      background:#333;
+      text-decoration:none;
+      
+      text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      border-radius:2px;
+   }
+   #nav li a:hover{
+      color:#fff;
+      background:#6b0c36;
+      background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+      text-decoration:underline;
+   }
+
+   /*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
+   #nav ul{
+      list-style:none;
+      position:absolute;
+      left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+      opacity:0; /* Устанавливаем начальное состояние прозрачности */
+      -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+   }
+   #nav ul li{
+      padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+      float:none;
+      background:url(dot.gif);
+   }
+   #nav ul a{
+      white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+      display:block;
+   }
+   #nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+      left:0; /* Приносим его обратно на экран, когда нужно */
+      opacity:1; /* Делаем непрозрачным */
+   }
+   #nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+      background:#6b0c36;
+      background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+      text-decoration:underline;
+   }
+   #nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+      text-decoration:none;
+      -webkit-transition:-webkit-transform 0.075s linear;
+   }
+   #nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+      background:#333;
+      background:rgba(51,51,51,0.75); /* Будет полупрозрачным */
+      text-decoration:underline;
+      -moz-transform:scale(1.05);
+      -webkit-transform:scale(1.05);
+   }
