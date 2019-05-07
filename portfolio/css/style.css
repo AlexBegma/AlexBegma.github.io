@@ -12,18 +12,15 @@ html, body {
 }
 
 body {
-	background-color: #cce55b;
+	background-image: url('../images/network-3139214__340.jpg');
+	/* background-repeat: no-repeat; */
+	background-size: cover;
 	color: #fc2033;
 	/* font-size: 22px; */
 	line-height: 2;
+	font-weight: bold;
 }
 
-/* .container {
-	max-width: 50%;
-	display: block;
-	margin: auto;
-}
- */
  .name {
  	box-sizing: border-box;
  	padding-top: 145px;
@@ -43,6 +40,7 @@ body {
 
  a {
  	text-decoration: none;
+ 	font-size: 2rem;
  }
 
  a:hover {
