@@ -12,17 +12,34 @@ html, body {
 }
 
 body {
-	background-image: url('../images/network-3139214__340.jpg');
-	/* background-repeat: no-repeat; */
+	/* background-image: url('../images/network-3139214__340.jpg');
+	/* background-repeat: no-repeat; */ */
 	background-size: cover;
 	color: #fc2033;
 	/* font-size: 22px; */
-	line-height: 2;
-	font-weight: bold;
+	/* line-height: 2;
+	font-weight: bold; */
 }
 
- .name {
- 	box-sizing: border-box;
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  .name {
  	padding-top: 145px;
  	display: inline-block;
  	text-align: center;
@@ -45,4 +62,4 @@ body {
 
  a:hover {
  	color: #e98888;
- }
+ } */
