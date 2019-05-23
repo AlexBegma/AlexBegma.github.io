@@ -1,65 +1,112 @@
 * {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
-/* font-family: 'Merriweather', serif;
-font-family: 'PT Sans Caption', sans-serif;
- */
 html, body {
 	width: 100%;
 	height: 100%;
 	font-family: 'PT Sans Caption', sans-serif;
 }
 
-body {
-	/* background-image: url('../images/network-3139214__340.jpg');
-	/* background-repeat: no-repeat; */ */
-	background-size: cover;
-	color: #fc2033;
-	/* font-size: 22px; */
-	/* line-height: 2;
-	font-weight: bold; */
-}
+.header {
 
-.title {
+}
+hr {
+	width: 100%;
+	height: 3px;
+	background-color: #112266;
+	padding: 0;
+
+}
+.header-line {
+	margin-bottom: 110px;
+}
+.logo {
+	font-family: Raleway, sans-serif;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.name {
+	font-size: 2rem;
+	font-weight: 900;
+	color: #112266;
+}
+.name-p {
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: #767a7c;
+	letter-spacing: .1em;
+}
+.navbar ul {
+	display: flex;
+	align-items: center;
+}
+.navbar-item {
+	margin: 0 5px 0;
+}
+.navbar-item a {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	color: #767a7c;
+	font-weight: 400;
+	text-decoration: none;
+}
+.navbar-item a:hover {
+	color: #112266;
+}
+.header-below {
+	margin-bottom: 55px;
+}
+.text-line {
+	font-size: 1.4rem;
+	color: #767a7c;
+	text-align: start;
+}
+.socials {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	color: #767a7c;
+	text-align: center;
+}
+.socials p {
+	margin-bottom: 12px;
+}
+.socials-icons {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*  .name {
- 	padding-top: 145px;
- 	display: inline-block;
- 	text-align: center;
- 	width: 100%;
- }
-
+.socials-icons a {
+	margin-right: 12px;
+}
+.socials-icons a:last-child {
+	margin-right: 0;
+}
 .works {
-	width: 100%;
-	height: 100%;
-	display: block;
-	margin: auto;
-	text-align: center;
-	columns: 2;
- }
+	/* background-color: #34495e; */
+	background-color: #112266;
+}
+.works a:hover {
+	text-decoration: none;
+}
+.works-title {
+	color: #ecf0f1;
+	font-family: Roboto;
+	font-weight: 400;
+}
+.works-title h4 {
+	font-size: 1rem;
+}
+.works-title p {
+	font-size: 0.9rem;
+}
 
- a {
- 	text-decoration: none;
- 	font-size: 2rem;
- }
 
- a:hover {
- 	color: #e98888;
- } */
+
+
+#bec3c7;
+#767a7c;
