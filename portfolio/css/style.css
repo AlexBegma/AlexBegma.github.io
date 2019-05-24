@@ -110,13 +110,29 @@ hr {
 
 
 .footer-box {
-	padding:  65px 0 40px;
+	padding:  65px 0 20px;
 	display: flex;
 	justify-content: center;
 }
-.footer-box p {
-	margin-bottom: 35px;
+.footer-box h5 {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	color: #767a7c;
+	text-align: center;
+	margin-bottom: 15px;
 }
+.footer-box p {
+	font-size: 1rem;
+	color: #767a7c;
+	text-align: center;
+	margin-bottom: 15px;
+}
+/* .footer-link a {
+	margin-right: 0;
+}
+.footer-link a:last-child {
+	margin-right: 0;
+} */
 
 
 @media screen and (max-width: 1024px) {
