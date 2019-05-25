@@ -92,6 +92,10 @@ hr {
 	background-color: #112266;
 	display: flex;
 	flex-wrap: nowrap;
+	padding: 25px 0 25px;
+}
+.works-items {
+
 }
 .works a {
 	text-decoration: none;
@@ -157,6 +161,7 @@ hr {
 	.header-below_title {
 		margin-bottom: 15px;
 	}
+	.works a,
 	.works-title {
 		display: flex;
 		flex-direction: column;
@@ -181,6 +186,13 @@ hr {
 	}
 	.text-line {
 		font-size: 1rem;
+	}
+	.works a,
+	.works-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	.footer-link {
 		display: flex;
