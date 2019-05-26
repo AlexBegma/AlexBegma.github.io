@@ -15,4 +15,4 @@ if (userLogin == 'Админ') {
 	alert ('Вход отменён');
 } else if (userLogin != 'Админ') {
 	alert ('Я Вас не знаю.');
-} 
+}
