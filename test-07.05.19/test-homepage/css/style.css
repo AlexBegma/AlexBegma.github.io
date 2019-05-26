@@ -12,7 +12,6 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 .container {
-	display: ;
 }
 .first-screen {
 	display: flex;
@@ -70,9 +69,13 @@ body {
 	font-weight: bold;
 	margin: auto;
 	margin-bottom: 90px;
-	padding-left: 100px;
+	padding: 0 100px;
 }
 .first-screen_picture {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	background-size: cover;
 }
 .block-info {
