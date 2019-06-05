@@ -19,8 +19,8 @@
 <body>
 <form action="#">
 	<input type="text" name="userName" placeholder="user name" required>
-	<input type="text" name="userPhone" placeholder="user phone" required>
-	<input type="submit" name="userName" value="push me" required>
+	<input type="text" id="userPhone" name="userPhone" placeholder="user phone" required>
+	<input type="submit" name="userName" value="push me" onclick="alert(document.getElementById('userPhone'))" required>
 </form>
 
 

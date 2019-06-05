@@ -99,7 +99,7 @@ ul, li {
 	border-radius: 4px;
 	margin-bottom: 0;
 }
-.boxes/* :nth-child(-n+3) */ {
+.boxes:nth-child(-n+3) {
 	margin-bottom: 30px;
 }
 .our_card:hover {
