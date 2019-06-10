@@ -465,6 +465,7 @@ input[type="radio"]:checked + label {
 	height: 900px;
 	padding-top: 45px;
 	background-color: #9f9acf;
+	background-image: url('../img/Map_google.png');
 }
 
 #map {
@@ -473,13 +474,6 @@ input[type="radio"]:checked + label {
 	width: 100%;
 	position: absolute;
 	z-index: 0;
-}
-
-.map {
-	/* height: 900px;
-	width: 100%;
-	position: absolute;
-	z-index: 0; */
 }
 
 .map__title-icon {
