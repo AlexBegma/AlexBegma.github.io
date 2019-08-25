@@ -89,7 +89,9 @@ hr {
 
 
 .works {
-	background-color: #112266;
+	background-image: url('../images/hamburg-4103406__340.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	display: flex;
 	flex-wrap: nowrap;
 	padding: 25px 0 25px;
