@@ -8,96 +8,115 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="images/icons8-trainers-24.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		
-		<div class="logo">
-			<a class="logo-link" href="#">
-				<img class="logo-image" src="images/logo.png" alt="logo Nike">
-			</a>
-		</div>
-
-		<div class="gallery">
-			<div class="picture">
-				<div class="shop-window">
-					<a class="shop-window__link" href="#">
-						<img class="shop-window__image" src="images/Nike-SB-Stefan-Janoski-Max.png" alt="Nike Shoe">
-					</a>
-				</div>
-
-				<div class="points">
-					<input type="radio" name="radio" id="dot-1" value="#" checked>
-					<label class="radio-1 push" for="dot-1">
-					</label>
-					<input type="radio" name="radio" id="dot-2" value="#">
-					<label class="radio-2 push" for="dot-2">
-					</label>
-					<input type="radio" name="radio" id="dot-3" value="#">
-					<label class="radio-3 push" for="dot-3">
-					</label>
-					<input type="radio" name="radio" id="dot-4" value="#">
-					<label class="radio-4 push" for="dot-4">
-					</label>
-				</div>
+	<section class="nike">
+		<div class="container">
+			<div class="logo">
+				<a class="logo-link" href="#">
+					<img class="logo-image" src="images/logo.png" alt="logo Nike">
+				</a>
 			</div>
 
-			<div class="info">
-				
-				<h2 class="info__title">Nike SB Stefan Janoski Max</h2>
-				<p class="info__text">Unisex Skateboarding Shoe</p>
+			<div class="gallery">
+				<div class="picture">
+					<div class="shop-window">
+						<a class="shop-window__link" href="#">
+							<img class="shop-window__image" src="images/Nike-SB-Stefan-Janoski-Max.png" alt="Nike Shoe">
+						</a>
+					</div>
 
-				<ul class="star">
-					<li class="star__item gold">
-						<!-- <i class="far fa-star gold"></i> -->
-					</li>
-					<li class="star__item gold">
-						<!-- <i class="far fa-star gold"></i> -->
-					</li>
-					<li class="star__item gold">
-						<!-- <i class="far fa-star gold"></i> -->
-					</li>
-					<li class="star__item gray">
-						<!-- <i class="far fa-star gray"></i> -->
-					</li>
-					<li class="star__item gray">
-						<!-- <i class="far fa-star gray"></i> -->
-					</li>
-				</ul>
-
-				<form class="form" action="index.html" method="get">
-					<div class="size-qty">
-						<label class="window" for="size">
-							<select class="order" name="size" id="size">
-								<option value="">Size</option>
-								<option value="1">38</option>
-								<option value="2">39</option>
-								<option value="3">40</option>
-								<option value="4">41</option>
-								<option value="5">42</option>
-							</select>
+					<div class="points">
+						<input type="radio" name="radio" id="dot-1" value="#" checked>
+						<label class="radio-1 push" for="dot-1">
 						</label>
-						<label class="window" for="qty">
-							<select class="quantity" name="quantity" id="qty">
-								<option value="#">Qty</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-							</select>
+						<input type="radio" name="radio" id="dot-2" value="#">
+						<label class="radio-2 push" for="dot-2">
+						</label>
+						<input type="radio" name="radio" id="dot-3" value="#">
+						<label class="radio-3 push" for="dot-3">
+						</label>
+						<input type="radio" name="radio" id="dot-4" value="#">
+						<label class="radio-4 push" for="dot-4">
 						</label>
 					</div>
-					
+				</div>
+
+				<div class="info">
+					<h2 class="info__title">Nike SB Stefan Janoski Max</h2>
+					<p class="info__text">Unisex Skateboarding Shoe</p>
+
+					<ul class="star">
+						<li class="star__item gold">
+							<!-- <i class="far fa-star gold"></i> -->
+						</li>
+						<li class="star__item gold">
+							<!-- <i class="far fa-star gold"></i> -->
+						</li>
+						<li class="star__item gold">
+							<!-- <i class="far fa-star gold"></i> -->
+						</li>
+						<li class="star__item gray">
+							<!-- <i class="far fa-star gray"></i> -->
+						</li>
+						<li class="star__item gray">
+							<!-- <i class="far fa-star gray"></i> -->
+						</li>
+					</ul>
+
+					<form class="form" action="index.html" method="get">
+						<div class="size-qty">
+							<label class="window" for="size">
+								<select class="order" name="size" id="size">
+									<option value="">Size</option>
+									<option value="1">38</option>
+									<option value="2">39</option>
+									<option value="3">40</option>
+									<option value="4">41</option>
+									<option value="5">42</option>
+								</select>
+							</label>
+							<label class="window" for="qty">
+								<select class="quantity" name="quantity" id="qty">
+									<option value="#">Qty</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</label>
+						</div>
 						<input type="submit" name="submit" value="Add to cart" class="sending" id="submit" required>
-				</form>
+					</form>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
+	<section class="origin">
+		<div class="product-card">
+			<h1>Original Shoes</h1>
+			<p>Lorem ipsum dolor sit amet</p>
+			<div class="product-pic"></div>
+			<div class="product-colors">
+				<span class="blue active" data-color="#7ed6df" data-pic="url(./images/1.png)"></span>
+				<span class="green" data-color="#badc58" data-pic="url(./images/2.png)"></span>
+				<span class="yellow" data-color="#f9ca24" data-pic="url(./images/3.png)"></span>
+				<span class="rose" data-color="#ff7979" data-pic="url(./images/4.png)"></span>
+			</div>
+			<div class="product-info">
+				<div class="product-price">$90</div>
+				<a href="#" class="product-button">Add to Cart</a>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/main.js"></script>
 </body>
 </html>
