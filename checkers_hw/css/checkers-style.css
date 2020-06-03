@@ -1,9 +1,10 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
 }
 
-html, body {
+body {
   height: 100%;
   background-color: #099669;
 }
@@ -14,14 +15,14 @@ section {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 .container {
   position: relative;
   width: 100%;
   max-width: 640px;
-  max-height: 640px; 
+  max-height: 640px;
 }
 
 li {
@@ -42,12 +43,12 @@ li {
 
 .row-1>li:nth-child(odd),
 .row-2>li:nth-child(even) {
-  background-color: white;
+  background-color: #fff;
 }
 
 .row-1>li:nth-child(even),
 .row-2>li:nth-child(odd) {
-  background-color: black;
+  background-color: #000;
 }
 
 .odd-1 {
@@ -82,8 +83,6 @@ li {
   top: 0;
   left: 87.5%;
 }
-
-
 .even-9 {
   top: 12.5%;
   left: 0%;
@@ -116,8 +115,6 @@ li {
   top: 12.5%;
   left: 87.5%;
 }
-
-
 .odd-17 {
   top: 25%;
   left: 0%;
@@ -150,8 +147,6 @@ li {
   top: 25%;
   left: 87.5%;
 }
-
-
 .even-25 {
   top: 37.5%;
   left: 0%;
@@ -184,9 +179,6 @@ li {
   top: 37.5%;
   left: 87.5%;
 }
-
-
-
 .odd-33 {
   top: 50%;
   left: 0;
@@ -219,8 +211,6 @@ li {
   top: 50%;
   left: 87.5%;
 }
-
-
 .even-41 {
   top: 62.5%;
   left: 0%;
@@ -253,8 +243,6 @@ li {
   top: 62.5%;
   left: 87.5%;
 }
-
-
 .odd-49 {
   top: 75%;
   left: 0%;
@@ -287,8 +275,6 @@ li {
   top: 75%;
   left: 87.5%;
 }
-
-
 .even-57 {
   top: 87.5%;
   left: 0%;
