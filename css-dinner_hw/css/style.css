@@ -4,15 +4,12 @@
 	margin: 0;
 }
 
-html, body {
-	height: 100%;
-}
-
 body {
+	height: 100%;
 	font-family: sans-serif;
-	color: white;
+	color: #fff;
 	font-size: 22px;
-	border: 18px solid white;
+	border: 18px solid #fff;
 	text-align: center;
 	background-color: #3B3f45;
 }
@@ -35,7 +32,7 @@ body {
 
 .menu{
 	background-color: #3b3f45;
-	color: white;
+	color: #fff;
 	text-align: left;
 	display: block;
 	margin-bottom: 25px;
@@ -52,7 +49,7 @@ body {
 	border-top: 3px solid transparent;
 	border-bottom: 3px solid transparent;
 	cursor: pointer;
-	display: inline-block; 
+	display: inline-block;
 	width: 100%;
 	line-height: 55px;
 	min-height: 55px;
