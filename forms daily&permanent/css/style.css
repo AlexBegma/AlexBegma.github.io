@@ -4,11 +4,8 @@
 	margin: 0;
 }
 
-html, body {
-	min-height: 100vh;
-}
-
 body {
+	min-height: 100vh;
 	font-size: 100%;
 	font-family: Arial, sans-serif;
 	display: flex;
@@ -101,7 +98,6 @@ h1 {
 	border: none;
 	border-radius: 4px;
 	background-color: #f0f0f0;
-/* 	margin-bottom: 20px; */
 }
 
 .first-name {
@@ -129,7 +125,7 @@ h1 {
 	justify-content: center;
 	font-size: 18px;
 	line-height: 20px;
-	color: #ffffff;
+	color: #fff;
 	font-family: "Arial";
 	font-weight: bold;
 	width: 100%;
@@ -147,23 +143,18 @@ h1 {
 	outline: none;
 }
 
-
 .contain-payment {
 	display: flex;
 	min-width: 50%;
-	/* width: 100%; */
 	max-width: 650px;
-	/* height: 100vh; */
 	padding: 54px;
 	font-family: 'Montserrat', sans-serif;
 	background: #4a4f50 url('../images/unsplash.png') 35% 90%;
 }
 
 .payment {
-	/* width: 100%; */
 	max-width: 335px;
-	/* height: 100%; */
-	background-color: #ffffff;
+	background-color: #fff;
 	margin: auto;
 }
 
@@ -231,17 +222,12 @@ h1 {
 	height: 44px;
 	background-color: #ffffff;
 	border: 2px solid #82d4e7;
-
 	font-size: 13px;
 	color: #727f82;
 	font-family: "Montserrat";
 	font-weight: 400;
 	margin-bottom: 25px;
 	padding: 10px;
-
-	/* width: 2px;
-	height: 18px;
-	background-color: #f7d36a; */
 }
 
 .date {
@@ -264,7 +250,7 @@ h1 {
 .month {
 	width: 175px;
 	height: 45px;
-	background-color: #ffffff;
+	background-color: #fff;
 	border: 2px solid #bac8cb;
 	padding-left: 10px;
 	font-size: 13px;
@@ -277,7 +263,7 @@ h1 {
 .year-number {
 	width: 110px;
 	height: 45px;
-	background-color: #ffffff;
+	background-color: #fff;
 	border: 2px solid #bac8cb;
 	padding-left: 10px;
 	font-size: 13px;
@@ -307,7 +293,7 @@ h1 {
 .cvv__password {
 	width: 96px;
 	height: 44px;
-	background-color: #ffffff;
+	background-color: #fff;
 	border: 2px solid #bac8cb;
 	margin-right: 20px;
 }
@@ -337,11 +323,11 @@ h1 {
 	height: 50px;
 	background-color: #25b86a;
 	font-size: 20px;
-	color: #ffffff;
+	color: #fff;
 	font-family: "Montserrat";
 	font-weight: 700;
 	margin-bottom: 25px;
-	border: none; 
+	border: none;
 }
 
 .cancel-order {
