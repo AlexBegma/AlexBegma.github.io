@@ -318,17 +318,17 @@ h3 {
 }
 
 .portfolio__works-image {
-	display: block;
 	position: relative;
+	display: block;
 	width: 31%;
 	height: 350px;
-	background-color: green;
-	padding-top: 80px;
+	/* background-color: green; */
+	/* padding-top: 80px; */
 	margin-bottom: 22px;
 }
 
 .portfolio__works-image img {
-position: absolute;
+	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -336,10 +336,40 @@ position: absolute;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	z-index: 5;
+}
+
+.portfolio__works-text__hover {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #7cea83;
+	transition: all .3s;
+	opacity: 0;
 }
 
 .portfolio__works-text {
+	
+}
 
+.portfolio__works-text span {
+	font-size: 44px;
+	line-height: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.portfolio__works-image:hover .portfolio__works-text__hover {
+	opacity: 1;
+}
+
+.portfolio__works-image:hover img {
+	opacity: .1;
 }
 
 
