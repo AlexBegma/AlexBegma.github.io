@@ -27,6 +27,7 @@ h3 {
 	margin-bottom: 15px;
 }
 
+/* <section class="section-main"> */
 .section-main {
 	background-image: url('../images/site-hero.jpg');
 	background-position: center;
@@ -68,14 +69,17 @@ h3 {
 	text-transform: capitalize;
 }
 
-.title-h1 span {
-	font-size: 50px;
-	font-weight: 500;
-	margin: 0 auto;
+.title {
 	display: flex;
 	justify-content: center;
 }
 
+.title h1 {
+	font-size: 50px;
+	font-weight: 500;
+}
+
+/* <section class="section-about"> */
 .section-about {
 	height: 830px;
 	padding: 90px 0 20px;
@@ -218,7 +222,7 @@ h3 {
 	background: linear-gradient(45deg, #3bc0ff, #33ff00);
 }
 
-
+/* <section class="section-services"> */
 .section-services {
 	height: 855px;
 	background-color: #dbdbdb;
@@ -283,8 +287,7 @@ h3 {
 	margin-bottom: 20px;
 }
 
-
-
+/* <section class="section-portfolio"> */
 .section-portfolio {
 	background-color: #eee;
 	padding: 40px 0;
@@ -372,10 +375,9 @@ h3 {
 	opacity: .1;
 }
 
-
-
+/* <section class="section-form"> */
 .section-form {
-	height: 655px;
+	height: 520px;
 	background-color: #fdfdfd;
 	padding-top: 40px;
 	padding-bottom: 30px;
@@ -390,8 +392,6 @@ h3 {
 	/* width: 1170px;
 	margin: 0 auto; */
 }
-
-
 
 .container__form p {
 	font-size: 22px;
@@ -452,6 +452,7 @@ h3 {
 	transition: .3s;
 }
 
+/* thanks.html */
 .error {
 	width: 750px;
 	text-align: center;
@@ -495,4 +496,51 @@ h3 {
 	background-color: #61f430;
 	outline: none;
 	transition: .3s;
+}
+
+/* <section class="section-footer"> */
+.section-footer {
+	height: 150px;
+	background-color: #22222b;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.footer__copyright {
+
+}
+
+.footer__copyright p {
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.footer__social {
+	display: flex;
+
+}
+
+.footer__social-link {
+	margin-right: 12px;
+}
+
+.footer__social-link:last-child {
+	margin-right: 0;
+}
+
+.footer__social-link a svg {
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+.footer__social-link:hover a svg {
+	background-color: #7cea83;
+	transition: .4s;
 }
