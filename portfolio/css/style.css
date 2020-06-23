@@ -69,6 +69,11 @@ h3 {
 	text-transform: capitalize;
 }
 
+.header__btn-menu {
+	display: none;
+	font-size: 28px;
+}
+
 .title {
 	display: flex;
 	justify-content: center;
@@ -441,6 +446,7 @@ h3 {
 
 .form__button:hover,
 .form__button:focus {
+	font-weight: 700;
 	background-color: #42e54a;
 	outline: none;
 	transition: .3s;
