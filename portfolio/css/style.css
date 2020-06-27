@@ -39,7 +39,7 @@ h3 {
 
 header {
 	position: relative;
-	margin-bottom: 85px;
+	margin-bottom: 114px;
 }
 
 .header {
@@ -85,17 +85,43 @@ pre {
 	position: absolute;
 	left: -260px;
 	top: 60px;
+	background-color: #000;
+	color: #fff;
+	padding-right: 30px;
 }
 
 .title {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 30px;
 }
 
 .title h1 {
+	position: relative;
 	font-size: 50px;
 	font-weight: 500;
+	padding: 24px;
+}
+
+.title h1::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	border-left: 1px solid #565252;
+	border-top: 1px solid #565252;
+}
+
+.title h1::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	border-right: 1px solid #565252;
+	border-bottom: 1px solid #565252;
 }
 
 .main-contact {
