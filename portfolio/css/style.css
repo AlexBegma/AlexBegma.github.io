@@ -13,6 +13,7 @@ html, body {
 
 .container {
 	max-width: 1170px;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -37,11 +38,11 @@ h3 {
 }
 
 header {
-	margin-bottom: 90px;
+	position: relative;
+	margin-bottom: 85px;
 }
 
 .header {
-	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -80,9 +81,16 @@ header {
 	font-size: 28px;
 }
 
+pre {
+	position: absolute;
+	left: -260px;
+	top: 60px;
+}
+
 .title {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 
 .title h1 {
@@ -90,10 +98,28 @@ header {
 	font-weight: 500;
 }
 
+.main-contact {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 95px;
+	background-color: #7cea83;
+	padding: 12px 0;
+	border-radius: 8px;
+}
+
+.main-contact__item {
+
+}
+
+.main-contact__item span {
+	font-size: 26px;
+}
+
 /* <section class="section-about"> */
 .section-about {
 	height: auto;
-	padding: 90px 0 20px;
+	padding: 90px 0 50px;
 	background-color: #2e2e2e;
 }
 
@@ -369,10 +395,10 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+	left: 50px;
+	right: 50px;
+	top: 50px;
+	bottom: 50px;
 	background-color: #7cea83;
 	transition: all .3s;
 	opacity: 0;
