@@ -6,6 +6,8 @@ $(function(){
 
 });
 
+
+// Универсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail):
 $(document).ready(function() {
 
 	//E-mail Ajax Send
@@ -25,4 +27,4 @@ $(document).ready(function() {
 		return false;
 	});
 });
-
+// :универсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail).

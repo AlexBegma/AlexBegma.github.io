@@ -1,3 +1,5 @@
+
+<!-- Универсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail):    https://www.youtube.com/watch?v=0bexJuzHFRo   -->
 <?php
 
 $method = $_SERVER['REQUEST_METHOD'];
@@ -6,8 +8,8 @@ $method = $_SERVER['REQUEST_METHOD'];
 $c = true;
 if ( $method === 'POST' ) {
 
-	$project_name = trim($_POST["name"]);
-	$admin_email  = trim($_POST["email"]);
+	$project_name = trim($_POST["project_name"]);
+	$admin_email  = trim($_POST["admin_email"]);
 	$form_subject = trim($_POST["form_subject"]);
 
 	foreach ( $_POST as $key => $value ) {
@@ -50,3 +52,4 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 'Reply-To: '.$admin_email.'' . PHP_EOL;
 
 mail($admin_email, adopt($form_subject), $message, $headers );
+// :yниверсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail).
