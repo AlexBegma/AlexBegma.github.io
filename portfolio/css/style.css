@@ -17,7 +17,8 @@ html, body {
 	margin: 0 auto;
 }
 
-a {
+a,
+a:hover {
 	text-decoration: none;
 	color: #565252;
 }
@@ -88,6 +89,7 @@ pre {
 	background-color: #565252;
 	color: #fff;
 	padding-right: 30px;
+	overflow: hidden;
 }
 
 .title {
@@ -619,4 +621,50 @@ pre {
 .footer__social-link:hover a svg {
 	background-color: #7cea83;
 	transition: .4s;
+}
+
+
+#button {
+	display: inline-block;
+	background-color: #FF9800;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	margin: 30px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	transition: background-color .3s;
+	z-index: 1000;
+}
+#button:hover {
+	cursor: pointer;
+	background-color: #333;
+}
+#button:active {
+	background-color: #555;
+}
+#button::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+}
+.show {
+	display: inline-block;
+	background-color: #FF9800;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	margin: 30px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	transition: background-color .3s;
+	z-index: 1000;
 }

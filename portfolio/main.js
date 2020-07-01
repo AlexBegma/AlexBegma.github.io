@@ -1,10 +1,12 @@
-$(function(){
+	"use strict";
 
-  $('.header__btn-menu').on('click', function(){
-    $('nav ul').slideToggle();
-  });
+	$(function(){
 
-});
+		$('.header__btn-menu').on('click', function(){
+			$('nav ul').slideToggle();
+		});
+
+	});
 
 
 // Универсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail):
@@ -28,3 +30,22 @@ $(document).ready(function() {
 	});
 });
 // :универсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail).
+
+// --------- кнопка "Наверх":
+(function(e) {
+
+	// jQuery(document).ready(function(e) {
+	var btn = $('#button');
+	$(window).scroll(function(e) {
+		if ($(window).scrollTop() > 300) {
+			btn.addClass('show');
+		} else {
+			btn.removeClass('show');
+		}
+	});
+	btn.on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({scrollTop:0}, '300');
+	});
+// });
+})(jQuery);
