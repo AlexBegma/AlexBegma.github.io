@@ -418,7 +418,7 @@ pre {
 	z-index: 5;
 }
 
-.portfolio__works-text__hover {
+.portfolio__works-texthover {
 	position: absolute;
 	display: flex;
 	justify-content: center;
@@ -443,20 +443,21 @@ pre {
 	font-weight: 700;
 }
 
-.portfolio__works-image:hover .portfolio__works-text__hover {
+.portfolio__works-image:hover .portfolio__works-texthover {
 	opacity: 1;
+	transition: all .5s;
 }
 
 .portfolio__works-image:hover img {
 	opacity: .1;
+	transition: all .5s;
 }
 
 /* <section class="section-form"> */
 .section-form {
 	height: 520px;
 	background-color: #fdfdfd;
-	padding-top: 40px;
-	padding-bottom: 30px;
+	padding: 40px 0 30px;
 }
 
 .container__form,
@@ -602,7 +603,6 @@ pre {
 
 .footer__social {
 	display: flex;
-
 }
 
 .footer__social-link {
