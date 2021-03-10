@@ -330,7 +330,7 @@ pre {
 .item-service {
 	width: 30%;
 	height: auto;
-	padding: 6px 0 0 12px;
+	padding: 6px 0 10px 12px;
 	margin-bottom: 22px;
 	background-color: #green;
 }
@@ -360,6 +360,11 @@ pre {
 	line-height: 26px;
 	color: #7f7f82;
 	margin-bottom: 20px;
+}
+
+.item-service__button:hover {
+	font-weight: bold;
+	transition: all .3s;
 }
 
 /* <section class="section-portfolio"> */

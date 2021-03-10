@@ -16,8 +16,8 @@ if ( $method === 'POST' ) {
 		if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" ) {
 			$message .= "
 			" . ( ($c = !$c) ? '<tr>':'<tr style="background-color: #f8f8f8;">' ) . "
-				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
-				<td style='padding: 10px; border: #e9e9e9 1px solid;'>$value</td>
+			<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
+			<td style='padding: 10px; border: #e9e9e9 1px solid;'>$value</td>
 			</tr>
 			";
 		}
@@ -32,8 +32,8 @@ if ( $method === 'POST' ) {
 		if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" ) {
 			$message .= "
 			" . ( ($c = !$c) ? '<tr>':'<tr style="background-color: #f8f8f8;">' ) . "
-				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
-				<td style='padding: 10px; border: #e9e9e9 1px solid;'>$value</td>
+			<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
+			<td style='padding: 10px; border: #e9e9e9 1px solid;'>$value</td>
 			</tr>
 			";
 		}
@@ -53,3 +53,10 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 
 mail($admin_email, adopt($form_subject), $message, $headers );
 // :yниверсальный PHP скрипт обратной связи для простых сайтов и Landing Pages (uniMail).
+
+
+<?php
+if( isset($_POST['message']) && trim($_POST['message']) == '' ) {
+	echo '<div class="error">Enter your message</div>';
+}
+?>

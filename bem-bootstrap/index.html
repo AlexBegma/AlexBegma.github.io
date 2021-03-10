@@ -1,493 +1,677 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>BEM-BOOTSTRAP</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BEM-BOOTSTRAP</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="http://faviconka.ru/ico/faviconka_ru_299566.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
 
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:400,900" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- <div id="toTop"><i class="fas fa-arrow-up"></i></div> -->
 
-	<link rel="shortcut icon" type="image/x-icon" href="http://faviconka.ru/ico/faviconka_ru_299566.ico">
+    <header class="menu-bar">
+      <div class="container">
+        <div class="row menu-bar__row">
+          <div class="col-xl-2 col-2 logo-bar">
+            <p>Your Logo</p>
+          </div>
+          <div class="col-xl-8 ml-auto align-self-center">
+            <nav>
+              <ul class="menu d-flex justify-content-end">
+                <li class="menu__item"><a href="#">Home</a></li>
+                <li class="menu__item"><a href="#about">About</a></li>
+                <li class="menu__item"><a href="#services">Servicing</a></li>
+                <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu__item"><a href="#blog">Blog</a></li>
+                <li class="menu__item"><a href="#contacts">Contacts</a></li>
+                <li class="menu__item"><i class="fas fa-search"></i></li>
+              </ul>
+            </nav>
+          </div>
+          <button class="menu-icon">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+      </div>
+    </header>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <section class="poster">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <h1 class="poster__title">Web development project</h1>
+            <p class="poster__text">
+              very suitable to support all web development projects
+            </p>
+            <button class="button button_empty">our services</button>
+            <button class="button button_full">hire is now</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">About Us</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+              impedit non reprehenderit temporibus nostrum laborum deleniti,
+              consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-xl-3">
+            <img class="about__img" src="images/internet.jpg" alt="#" />
+            <h3 class="about__h3">Awesome Icons</h3>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+              voluptatibus cupiditate, error non obcaecati delectus!
+            </p>
+          </div>
+          <div class="col-xl-3">
+            <img class="about__img" src="images/transfer.jpg" alt="#" />
+            <h3 class="about__h3">One Page</h3>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+              sed consequuntur, aliquam optio laudantium illum.
+            </p>
+          </div>
+          <div class="col-xl-3">
+            <img class="about__img" src="images/head.jpg" alt="#" />
+            <h3 class="about__h3">Fully Responsive</h3>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium cum deserunt autem corporis nihil, illo!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">Our Services</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+              impedit non reprehenderit temporibus nostrum laborum deleniti,
+              consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-4 boxes">
+            <div class="our_card">
+              <i class="fas fa-mobile-alt icon"></i>
+              <h3 class="about__h3">Research</h3>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Praesentium cum deserunt autem corporis nihil, illo!
+              </p>
+              <button class="button-services">Read more</button>
+            </div>
+          </div>
+          <div class="col-xl-4 boxes">
+            <div class="our_card">
+              <i class="fas fa-mobile-alt icon"></i>
+              <h3 class="about__h3">Portfolio</h3>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Praesentium cum deserunt autem corporis nihil, illo!
+              </p>
+              <button class="button-services">Read more</button>
+            </div>
+          </div>
+          <div class="col-xl-4 boxes">
+            <div class="our_card">
+              <i class="fas fa-mobile-alt icon"></i>
+              <h3 class="about__h3">Support</h3>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Praesentium cum deserunt autem corporis nihil, illo!
+              </p>
+              <button class="button-services">Read more</button>
+            </div>
+          </div>
+          <div class="col-xl-4 boxes">
+            <div class="our_card">
+              <i class="fas fa-mobile-alt icon"></i>
+              <h3 class="about__h3">Documentation</h3>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Praesentium cum deserunt autem corporis nihil, illo!
+              </p>
+              <button class="button-services">Read more</button>
+            </div>
+          </div>
+          <div class="col-xl-4 boxes">
+            <div class="our_card">
+              <i class="fas fa-mobile-alt icon"></i>
+              <h3 class="about__h3">Development</h3>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Praesentium cum deserunt autem corporis nihil, illo!
+              </p>
+              <button class="button-services">Read more</button>
+            </div>
+          </div>
+          <div class="col-xl-4 boxes">
+            <div class="our_card">
+              <i class="fas fa-mobile-alt icon"></i>
+              <h3 class="about__h3">Design</h3>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Praesentium cum deserunt autem corporis nihil, illo!
+              </p>
+              <button class="button-services">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <!-- <div class="container">
+        
+      
+    </div> -->
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">Latest Works</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+              impedit non reprehenderit temporibus nostrum laborum deleniti,
+              consectetur.
+            </p>
+            <nav>
+              <ul>
+                <li data-f="all">ALL</li>
+                <li data-f="alizarin" class="text-alizarin">ALIZARIN</li>
+                <li data-f="wisteria" class="text-wisteria">WISTERIA</li>
+                <li data-f="emerland" class="text-emerland">EMERLAND</li>
+                <li data-f="sunflower" class="text-sunflower">SUNFLOWER</li>
+              </ul>
+            </nav>
+            <div class="navfilter">
+              <button val="on" class="button" filter="all" data-f="all">
+                all
+              </button>
+              <button val="off" class="button" filter="wd" data-f="wd">
+                web design
+              </button>
+              <button val="off" class="button" filter="ud" data-f="ud">
+                ui/ux design
+              </button>
+              <button val="off" class="button" filter="moc" data-f="moc">
+                mockups
+              </button>
+            </div>
+          </div>
+        </div>
 
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="toTop"><i class="fas fa-arrow-up"></i></div>
+        <!-- <div class="block-cover">
+          <div class="col-auto box alizarin"></div>
+          <div class="col-auto box wisteria"></div>
+          <div class="col-auto box emerland"></div>
+          <div class="col-auto box belizehole"></div>
+          <div class="col-auto box sunflower"></div>
+          <div class="col-auto box alizarin"></div>
+          <div class="col-auto box wisteria"></div>
+          <div class="col-auto box emerland"></div>
+          <div class="col-auto box belizehole"></div>
+          <div class="col-auto box sunflower"></div>
+          <div class="col-auto box alizarin"></div>
+          <div class="col-auto box wisteria"></div>
+          <div class="col-auto box emerland"></div>
+          <div class="col-auto box belizehole"></div>
+          <div class="col-auto box sunflower"></div>
+          <div class="col-auto box alizarin"></div>
+          <div class="col-auto box wisteria"></div>
+          <div class="col-auto box emerland"></div>
+          <div class="col-auto box belizehole"></div>
+          <div class="col-auto box sunflower"></div>
+        </div> -->
+        <div class="row filter">
+          <div filter="wd" class="col-xl-4 box">
+            <img src="images/item1.jpg" alt="picture" />
+            <div class="text">
+              <h5>Hand Watch</h5>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div filter="ud" class="col-xl-4 box">
+            <img src="images/item2.jpg" alt="picture" />
+            <div class="text">
+              <h5>Hand Watch</h5>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div filter="moc" class="col-xl-4 box">
+            <img src="images/item3.jpg" alt="picture" />
+            <div class="text">
+              <h5>One Day Pass</h5>
+              <p>Mockups</p>
+            </div>
+          </div>
+          <div filter="wd" class="col-xl-4 box">
+            <img src="images/item4.jpg" alt="picture" />
+            <div class="text">
+              <h5>Modal T-shirts</h5>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div filter="ud" class="col-xl-4 box">
+            <img src="images/item5.jpg" alt="picture" />
+            <div class="text">
+              <h5>Hand Watch</h5>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div filter="moc" class="col-xl-4 box">
+            <img src="images/item6.jpg" alt="picture" />
+            <div class="text">
+              <h5>Flask</h5>
+              <p>Mockups</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <button class="button">View all</button>
+        </div>
+      </div>
+    </section>
 
-	<header class="menu-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-2 logo-bar">
-					<p>Your Logo</p>
-					<button class="menu-icon"><i class="fas fa-align-justify"></i></button>
-				</div>
-				<div class="col-xl-8 ml-auto align-self-center">
-					<nav>
-						<ul class="menu d-flex justify-content-end">
-							<li class="menu__item"><a href="#">Home</a></li>
-							<li class="menu__item"><a href="#about">About</a></li>
-							<li class="menu__item"><a href="#services">Servicing</a></li>
-							<li class="menu__item"><a href="#portfolio">Portfolio</a></li>
-							<li class="menu__item"><a href="#blog">Blog</a></li>
-							<li class="menu__item"><a href="#contacts">Contacts</a></li>
-							<li class="menu__item"><i class="fas fa-search"></i></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-12">
-					<h1 class="header__title">Web development project</h1>
-					<p class="header__text">very suitable to support all web development projects</p>
-					<button class="button button_empty">our services</button>
-					<button class="button button_full">hire is now</button>
-				</div>
-			</div>
-		</div>
-	</header>
+    <section class="pricing">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">Pricing Plan</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+              impedit non reprehenderit temporibus nostrum laborum deleniti,
+              consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-xl-4">
+            <div class="price">
+              <div class="price__head">
+                <p>Free Trail</p>
+                <sup>$</sup> 00 <sub>per month</sub>
+              </div>
+              <div class="price__body">
+                <ul>
+                  <li>30 Free Trail</li>
+                  <li>5 Free Projects</li>
+                  <li>PHP 5 Enabled</li>
+                  <li>24/7 Suports</li>
+                </ul>
+              </div>
+              <div class="price__footer">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="price">
+              <div class="price__head">
+                <p>Basic</p>
+                <sup>$</sup> 50 <sub>per month</sub>
+              </div>
+              <div class="price__body">
+                <ul>
+                  <li>30 Free Trail</li>
+                  <li>5 Free Projects</li>
+                  <li>PHP 5 Enabled</li>
+                  <li>24/7 Suports</li>
+                </ul>
+              </div>
+              <div class="price__footer">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="price">
+              <div class="price__head">
+                <p>Ultimates</p>
+                <sup>$</sup> 99 <sub>per month</sub>
+              </div>
+              <div class="price__body">
+                <ul>
+                  <li>30 Free Trail</li>
+                  <li>5 Free Projects</li>
+                  <li>PHP 5 Enabled</li>
+                  <li>24/7 Suports</li>
+                </ul>
+              </div>
+              <div class="price__footer">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="about" id="about">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">About Us</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit non reprehenderit temporibus nostrum laborum deleniti, consectetur.</p>
-				</div>
-			</div>
-			<div class="row justify-content-around">
-				<div class="col-xl-3">
-					<img class="about__img" src="images/internet.jpg" alt="#">
-					<h3 class="about__h3">Awesome Icons</h3>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptatibus cupiditate, error non obcaecati delectus!</p>
-				</div>
-				<div class="col-xl-3">
-					<img class="about__img" src="images/transfer.jpg" alt="#">
-					<h3 class="about__h3">One Page</h3>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat sed consequuntur, aliquam optio laudantium illum.</p>
-				</div>
-				<div class="col-xl-3">
-					<img class="about__img" src="images/head.jpg" alt="#">
-					<h3 class="about__h3">Fully Responsive</h3>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="team">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">Our Team Member</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+              impedit non reprehenderit temporibus nostrum laborum deleniti,
+              consectetur.
+            </p>
+          </div>
+        </div>
+        <div class="row multiple-items justify-content-center">
+          <div class="col-xl-4">
+            <img src="images/team1.jpg" alt="photo" />
+            <h4 class="name-member">John Doe 1</h4>
+            <p class="job-status">General Maneger</p>
+            <div class="icons">
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <img src="images/team2.jpg" alt="photo" />
+            <h4 class="name-member">John Doe 2</h4>
+            <p class="job-status">Office Director</p>
+            <div class="icons">
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <img src="images/team3.jpg" alt="photo" />
+            <h4 class="name-member">John Doe 3</h4>
+            <p class="job-status">Admin</p>
+            <div class="icons">
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-google fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="services" id="services">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">Our Services</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit non reprehenderit temporibus nostrum laborum deleniti, consectetur.</p>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-xl-4 boxes">
-					<div class="our_card">
-						<i class="fas fa-mobile-alt icon"></i>
-						<h3 class="about__h3">Research</h3>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-						<button class="button-services">Read more</button>
-					</div>
-				</div>
-				<div class="col-xl-4 boxes">
-					<div class="our_card">
-						<i class="fas fa-mobile-alt icon"></i>
-						<h3 class="about__h3">Portfolio</h3>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-						<button class="button-services">Read more</button>
-					</div>
-				</div>
-				<div class="col-xl-4 boxes">
-					<div class="our_card">
-						<i class="fas fa-mobile-alt icon"></i>
-						<h3 class="about__h3">Support</h3>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-						<button class="button-services">Read more</button>
-					</div>
-				</div>
-				<div class="col-xl-4 boxes">
-					<div class="our_card">
-						<i class="fas fa-mobile-alt icon"></i>
-						<h3 class="about__h3">Documentation</h3>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-						<button class="button-services">Read more</button>
-					</div>
-				</div>
-				<div class="col-xl-4 boxes">
-					<div class="our_card">
-						<i class="fas fa-mobile-alt icon"></i>
-						<h3 class="about__h3">Development</h3>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-						<button class="button-services">Read more</button>
-					</div>
-				</div>
-				<div class="col-xl-4 boxes">
-					<div class="our_card">
-						<i class="fas fa-mobile-alt icon"></i>
-						<h3 class="about__h3">Design</h3>
-						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum deserunt autem corporis nihil, illo!</p>
-						<button class="button-services">Read more</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">Blog</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+              omnis, minima dolore aliquid vitae illo nostrum rerum, adipisci
+              assumenda reiciendis!
+            </p>
+          </div>
+        </div>
+        <div class="row left">
+          <div class="col-xl-6">
+            <img src="images/blog1.jpg" alt="image" class="img-fluid" />
+          </div>
+          <div class="col-xl-6">
+            <div class="blog__part">
+              <a href="#">SEO Quis Vestibulum</a>
+              <div>
+                <span><i class="far fa-calendar-alt"></i>14.03.2019</span>
+                <span><i class="far fa-file-alt"></i>Development</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                minima dolorum vitae, consequuntur totam esse. Eos pariatur
+                eligendi, corporis eum!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row right">
+          <div class="col-xl-6">
+            <div class="blog__part">
+              <a href="#">SEO Quis Vestibulum</a>
+              <div>
+                <span><i class="far fa-calendar-alt"></i>14.03.2019</span>
+                <span><i class="far fa-file-alt"></i>Development</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                minima dolorum vitae, consequuntur totam esse. Eos pariatur
+                eligendi, corporis eum!
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <img src="images/blog2.jpg" alt="image" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row left last">
+          <div class="col-xl-6">
+            <img src="images/blog3.jpg" alt="image" class="img-fluid" />
+          </div>
+          <div class="col-xl-6">
+            <div class="blog__part">
+              <a href="#">SEO Quis Vestibulum</a>
+              <div>
+                <span><i class="far fa-calendar-alt"></i>14.03.2019</span>
+                <span><i class="far fa-file-alt"></i>Development</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                minima dolorum vitae, consequuntur totam esse. Eos pariatur
+                eligendi, corporis eum!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12">
+            <button class="button-blog">more view</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="portfolio" id="portfolio">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">Latest Works</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit non reprehenderit temporibus nostrum laborum deleniti, consectetur.</p>
-					<button val="on" class="button" filter="all">all</button>
-					<button val="off" class="button" filter="wd">web design</button>
-					<button val="off" class="button" filter="ud">ui/ux design</button>
-					<button val="off" class="button" filter="moc">mockups</button>
-				</div>
-			</div>
-			<div class="row filter">
-				<div filter="wd" class="col-xl-4">
-					<img src="images/item1.jpg" alt="picture">
-					<div class="text">
-						<h5>Hand Watch</h5>
-						<p>Web Design</p>
-					</div>
-				</div>
-				<div filter="ud" class="col-xl-4">
-					<img src="images/item2.jpg" alt="picture">
-					<div class="text">
-						<h5>Hand Watch</h5>
-						<p>Web Design</p>
-					</div>
-				</div>
-				<div filter="moc" class="col-xl-4">
-					<img src="images/item3.jpg" alt="picture">
-					<div class="text">
-						<h5>One Day Pass</h5>
-						<p>Mockups</p>
-					</div>
-				</div>
-				<div filter="wd" class="col-xl-4">
-					<img src="images/item4.jpg" alt="picture">
-					<div class="text">
-						<h5>Modal T-shirts</h5>
-						<p>Web Design</p>
-					</div>
-				</div>
-				<div filter="ud" class="col-xl-4">
-					<img src="images/item5.jpg" alt="picture">
-					<div class="text">
-						<h5>Hand Watch</h5>
-						<p>Web Design</p>
-					</div>
-				</div>
-				<div filter="moc" class="col-xl-4">
-					<img src="images/item6.jpg" alt="picture">
-					<div class="text">
-						<h5>Flask</h5>
-						<p>Mockups</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xl-12">
-				<button class="button">View all</button>
-			</div>
-		</div>
-	</section>
+    <section class="footer" id="contacts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <h2 class="about__title">Contact Us</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+              cumque perferendis illo ullam vitae facere odit consequatur. Iste
+              et corporis alias soluta!
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-around social-icons">
+          <div class="col-xl-3">
+            <div class="circle"><i class="fas fa-map-marker-alt"></i></div>
+            <p>Nobinagar savar, Dhaka Bangladesh</p>
+          </div>
+          <div class="col-xl-3">
+            <div class="circle"><i class="fas fa-phone fa-rotate-90"></i></div>
+            <p>
+              +881568742356<br />
+              +889571245638
+            </p>
+          </div>
+          <div class="col-xl-3">
+            <div class="circle"><i class="far fa-envelope"></i></div>
+            <p>quickmail@gmail.com quickmail@yahoo.com</p>
+          </div>
+        </div>
+        <div class="row justify-content-center form">
+          <div class="col-xl-5">
+            <input type="text" placeholder="Your NAME" />
+          </div>
+          <div class="col-xl-5">
+            <input type="email" placeholder="Your Email" />
+          </div>
+          <div class="col-xl-10">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Write Massage"
+            ></textarea>
+          </div>
+          <div class="col-xl-2 offset-xl-7"><button>Send</button></div>
+        </div>
+      </div>
+    </section>
 
-	<section class="pricing">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">Pricing Plan</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit non reprehenderit temporibus nostrum laborum deleniti, consectetur.</p>
-				</div>
-			</div>
-			<div class="row justify-content-around">
-				<div class="col-xl-4">
-					<div class="price">
-						<div class="price__head">
-							<p>Free Trail</p><sup>$</sup> 00 <sub>per month</sub>
-						</div>
-						<div class="price__body">
-							<ul>
-								<li>30 Free Trail</li>
-								<li>5 Free Projects</li>
-								<li>PHP 5 Enabled</li>
-								<li>24/7 Suports</li>
-							</ul>
-						</div>
-						<div class="price__footer">
-							<button>Order Now</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<div class="price">
-						<div class="price__head">
-							<p>Basic</p><sup>$</sup> 50 <sub>per month</sub>
-						</div>
-						<div class="price__body">
-							<ul>
-								<li>30 Free Trail</li>
-								<li>5 Free Projects</li>
-								<li>PHP 5 Enabled</li>
-								<li>24/7 Suports</li>
-							</ul>
-						</div>
-						<div class="price__footer">
-							<button>Order Now</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<div class="price">
-						<div class="price__head">
-							<p>Ultimates</p><sup>$</sup> 99 <sub>per month</sub>
-						</div>
-						<div class="price__body">
-							<ul>
-								<li>30 Free Trail</li>
-								<li>5 Free Projects</li>
-								<li>PHP 5 Enabled</li>
-								<li>24/7 Suports</li>
-							</ul>
-						</div>
-						<div class="price__footer">
-							<button>Order Now</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <footer class="rules">All Rights Reserved & 2019</footer>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 
-	<section class="team">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">Our Team Member</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit non reprehenderit temporibus nostrum laborum deleniti, consectetur.</p>
-				</div>
-			</div>
-			<div class="row multiple-items justify-content-center">
-				<div class="col-xl-4">
-					<img src="images/team1.jpg" alt="photo">
-					<h4 class="name-member">John Doe 1</h4>
-					<p class="job-status">General Maneger</p>
-					<div class="icons">
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-google fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<img src="images/team2.jpg" alt="photo">
-					<h4 class="name-member">John Doe 2</h4>
-					<p class="job-status">Office Director</p>
-					<div class="icons">
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-google fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<img src="images/team3.jpg" alt="photo">
-					<h4 class="name-member">John Doe 3</h4>
-					<p class="job-status">Admin</p>
-					<div class="icons">
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<a href="#">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-square fa-stack-2x"></i>
-								<i class="fab fa-google fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
 
-	<section class="blog" id="blog">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">Blog</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque omnis, minima dolore aliquid vitae illo nostrum rerum, adipisci assumenda reiciendis!</p>
-				</div>
-			</div>
-			<div class="row left">
-				<div class="col-xl-6">
-					<img src="images/blog1.jpg" alt="image" class="img-fluid">
-				</div>
-				<div class="col-xl-6">
-					<div class="blog__part">
-						<a href="#">SEO Quis Vestibulum</a>
-						<div>
-							<span><i class="far fa-calendar-alt"></i>14.03.2019</span>
-							<span><i class="far fa-file-alt"></i>Development</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima dolorum vitae, consequuntur totam esse. Eos pariatur eligendi, corporis eum!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row right">
-				<div class="col-xl-6">
-					<div class="blog__part">
-						<a href="#">SEO Quis Vestibulum</a>
-						<div>
-							<span><i class="far fa-calendar-alt"></i>14.03.2019</span>
-							<span><i class="far fa-file-alt"></i>Development</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima dolorum vitae, consequuntur totam esse. Eos pariatur eligendi, corporis eum!</p>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<img src="images/blog2.jpg" alt="image" class="img-fluid">
-				</div>
-			</div>
-			<div class="row left last">
-				<div class="col-xl-6">
-					<img src="images/blog3.jpg" alt="image" class="img-fluid">
-				</div>
-				<div class="col-xl-6">
-					<div class="blog__part">
-						<a href="#">SEO Quis Vestibulum</a>
-						<div>
-							<span><i class="far fa-calendar-alt"></i>14.03.2019</span>
-							<span><i class="far fa-file-alt"></i>Development</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima dolorum vitae, consequuntur totam esse. Eos pariatur eligendi, corporis eum!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xl-12">
-					<button class="button-blog">more view</button>
-				</div>
-			</div>
-		</div>
-	</section>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
-	<section class="footer" id="contacts">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-xl-8">
-					<h2 class="about__title">Contact Us</h2>
-					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, cumque perferendis illo ullam vitae facere odit consequatur. Iste et corporis alias soluta!</p>
-				</div>
-			</div>
-			<div class="row justify-content-around social-icons">
-				<div class="col-xl-3">
-					<div class="circle"><i class="fas fa-map-marker-alt"></i></div>
-					<p>Nobinagar savar, Dhaka Bangladesh</p>
-				</div>
-				<div class="col-xl-3">
-					<div class="circle"><i class="fas fa-phone fa-rotate-90"></i></div>
-					<p>+881568742356<br> +889571245638</p>
-				</div>
-				<div class="col-xl-3">
-					<div class="circle"><i class="far fa-envelope"></i></div>
-					<p>quickmail@gmail.com quickmail@yahoo.com</p>
-				</div>
-			</div>
-			<div class="row justify-content-center form">
-					<div class="col-xl-5"><input type="text" placeholder="Your NAME"></div>
-					<div class="col-xl-5"><input type="email" placeholder="Your Email"></div>
-					<div class="col-xl-10"><textarea name="" id="" cols="30" rows="10" placeholder="Write Massage"></textarea></div>
-					<div class="col-xl-2 offset-xl-7"><button>Send</button></div>
-			</div>
-		</div>
-	</section>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 
-	<footer class="rules">All Rights Reserved & 2019</footer>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
