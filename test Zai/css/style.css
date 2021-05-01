@@ -1,0 +1,120 @@
+* {
+ padding: 0;
+ margin: 0 auto;
+ box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  line-height: 22px;
+  overflow-x: hidden;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.6s;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+
+.header {
+}
+.container-fluid {
+ max-width: 1278px;
+  width: 100%;
+}
+.container {
+ max-width: 1014px;
+ width: 100%;
+}
+.header__social {
+}
+.header__logo {
+}
+.header__logo-link {
+}
+.header__logo-image {
+}
+.header__navigation {
+}
+.slider__home {
+}
+.about {
+}
+.about__block {
+}
+.about__title {
+}
+.about__content {
+}
+.about__content-image {
+}
+.about__content-text {
+}
+.about__content-list {
+}
+.about__content-item {
+}
+.news {
+}
+.news__block {
+}
+.news__title {
+}
+.news__content {
+}
+.news__content-img {
+}
+.news__content__text {
+}
+.date {
+}
+.news__read-link {
+}
+.slider__testimonials {
+}
+.contact {
+}
+.contact__block {
+}
+.contact__info {
+}
+.contact__info-title {
+}
+.contact__info-address {
+}
+.contact__info-connection {
+}
+.connection {
+}
+.contact__map {
+}
+.contact__map-title {
+}
+.contact__map-image {
+}
+.contact__form {
+}
+.contact__form-title {
+}
+.form {
+}
+.form__name {
+}
+.form__email {
+}
+.form__textarea {
+}
+.contact__form-button {
+}
+.contact__block-copyright {
+}
