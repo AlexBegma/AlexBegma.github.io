@@ -4,3 +4,11 @@ $(document).ready(function () {
     $("body").toggleClass("lock");
   });
 });
+
+// slider # 1
+$(".slider").slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+});
