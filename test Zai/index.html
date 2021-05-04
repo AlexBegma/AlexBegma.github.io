@@ -13,8 +13,8 @@
 
 <body>
 
- <div class="header container-fluid">
-  <header class="header container">
+ <div class="container-fluid">
+  <header class="header__block container">
    <div class="header__social">
     <a href="#"><img src="images/facebook.svg" alt="Facebook icon"></a>
     <a href="#"><img src="images/twitter.svg" alt="Twitter icon"></a>
@@ -23,17 +23,32 @@
    </div>
    <div class="header__logo">
     <a href="#" class="header__logo-link">
-     <img src="images/logo.png" alt="logo" class="header__logo-image"></a>
+     <img src="images/logo.png" alt="logo" class="header__logo-image">
+     <p>Background Landscaping</p>
+    </a>
    </div>
-   <nav class="header__navigation">
-    <ul>
-     <li><a href="#home">home</a></li>
-     <li><a href="#about">about</a></li>
-     <li><a href="#news">news</a></li>
-     <li><a href="#testimonials">testimonials</a></li>
-     <li><a href="#contact">contact us</a></li>
+   <nav class="header__navigation header__menu">
+    <ul class="header__list">
+     <li class="header__navigation-item">
+      <a class="header__navigation-link header__link" href="#home">home</a>
+     </li>
+     <li class="header__navigation-item">
+      <a class="header__navigation-link header__link" href="#about">about</a>
+     </li>
+     <li class="header__navigation-item">
+      <a class="header__navigation-link header__link" href="#news">news</a>
+     </li>
+     <li class="header__navigation-item">
+      <a class="header__navigation-link header__link" href="#testimonials">testimonials</a>
+     </li>
+     <li class="header__navigation-item">
+      <a class="header__navigation-link header__link" href="#contact">contact us</a>
+     </li>
     </ul>
    </nav>
+   <div class="header__burger">
+    <span></span>
+   </div>
   </header>
  </div>
 
@@ -42,15 +57,17 @@
  </section>
 
  <section class="about container-fluid" id="about">
-  <div class="about__block">
-   <div class="about__title">about us</div>
+  <div class="about__block container">
+   <h2 class="about__title">about us</h2>
    <div class="about__content">
     <div class="about__content-image">
-     <img src="" alt="">
+     <a class="about__content-link" href="#">
+      <img src="images/video.png" alt="image">
+     </a>
     </div>
     <div class="about__content-text">
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum sunt reiciendis at hic delectus ipsa eius
-      excepturi!</p>
+      excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod repellat officia!</p>
      <ol class="about__content-list">
       <li class="about__content-item">Lorem ipsum dolor sit amet consectetur.</li>
       <li class="about__content-item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
@@ -64,35 +81,35 @@
  </section>
 
  <section class="news container-fluid" id="news">
-  <div class="news__block">
-   <div class="news__title">latest news</div>
+  <div class="news__block container">
+   <h2 class="news__title">latest news</h2>
    <div class="news__content">
     <div class="news__content-img">
-     <img src="" alt="">
-     <div class="news__content__text">
-      <div class="date">posted 10.12.15</div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reiciendis, aut quasi mollitia quae voluptas
-       quaerat doloremque beatae optio eveniet, placeat aliquam quisquam illo quam iste ducimus! Eum quae exercitationem
-       labore iusto tempore sit expedita possimus adipisci eveniet consectetur beatae quidem, molestiae voluptates,
-       necessitatibus maiores, nam reprehenderit sapiente voluptatem dolorem eius laborum nisi tempora quam! Repudiandae
-       beatae, autem fuga perspiciatis aliquid quo magni iure totam maxime dolor natus assumenda, ex a nam.</p>
-      <a href="" class="news__read-link">read more</a>
-     </div>
+     <img src="images/lates-news-1.png" alt="image">
+    </div>
+    <div class="news__content-text">
+     <h4 class="news__content-title">news title</h4>
+     <div class="date">posted 10.12.15</div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reiciendis, aut quasi mollitia quae voluptas
+      quaerat doloremque beatae optio eveniet, placeat aliquam quisquam illo quam iste ducimus! Eum quae exercitationem
+      labore iusto tempore sit expedita possimus adipisci eveniet consectetur beatae quidem, molestiae voluptates,
+      necessitatibus maiores, nam reprehenderit sapiente voluptatem dolorem eius laborum nisi tempora quam! Repudiandae
+      beatae, autem fuga perspiciatis aliquid quo magni iure totam maxime dolor natus assumenda, ex a nam.</p>
+     <a href="" class="news__read-link read-link-1">read more</a>
     </div>
    </div>
-   <div class="news__content">
+   <div class="news__content revers">
     <div class="news__content-img">
-     <img src="" alt="">
-     <div class="news__content__text">
-      <div class="date">posted 10.12.15</div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, excepturi cupiditate? Minima animi dicta
-       veritatis laborum beatae. Aliquid molestias molestiae fugiat accusantium quo vitae deserunt fuga qui neque
-       doloremque, magni aspernatur repudiandae, consectetur culpa! Earum eveniet, soluta provident aliquid cum officiis
-       quos voluptatibus neque atque illo dolorem accusamus culpa ex consectetur optio omnis veritatis. Illo accusamus
-       nulla debitis nostrum sed odit pariatur quas temporibus. Ad, facilis cumque? Odit quis, saepe quidem voluptas ad
-       iure.</p>
-      <a href="" class="news__read-link">read more</a>
-     </div>
+     <img src="images/lates-news-2.png" alt="image">
+    </div>
+    <div class="news__content-text">
+     <h4 class="news__content-title">news title</h4>
+     <div class="date">posted 10.12.15</div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, excepturi cupiditate? Minima animi dicta
+      veritatis laborum beatae. Aliquid molestias molestiae fugiat accusantium quo vitae deserunt fuga qui neque
+      doloremque, magni aspernatur repudiandae, consectetur culpa! Earum eveniet, soluta provident aliquid cum officiis
+      quos voluptatibus neque atque illo dolorem accusamus culpa ex consectetur optio omnis veritatis.</p>
+     <a href="" class="news__read-link">read more</a>
     </div>
    </div>
   </div>
@@ -102,10 +119,10 @@
 
  </section>
 
- <section class="contact container-fluid" id="contact">
-  <div class="contact__block">
+ <footer class="contact container-fluid" id="contact">
+  <div class="contact__block container">
    <div class="contact__info">
-    <div class="contact__info-title">contact us</div>
+    <h3 class="contact__info-title">contact us</h3>
     <div class="contact__info-address">
      <p>Unit 8 Honywood Business Park</p>
      <p>Honywood Road</p>
@@ -118,27 +135,28 @@
     </div>
    </div>
    <div class="contact__map">
-    <div class="contact__map-title">find us</div>
+    <h3 class="contact__map-title">find us</h3>
     <div class="contact__map-image">
      <img src="images/map.png" alt="map">
     </div>
    </div>
    <div class="contact__form">
-    <div class="contact__form-title">write us</div>
-    <form action="index.html" class="form" autocomplete="on" method="GET">
-     <input type="text" class="form__name" required>
-     <input type="text" class="form__email" required>
-     <textarea class="form__textarea" form="zai-form" name="message" id="#" cols="30" rows="10">Message</textarea>
+    <h3 class="contact__form-title">write us</h3>
+    <form action="index.html" class="form" autocomplete="on" method="GET" name="zai-form">
+     <input type="text" class="form__name" placeholder="Name" required>
+     <input type="text" class="form__email" placeholder="E-mail" required>
+     <textarea class="form__textarea" form="zai-form" name="message" id="#" cols="30" rows="10"
+      placeholder="Message"></textarea>
      <button class="contact__form-button" type="submit">submit</button>
     </form>
    </div>
-   <div class="contact__block-copyright">
-    <p>Copyright 2015 SAI GB Ltd.</p>
-    <p><a href="#">Privacy Policy and Terms & Conditions</a></p>
-   </div>
   </div>
- </section>
+  <div class="contact__block-copyright container">
+   <p>Copyright 2015 SAI GB Ltd. <a href="#">Privacy Policy and Terms & Conditions</a></p>
+  </div>
+ </footer>
 
+ 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
  <script src="js/main.js"></script>
 </body>
 
