@@ -1,0 +1,21 @@
+#main {
+  .default-template {
+    padding: 0 65px;
+
+    .title-page {
+      font-size: 25px;
+      margin: 45px 0;
+      letter-spacing: 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .default-template {
+      padding: 0 15px;
+
+      .title-page {
+        margin: 20px 0;
+      }
+    }
+  }
+}
