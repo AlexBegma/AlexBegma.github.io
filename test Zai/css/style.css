@@ -474,6 +474,16 @@ ul {
   display: flex;
 }
 
+.slider-for.slick-slider {
+    max-width: 1278px;
+  width: 100%;
+}
+
+.slider-for__banner.slick-slide.slick-active {
+max-width: 666px;
+width: 100%;
+}
+
 .slider-for__banner {
   display: flex;
   width: 670px;
