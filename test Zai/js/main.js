@@ -17,46 +17,47 @@ $(".slider").slick({
 
 // testimonials-slider
 $(".slider-for").slick({
-  slidesToShow: 3,
+  centerMode: true,
+  centerPadding: "60px",
+  slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
+  infinite: false,
   asNavFor: ".slider-nav",
 });
 $(".slider-nav").slick({
-  slidesToShow: 3,
+  slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor: ".slider-for",
-  dots: false,
-  centerMode: true,
-  focusOnSelect: true,
+ dots: true,
 });
 
 
-$(".center").slick({
-  centerMode: true,
-  centerPadding: "60px",
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 1,
-      },
-    },
-  ],
-});
+// $(".center").slick({
+//   centerMode: true,
+//   centerPadding: "60px",
+//   slidesToShow: 3,
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: "40px",
+//         slidesToShow: 3,
+//       },
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: "40px",
+//         slidesToShow: 1,
+//       },
+//     },
+//   ],
+// });
 
 
 

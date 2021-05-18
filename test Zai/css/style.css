@@ -132,8 +132,7 @@ ul {
   display: none;
 }
 
-.rrr {
-}
+
 /* Slider__home */
 .slider__home {
   position: relative;
@@ -150,6 +149,7 @@ ul {
 
 .slick-track {
   display: flex;
+  width: 666px;
 }
 
 .slider__image,
@@ -217,8 +217,9 @@ ul {
   color: #fff;
   font-weight: 300;
 }
-.rrr {
-}
+
+
+
 /* About */
 .about {
 }
@@ -457,70 +458,71 @@ ul {
   right: 0;
 }
 
-.slider-for {
-  position: relative;
-  display: flex;
-  max-width: 1278px;
-  width: 100%;
+.testimonials .slider-for {
+ position: relative;
+   display: flex;
+     min-width: 0;
+ width: 100%;
 }
 
 .testimonials .slick-list {
   overflow: hidden;
-    max-width: 1278px;
+    /* max-width: 1278px; */
   width: 100%;
 }
 
 .testimonials .slick-track {
   display: flex;
+  width: 100%;
+    /* width: 666px; */
 }
 
-.slider-for.slick-slider {
-    max-width: 1278px;
+.testimonials .slider-for.slick-slider {
+    /* max-width: 1278px; */
   width: 100%;
 }
 
-.slider-for__banner.slick-slide.slick-active {
-max-width: 666px;
-width: 100%;
+.testimonials .slider-for__banner.slick-slide.slick-active {
+/* max-width: 666px;
+width: 100%; */
 }
 
-.slider-for__banner {
+/* .testimonials .slider-for__banner {
   display: flex;
   width: 670px;
-}
+} */
 
-.banner__box {
+.testimonials .banner__box.slick-slide {
   display: flex;
-  max-width: 670px;
+  /* max-width: 670px; */
   width: 100%;
   max-height: 190px;
   height: 100%;
   border: 2px solid #80b412;
 }
 
-.banner__box p {
+.testimonials .banner__box p {
   font-size: 22px;
   color: #222;
   margin: 0;
-  width: 666px;
+  /* width: 666px; */
   height: 162px;
-  /* border: 2px solid #80b412; */
 }
 
-.banner-image {
+.testimonials .banner-image {
   width: 147px;
   height: 113px;
 }
 
-.slider-for__banner.slick-slide.slick-current.slick-active {
+.testimonials .slider-for__banner.slick-slide.slick-current.slick-active {
   margin: 0;
 }
 
-.slider-nav {
+.testimonials .slider-nav {
   display: flex;
 }
 
-.slider-nav__item {
+.testimonials .slider-nav__item {
   width: 62px;
   height: 62px;
   border-radius: 50%;
@@ -534,7 +536,7 @@ width: 100%;
   border-radius: 50%;
 }
 
-.slide-navigation.slick-slide {
+.testimonials .slide-navigation.slick-slide {
   display: flex;
   justify-content: center;
   align-items: center;
