@@ -9,8 +9,10 @@
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="styles/style.min.css">
-
+<link rel="shortcut icon" href="img/favicon_car_black_48dp.png" type="image/x-icon">
 <script defer src="js/accordion.js"></script>
+<script defer src="js/smoothSckroll.js"></script>
+<script defer src="js/tabs.js"></script>
 </head>
 
 <body>
@@ -97,12 +99,13 @@
      <img src="img/car/image-5.png" alt="BMW X6" class="feature__img design-block__img" data-tabs-field="interior">
      <img src="img/car/image-4.png" alt="BMW X6" class="feature__img design-block__img hidden" data-tabs-field="body">
      <div class="design-text">
-      <h2 class="section__title design__title">
+      <h2 class="section__title design__title" data-tabs-field="interior">
        Комфорт в деталях
       </h2>
-      <h2 class="section__title design__title hidden">
+      <h2 class="section__title design__title hidden" data-tabs-field="body">
        Притягивает взгляды
       </h2>
+      
       <ul class="design-list">
        <li>
         <button type="button" class="design-list__item design-list__item_active" data-tabs-handler="interior">Дизайн
