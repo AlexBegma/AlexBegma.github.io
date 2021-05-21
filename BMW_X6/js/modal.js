@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modalElem.classList.remove("hidden");
   };
 
-  // moreElem.addEventListener("click", openModal);
+  moreElem.addEventListener("click", openModal);
 
   const closeModal = () => {
     modalElem.classList.add("hidden");
