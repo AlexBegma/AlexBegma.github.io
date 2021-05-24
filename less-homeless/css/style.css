@@ -169,10 +169,8 @@ h6 {
   background: #f6d580;
   border-radius: 5px;
 }
-.header-page__button img {
-  margin-right: 10px;
-  width: 60px;
-  height: 55px;
+.header-page__button svg {
+  margin-right: 16px;
 }
 .header-page__button:hover {
   background-color: #d57120;
@@ -200,7 +198,8 @@ h6 {
   display: block;
   max-width: 516px;
   width: 100%;
-  height: 348px;
+  max-height: 348px;
+  height: 100%;
   background-color: #c4c4c4;
   padding-top: 25%;
   margin-left: 0;
@@ -220,7 +219,7 @@ h6 {
 .article-block__content {
   max-width: 768px;
   width: 100%;
-  margin-right: 0;
+  margin: 0 0 0 22px;
 }
 .content-title {
   font-size: 30px;
@@ -248,7 +247,7 @@ h6 {
   width: 100%;
 }
 .join__more-quantity {
-  margin: 0;
+  margin: 0 0 0 15px;
 }
 .join__more-quantity-link {
   text-decoration: none;
