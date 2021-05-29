@@ -159,7 +159,7 @@ h6 {
   font-size: 20px;
   line-height: 26px;
 }
-.header-page__button {
+/* .header-page__button {
   text-align: center;
   font-size: 18px;
   line-height: 21px;
@@ -168,7 +168,37 @@ h6 {
   padding: 0 80px;
   background: #f6d580;
   border-radius: 5px;
+} */
+
+/* версия для страницы "Счастливые истории без написания" */
+.header-page__button {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  width: 540px;
+  height: 90px;
+  padding: 0 40px;
+  background: #f6d580;
+  border-radius: 5px;
 }
+.header-page__button-content {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+}
+.send-email,
+.send-email a {
+ font-size: 14px;
+font-weight: 300;
+}
+.send-email a {
+ font-weight: 400;
+ color: #1837A4;
+}
+.send-email a:hover {
+ color: #fff;
+}
+
 .header-page__button svg {
   margin-right: 16px;
 }
