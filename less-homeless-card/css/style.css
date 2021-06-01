@@ -26,15 +26,6 @@ a {
   text-decoration: none;
 }
 
-/* a,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-} */
-
 aside,
 nav,
 footer,
@@ -50,8 +41,6 @@ body {
 }
 
 body {
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
   line-height: 23px;
   font-style: normal;
   font-weight: 500;
@@ -359,10 +348,6 @@ top: 91px;
 }
 .right-wrapper {
 margin-left: 30px;
-}
-.image-block__link {
- /* width: 570px;
- height: 310px; */
 }
 .image-block__link.image-block-left {
  position: absolute;
