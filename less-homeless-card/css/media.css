@@ -1,0 +1,135 @@
+@media (max-width: 1500px) {
+   .main-content__text P {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .slick-prev.slick-arrow {
+    left: 100px;
+  }
+  .slick-next.slick-arrow {
+    right: 100px;
+  }
+}
+
+@media (max-width: 1234px) {
+  .yellow-paw {
+    width: 155px;
+    height: 155px;
+  }
+  .yellow-paw__text {
+    font-size: 14px;
+    padding-top: 47%;
+    padding-right: 24px;
+  }
+  .left-wrapper {
+   margin: 0;
+}
+.right-wrapper {
+margin: 0;
+}
+}
+
+@media (max-width: 1024px) {
+  .manage__return {
+    position: relative;
+    margin: 0 0 0 33px;
+  }
+  .manage__renewal {
+    margin: 0 33px 0 0;
+  }
+  .yellow-paw {
+    display: none;
+  }
+  .slider-card__header {
+    text-align: center;
+    padding-left: 0;
+  }
+  .slick-prev.slick-arrow {
+    left: 40px;
+  }
+  .slick-next.slick-arrow {
+    right: 40px;
+  }
+  .for-box,
+  .for-image {
+    max-width: 713px;
+    width: 100%;
+    max-height: 476px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .slick-prev.slick-arrow {
+    display: none;
+  }
+  .slick-next.slick-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-card__header {
+    margin-bottom: 0;
+  }
+  .slider-nav .slider-list .slider-track {
+   display: flex;
+   flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+ .site-main {
+   padding: 30px 12px;
+ }
+ .manage {
+ margin-bottom: 20px;
+}
+.manage__renewal {
+ margin: 0;
+}
+.manage__renewal-info {
+ text-align: center;
+}
+.slider-card {
+ margin-bottom: 0;
+}
+.main-content {
+  margin-bottom: 30px;
+}
+.main-content__text {
+ font-size: 16px;
+}
+.social {
+ margin-bottom: 30px;
+}
+.image-block__wrapper {
+ max-width: 572px;
+ width: 100%;
+}
+.left-wrapper,
+.right-wrapper {
+ margin: 0;
+ padding: 0;
+}
+.image-block__link.image-block-left {
+ top: 0;
+ right: 0;
+ left: 0;
+ margin-bottom: 12px;
+}
+.image-block__link.image-block-right {
+ top: 0;
+ left: 0;
+}
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+}

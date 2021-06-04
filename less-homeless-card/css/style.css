@@ -261,7 +261,7 @@ background-image: url('../images/arrow-right-slider.png');
   padding: 0;
 }
 .slider-nav .slick-list.draggable {
-  width: 713px;
+  max-width: 713px;
   padding: 0;
 }
 .nav-box {
@@ -297,7 +297,7 @@ top: 91px;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   border-radius: 5px;
 }
@@ -337,6 +337,7 @@ top: 91px;
 }
 .image-block {
  flex-wrap: wrap;
+ margin: 0 auto;
 }
 .image-block__wrapper {
  position: relative;

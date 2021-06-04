@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Счастливые истории</title>
+ <link rel="preconnect" href="https://fonts.gstatic.com" />
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+ <link rel="shortcut icon" href="./images/baseline_pets_black_48dp.png" type="image/x-icon" />
+ <link rel="stylesheet" href="./css/style.css" />
+ <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+ <div class="site-content" id="content">
+  <div class="container">
+   <div class="content-area" id="primary">
+    <main class="site-main" id="main" role="main">
+     <div class="manage flex-between-center">
+      <div class="manage__return">
+       <a href="#" class="return-link">Вернуться к историям</a>
+      </div>
+     </div>
+
+     <div class="appeal">
+      <p class="appeal__header">Мы ждем ваши истории!
+      </p>
+      <div class="appeal__block-1">
+       <p>Расскажите, как появился питомец в вашем доме, и как он себя чувствует сейчас.
+       </p>
+       <p>Как изменилась ваша жизнь с появлением питомца?
+       </p>
+       <p>С какими трудностями пришлось столкнуться и как вы их преодолевали?
+       </p>
+      </div>
+      <div class="appeal__block-2">
+       <p>Не скупитесь на слова и эмоции, описывайте все так, как есть!
+       </p>
+       <p>Возможно, именно ваш рассказ поможет кому-то тоже совершить добрый и правильный поступок.
+       </p>
+      </div>
+     </div>
+
+     <form class="form" action="#" method="get" id="history-form">
+      <fieldset>
+       <ul role="none">
+        <li class="inputs-name-email flex-between-center">
+         <div class="box-name">
+          <label for="name">Ваше имя</label>
+          <input class="form__input input-name" type="text" name="name" id="name" required>
+         </div>
+         <div class="box-email">
+          <label for="email">Ваш E-mail</label>
+          <input class="form__input input-email" type="text" name="email" id="email" required>
+         </div>
+        </li>
+        <li class="topic">
+         <label for="topic">Тема вашей истории</label>
+         <input class="form__input input-topic" type="text" name="topic" id="topic" required>
+        </li>
+        <li class="history-textarea flex-column-center">
+         <label for="history">Ваша история</label>
+         <textarea class="form__textarea" name="textarea" id="history" cols="100" rows="10"></textarea>
+        </li>
+       </ul>
+      </fieldset>
+      <div class="form__footer flex-between-center">
+       <div class="form__footer-addfiles">
+        <div class="addfiles__header">Добавьте фотографии</div>
+        <div class="addfiles__content">
+         <div class="addfiles__content-file">
+          <a href="#" class="addfiles__content-link">
+           <img src="./images/addfiles-icon.png" alt="icon">
+          </a>
+         </div>
+         <div class="addfiles__content-text">
+          <p>Нажмите на кнопку или перетащите файлы в эту область</p>
+          <p>до 5 изображений в формате jpg, jpeg, png.</p>
+         </div>
+        </div>
+       </div>
+       <div class="form__footer-consent flex-between-center">
+        <input type="checkbox"></input>
+        <div class="consent-text">
+         <p>Я подтверждаю свое согласие на <a href="#">обработку персональных данных.</a>
+         </p>
+        </div>
+       </div>
+      </div>
+      <button class="form__button" type="submit" form="history-form" value="#">ОТПРАВИТЬ</button>
+     </form>
+
+
+    </main>
+   </div>
+  </div>
+ </div>
+</body>
+
+</html>
