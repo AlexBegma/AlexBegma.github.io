@@ -246,6 +246,7 @@ h6 {
 .form__textarea {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
+  margin-top: 10px;
 }
 .input-name,
 .input-email {
