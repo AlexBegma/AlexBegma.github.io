@@ -138,6 +138,9 @@ h6 {
  position: relative;
  margin: 0;
 }
+.manage__return:hover {
+ text-decoration: underline;
+}
 .manage__return::before {
  position: absolute;
  content: "";
@@ -231,7 +234,7 @@ padding-left: 28%;
 }
 .slick-prev.slick-arrow {
  position: absolute;
- top: 50%;
+ top:  calc(50% - 28px);
 left: 290px;
 font-size: 0;
 width: 31px;
@@ -241,7 +244,7 @@ background-image: url('../images/arrow-left-slider.png');
 }
 .slick-next.slick-arrow {
  position: absolute;
- top: 50%;
+ top:  calc(50% - 28px);
 right: 290px;
 font-size: 0;
 width: 31px;
