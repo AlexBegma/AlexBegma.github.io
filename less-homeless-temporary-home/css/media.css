@@ -1,13 +1,7 @@
-@media (max-width: 1440px) {
-}
 @media (max-width: 1260px) {
  .image-block__wrapper {
 margin: 0;
  }
-}
-@media (max-width: 1024px) {
-}
-@media (max-width: 992px) {
 }
 @media (max-width: 768px) {
  .phone-button {
@@ -50,8 +44,4 @@ margin: 0;
   .questions {
     padding: 0 22px;
   }
-}
-@media (max-width: 425px) {
-}
-@media (max-width: 375px) {
 }
