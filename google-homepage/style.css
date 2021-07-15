@@ -232,15 +232,18 @@ footer {
 }
 
 .left-links {
- font-size: 16px;
   max-width: 330px;
   width: 100%;
   margin-left: 33px;
 }
 
 .right-links {
- font-size: 16px;
   max-width: 215px;
   width: 100%;
   margin-right: 33px;
+}
+
+.left-links a,
+.right-links a {
+ font-size: 16px;
 }
