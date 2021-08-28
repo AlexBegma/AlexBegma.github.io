@@ -16,20 +16,33 @@
 
  <div class="slider">
 
-  <menu class="menu">
-   <a href="#" class="menu-toggle">חדש</a>
-   <ul class="dropdown">
-    <li>
-     <a href="#" class="dropdown-item">HEBA COSMETICS</a>
-    </li>
-    <li>
-     <a href="#" class="dropdown-item">GAMESCAPE COLLECTION</a>
-    </li>
-    <li>
-     <a href="#" class="dropdown-item">HEALTHY GLOW</a>
-    </li>
-   </ul>
-  </menu>
+  <div class="header">
+   <div class="header__burger">
+    <span></span>
+   </div>
+   <nav class="header__menu">
+    <ul class="header__list">
+     <li>
+      <a href="#" class="header__link drop">חדש</a>
+      <ul class="dropdown-menu">
+       <li>
+        <a href="#" class="dropdown-item">HEBA COSMETICS</a>
+       </li>
+       <li>
+        <a href="#" class="dropdown-item">GAMESCAPE COLLECTION</a>
+       </li>
+       <li>
+        <a href="#" class="dropdown-item">HEALTHY GLOW</a>
+       </li>
+      </ul>
+     </li>
+
+    </ul>
+   </nav>
+  </div>
+
+
+
 
   <div class="item">
    <img src="images/Slider_1.png" alt="slide_1">
@@ -62,12 +75,12 @@
   </div>
 
   <ul class="products">
-
-   <a class="read-more" href="#">
-    <span>READ MORE</span>
-    <img src="./images/Vector.png" alt="vector">
-   </a>
-
+   <li>
+    <a class="read-more" href="#">
+     <span>READ MORE</span>
+     <img src="./images/Vector.png" alt="vector">
+    </a>
+   </li>
    <li class="content">
     <a class="content__link" href="#">
      <img class="content__image" src="./images/eyebrow.png" alt="image">
@@ -120,6 +133,7 @@
 
  </div>
 
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
  <script src="./main.js"></script>
 </body>
 

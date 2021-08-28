@@ -1,4 +1,3 @@
-
 /* Индекс слайда по умолчанию */
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -33,8 +32,16 @@ function showSlides(n) {
   slides[i].style.display = "none";
  }
  for (i = 0; i < dots.length; i++) {
-  dots[i].className = dots[i].className.replace("active", "");
+  dots[i].className = dots[i].className.replace("active-dot", "");
  }
  slides[slideIndex - 1].style.display = "block";
- dots[slideIndex - 1].className += " active";
+ dots[slideIndex - 1].className += " active-dot";
 }
+
+
+$(document).ready(function () {
+  $(".header__burger").click(function (event) {
+    $(".header__burger, .header__menu").toggleClass("active");
+    $("body").toggleClass("lock");
+  });
+});
