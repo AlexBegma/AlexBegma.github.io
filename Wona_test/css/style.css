@@ -332,6 +332,10 @@ li {
   margin: 0;
 }
 
+.excerpt__info {
+   unicode-bidi: bidi-override;
+}
+
 .product-action {
   width: 250px;
   height: 46px;
