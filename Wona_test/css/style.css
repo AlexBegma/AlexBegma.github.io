@@ -87,7 +87,7 @@ li {
   top: 1px;
 }
 .header__burger:after {
-  bottom: 1px;
+  bottom: 0px;
 }
 
 .header__burger.active span {
