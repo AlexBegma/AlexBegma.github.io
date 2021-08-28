@@ -1,17 +1,23 @@
-@media all and (max-width: 1200px) {
+@media all and (max-width: 860px) {
+  .content {
+    width: 50%;
+  }
 }
 
 @media all and (max-width: 768px) {
- .info__title {
-font-size: 22px;
-line-height: 34px;
- }
+  .info__title {
+    font-size: 22px;
+    line-height: 34px;
+  }
 
- .info__text {
-  font-size: 16px;
-  line-height: 26px;
- }
+  .info__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 576px) {
+ .content {
+    width: 100%;
+  }
 }
