@@ -1,0 +1,61 @@
+{
+ "products": [
+  {
+   "id": 5,
+   "url": "#",
+   "title": "Grifo",
+   "text": "Night lamp",
+   "labels":[
+    {
+     "type": "sale",
+     "value": "-55%"
+    },
+        {
+     "type": "new",
+     "value": "New"
+    }
+   ],
+   "image": "image-5.png",
+   "price": "1.330.500",
+   "priceOld": "",
+   "shareUrl": "",
+   "likeUrl": ""
+  },
+    {
+   "id": 6,
+   "url": "#",
+   "title": "Grifo",
+   "text": "Night lamp",
+   "labels":"",
+   "image": "image-6.png",
+   "price": "1.330.600",
+   "priceOld": "",
+   "shareUrl": "",
+   "likeUrl": ""
+  },
+    {
+   "id": 7,
+   "url": "#",
+   "title": "Grifo",
+   "text": "Night lamp",
+   "labels":"",
+   "image": "image-7.png",
+   "price": "1.330.700",
+   "priceOld": "",
+   "shareUrl": "",
+   "likeUrl": ""
+  },
+    {
+   "id": 8,
+   "url": "#",
+   "title": "Grifo",
+   "text": "Night lamp",
+   "labels":"",
+   "image": "image-8.png",
+   "price": "1.330.800",
+   "priceOld": "",
+   "shareUrl": "",
+   "likeUrl": ""
+  }
+ ]
+}
