@@ -226,6 +226,10 @@ h6 {
   border-radius: 0px 0px 5px 5px;
   margin-bottom: 90px;
 }
+.dog-card:hover {
+ margin-top: -3px;
+  box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+}
 .card-1 {
 }
 .dog-card__labels {
