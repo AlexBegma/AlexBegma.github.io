@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Каталог-фильтр</title>
+ <link rel="preconnect" href="https://fonts.gstatic.com" />
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+ <link rel="shortcut icon" href="images/baseline_pets_black_48dp.png" type="image/x-icon" />
+ <link rel="stylesheet" href="./css/style.css" />
+ <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+ <div class="site-content" id="content">
+  <div class="container">
+   <div class="content-area" id="primary">
+    <main class="site-main" id="main" role="main">
+
+     <header class="site-main__header">
+      <h1 class="header-page__title">Питомцы, которые ищут дом</h1>
+     </header>
+
+     <form class="form" action="" method="get">
+      <input class="form__search-input" name="search-input" placeholder="Поиск по кличке" type="search">
+      <button class="form__button" type="submit"></button>
+     </form>
+
+     <div class="filter"></div>
+
+     <div class="catalog">
+
+      <div class="catalog__info">
+       <div class="cards__sorting_info">По вашему запросу нашлось: <span>30</span> объявлений
+       </div>
+       <div class="cards__sorting">
+        <span>Сортировка:</span>
+        <select class="cards__select" name="#" id="#">
+         <option value="#">сначала новые</option>
+         <option value="#">сначала старые</option>
+         <option value="#">от А до Я</option>
+         <option value="#">от Я до А</option>
+        </select>
+       </div>
+      </div>
+
+      <div class="cards">
+
+       <article class="dog-card card-1" data-pid="1">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-1.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Арчи, 7 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-2" data-pid="2">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-2.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Варька, 7 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-3" data-pid="3">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-3.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Дымка, 7 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-4" data-pid="4">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-4.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Кася, 8 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-5" data-pid="5">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-5.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Лучик, 7 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-6" data-pid="6">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-6.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Мерлин, 8 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-7" data-pid="7">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-7.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Мотя, 8 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-8" data-pid="8">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-8.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Снап, 11 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-9" data-pid="9">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-9.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Пенни, 10 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-10" data-pid="10">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-10.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Пуш, 10 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-11" data-pid="11">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-11.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Шейла, 8 лет</h5>
+        </div>
+       </article>
+
+       <article class="dog-card card-12" data-pid="12">
+        <div class="dog-card__labels flex-column-center">
+         <span class="dog-card__label dog-card__label_happening">Особый случай</span>
+         <span class="dog-card__label dog-card__label_friend">Старый друг</span>
+        </div>
+        <a href="#" class="dog-card__image">
+         <img src="images/dog-12.png" alt="image-1">
+        </a>
+        <div class="dog-card__content">
+         <h5 class="dog-card__title">Янтарь, 55 лет</h5>
+        </div>
+       </article>
+
+      </div>
+     </div>
+
+    <section class="join flex-column-between">
+      <div class="join__more flex-between-center">
+       <div class="join__more-link join__more-item">
+        <a href="#">ПОКАЗАТЬ ЕЩЁ</a>
+       </div>
+       <div class="join__more-pagination join__more-item flex-between-center">
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+       </div>
+      </div>
+     </section>
+
+    </main>
+   </div>
+  </div>
+ </div>
+</body>
+
+</html>
