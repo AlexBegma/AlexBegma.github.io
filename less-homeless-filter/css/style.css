@@ -26,15 +26,6 @@ a {
   text-decoration: none;
 }
 
-/* a,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-} */
-
 aside,
 nav,
 footer,
@@ -121,8 +112,6 @@ h6 {
   align-items: center;
 }
 
-.site-content {
-}
 .container {
   display: flex;
   flex-direction: column;
@@ -135,12 +124,10 @@ h6 {
   max-width: 1396px;
   width: 100%;
 }
-
 .site-main__header {
   margin-top: 80px;
   margin-bottom: 32px;
 }
-
 .header-page__title {
   font-style: normal;
   font-weight: 400;
@@ -149,7 +136,6 @@ h6 {
   color: #213632;
   text-align: center;
 }
-
 .form {
   position: relative;
   display: flex;
@@ -162,12 +148,10 @@ h6 {
   cursor: pointer;
   margin-right: 0;
 }
-
 .form__search-input {
   background: #f7fbfe;
   margin-left: 40px;
 }
-
 .form__button {
   position: absolute;
   top: 10px;
@@ -183,8 +167,6 @@ h6 {
   margin-bottom: 70px;
 }
 
-.catalog {
-}
 .catalog__info {
   display: flex;
   justify-content: space-between;
@@ -200,7 +182,6 @@ h6 {
 .cards__sorting {
   margin: 0;
 }
-
 .cards__sorting span {
   font-size: 16px;
   line-height: 19px;
@@ -211,7 +192,6 @@ h6 {
   line-height: 22px;
   color: #213632;
 }
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -229,8 +209,6 @@ h6 {
 .dog-card:hover {
  margin-top: -3px;
   box-shadow: 2px 3px 5px rgba(0,0,0,.3);
-}
-.card-1 {
 }
 .dog-card__labels {
   position: absolute;
@@ -300,13 +278,10 @@ h6 {
   align-items: center;
   color: #213632;
 }
-.dog-card__title {
-}
-.dog-card__text {
-}
 
 .join {
-  height: 188px;
+  min-height: 188px;
+  height: 100%;
   margin-bottom: 140px;
 }
 .join__more {
@@ -314,6 +289,9 @@ h6 {
   flex-wrap: wrap;
   width: 100%;
   height: auto;
+}
+.join__more-content {
+ width: 0;
 }
 .join__more-link {
   position: relative;
@@ -323,8 +301,6 @@ h6 {
   height: auto;
   background: #f0b213;
   border-radius: 4px;
-  margin-right: 0;
-  /* margin-left: 0; */
   margin-bottom: 16px;
 }
 .join__more-link a {
@@ -343,7 +319,7 @@ h6 {
   transition: all 0.3s linear;
 }
 .join__more-pagination {
-  width: 130px;
+  width: 14%;
   margin-right: 0;
   margin-bottom: 16px;
 }
