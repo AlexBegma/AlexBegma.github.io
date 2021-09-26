@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a {
+  color: #213632;
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 23px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+  color: #213632;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.container {
+ width: 1110px;
+}
+
+.header {
+}
+.menu {
+}
+.container {
+}
+.logo {
+}
+.menu__logo {
+}
+.menu__logo_img {
+}
+.header__btn-menu {
+}
+.icon-bars {
+}
+.navigation {
+}
+.menu__items {
+}
+.menu__item {
+}
+.menu__item_link {
+}
+.avatar {
+}
+.avatar__link {
+}
+.avatar__img {
+}
+.header__image {
+}
+.header-content {
+}
+.header-content__title {
+}
+.header-content__text {
+}
+.header-content__buttons {
+}
+.start {
+}
+.learn {
+}
+.advantages {
+}
+.advantages__title {
+}
+.advantages__text {
+}
+.advantages__columns {
+}
+.column {
+}
+.column__icon {
+}
+.column__icon-image {
+}
+.column__title {
+}
+.column__text {
+}
+.column__link {
+}
+.slider {
+}
+.articles {
+}
+.articles__wrapper {
+}
+.articles__header {
+}
+.articles__header-title {
+}
+.articles__header-text {
+}
+.articles__content {
+}
+.article__link {
+}
+.article-image-wrapper {
+}
+.article__image {
+}
+.footer {
+}
+.footer__info {
+}
+.footer__content {
+}
+.footer__logo-copy {
+}
+.footer__logo {
+}
+.footer__copy {
+}
+.footer__menu {
+}
+.footer__menu_services {
+}
+.footer__menu_about {
+}
+.footer__subscribe {
+}
+.form {
+}
+.form__title {
+}
+.form__button {
+}
+.footer__social {
+}
+.social-link {
+}
