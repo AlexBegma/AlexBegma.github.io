@@ -59,12 +59,7 @@ body {
   font-weight: 400;
   background-color: #fff;
   color: #373f41;
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   max-width: 1440px;
   width: 100%;
