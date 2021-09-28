@@ -7,48 +7,41 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <title>landing_</title>
  <link rel="shortcut icon" href="./images/suitcase.png" type="image/x-icon" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+ <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
  <link rel="stylesheet" href="css/style.css" />
  <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body>
  <header class="header">
-  <menu class="menu">
-   <div class="container">
+  <div class="container menu-wrapper">
+   <div class="menu">
     <div class="logo">
-     <a href="#" class="menu__logo">
-      <img class="menu__logo_img" src="#" alt="logo-image" />
+     <a href="#" class="logo__link">
+      <img class="logo__link_img" src="images/LOGO.png" alt="logo-image" />
      </a>
     </div>
     <div class="header__btn-menu">
      <span class="icon-bars"></span>
     </div>
-    <nav class="navigation">
-     <ul class="menu__items">
-      <li class="menu__item">
-       <a href="#" class="menu__item_link">Item first</a>
-      </li>
-      <li class="menu__item">
-       <a href="#" class="menu__item_link">Item two</a>
-      </li>
-      <li class="menu__item">
-       <a href="#" class="menu__item_link">Item three</a>
-      </li>
-      <li class="menu__item">
-       <a href="#" class="menu__item_link">Item four</a>
-      </li>
-      <li class="menu__item">
-       <a href="#" class="menu__item_link">Item five</a>
-      </li>
-     </ul>
-    </nav>
+    <div class="menu__items">
+     <a href="#advantages" class="menu__item_link">Item first</a>
+     <a href="#slider" class="menu__item_link">Item two</a>
+     <a href="#articles" class="menu__item_link">Item three</a>
+     <a href="#footer" class="menu__item_link">Item four</a>
+     <a href="#" class="menu__item_link">Item five</a>
+    </div>
     <div class="avatar">
      <a href="#" class="avatar__link">
-      <img class="avatar__img" src="#" alt="avatar-icon" />
+      <img class="avatar__img" src="images/avatar.png" alt="avatar-icon" />
      </a>
     </div>
    </div>
-  </menu>
+  </div>
   <div class="header__image">
    <div class="header-content">
     <h1 class="header-content__title">
@@ -60,68 +53,112 @@
      molestiae te.
     </div>
     <div class="header-content__buttons">
-     <button class="start">Start right now</button>
-     <button class="learn">Learn more</button>
+     <a href="#modal" class="start">Start right now</a>
+     <a href="#" class="learn">Learn more</a>
     </div>
    </div>
   </div>
  </header>
 
- <section class="advantages">
+ <div class="modal" id="modal" tabindex="-1">
+  <a href="#" class="modal__overlay" aria-label="Close modal"></a>
+  <div class="modal__content">
+   <a href="#" class="modal__close" aria-label="Close modal">&times;</a>
+   <form class="form-modal">
+    <h2>log in</h2>
+    <div class="floating">
+     <input id="input__username" class="floating__input" name="username" type="text" value="Email:" />
+    </div>
+    <div class="floating">
+     <input id="input__password" type="password" class="floating__input" name="password" placeholder="Password" />
+    </div>
+    <button class="button">submit</button>
+   </form>
+  </div>
+ </div>
+
+ <section class="advantages" id="advantages">
   <div class="container">
-   <h2 class="advantages__title">
-    Grow your business with better Shipping
-   </h2>
-   <div class="advantages__text">
-    We help the world’s leading organizations follow their shipping
+   <div class="advantages__header">
+    <h2 class="advantages__title">
+     Grow your business with better Shipping
+    </h2>
+    <div class="advantages__text">
+     We help the world’s leading organizations follow their shipping
+    </div>
    </div>
    <div class="advantages__columns">
     <div class="column">
      <div class="column__icon">
-      <img src="" alt="icon-image" class="column__icon-image" />
+      <img src="images/briefcase.png" alt="icon-image" class="column__icon-image" />
      </div>
      <div class="column__title">Doloremque laudantium</div>
      <div class="column__text">
       At eripuit signiferumque sea, vel ad mucius molestie, cu labitur
       iuvaret vulputate sed.
      </div>
-     <div class="column__link">Discover</div>
+     <a class="column__link" href="#">Discover</a>
     </div>
     <div class="column">
      <div class="column__icon">
-      <img src="" alt="icon-image" class="column__icon-image" />
+      <img src="images/life-buoy.png" alt="icon-image" class="column__icon-image" />
      </div>
      <div class="column__title">Nemo enim ipsam</div>
      <div class="column__text">
       At eripuit signiferumque sea, vel ad mucius molestie, cu labitur
       iuvaret vulputate sed.
      </div>
-     <div class="column__link">Discover</div>
+     <a class="column__link" href="#">Discover</a>
     </div>
     <div class="column">
      <div class="column__icon">
-      <img src="" alt="icon-image" class="column__icon-image" />
+      <img src="images/tool.png" alt="icon-image" class="column__icon-image" />
      </div>
      <div class="column__title">Numquam eius modi</div>
      <div class="column__text">
       At eripuit signiferumque sea, vel ad mucius molestie, cu labitur
       iuvaret vulputate sed.
      </div>
-     <div class="column__link">Discover</div>
+     <a class="column__link" href="#">Discover</a>
     </div>
    </div>
   </div>
  </section>
 
- <section class="slider">
-  
- </section>
+ <div class="slider" id="slider">
+  <div class="container">
+   <div class="slider__wrapp">
+    <div class="slider__inner">
+     <div class="slider__image">
+      <img src="./images/image-woman.png" alt="image-woman">
+     </div>
+     <div class="slider__content">
+      <img src="./images/quote-icon.png" alt="icon" class="slider__content-icon">
+      <p class="slider__content-text">Est tation latine aliquip id, mea ad tale illud definitiones. Periculis
+       omittantur necessitatibus eum ad, pro eripuit minimum comprehensam ne, usu cu stet prompta reformidans.</p>
+      <p class="slider__content-smalltext">Connie Robertson at Google</p>
+     </div>
+    </div>
+    <div class="slider__inner">
+     <div class="slider__image">
+      <img src="./images/image-woman.png" alt="image-woman">
+     </div>
+     <div class="slider__content">
+      <img src="./images/quote-icon.png" alt="icon" class="slider__content-icon">
+      <p class="slider__content-text">Est tation latine aliquip id, mea ad tale illud definitiones. Periculis
+       omittantur necessitatibus eum ad, pro eripuit minimum comprehensam ne, usu cu stet prompta reformidans.</p>
+      <p class="slider__content-smalltext">Connie Robertson at Google</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
 
- <section class="articles">
+ <section class="articles" id="articles">
   <div class="container">
    <div class="articles__wrapper">
     <div class="articles__header">
-     <h2 class="articles__header-title">
+     <h2 class="articles__header-title section-title">
       At vero eos et accusamus et iusto odio
      </h2>
      <p class="articles__header-text">
@@ -130,126 +167,126 @@
     </div>
     <div class="articles__content">
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-1.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-2.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-3.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-4.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-1.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-2.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-3.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
      <a href="" class="article__link">
-      <article>
-       <div class="article-image-wrapper">
-        <img class="article__image" src="" alt="article-image">
-       </div>
-       <h1></h1>
-       <p></p>
-      </article>
+      <div class="article-image-wrapper">
+       <img class="article__image" src="images/image-4.png" alt="article-image">
+      </div>
+      <h4 class="article__link-title">Ad eos saepe lucilius</h4>
+      <p class="article__link-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
      </a>
     </div>
    </div>
   </div>
  </section>
 
- <footer class="footer">
+ <footer class="footer" id="footer">
   <div class="container footer__info">
    <div class="footer__content">
     <div class="footer__logo-copy">
      <div class="footer__logo">
-      <img src="" alt="footer-logo">
-      <div class="footer__copy">Copyright © 2020. LogoIpsum. All rights reserved.</div>
+      <img src="images/LOGO-white.png" alt="footer-logo">
      </div>
+     <div class="footer__copy">Copyright © 2020. LogoIpsum. All rights reserved.</div>
     </div>
     <div class="footer__menu">
-     <div class="footer__menu_services">
-      <ul>
-       <li><a href="">Email Marketing</a></li>
-       <li><a href="">Campaigns</a></li>
-       <li><a href="">Branding</a></li>
-       <li><a href="">Offline</a></li>
-      </ul>
-     </div>
-     <div class="footer__menu_about">
-      <ul>
-       <li><a href="">Our Story</a></li>
-       <li><a href="">Benefits</a></li>
-       <li><a href="">Team</a></li>
-       <li><a href="">Careers</a></li>
-      </ul>
+     <div class="footer__menu-wrapp">
+      <div class="footer__menu_services">
+       <div class="services-title">Services</div>
+       <ul>
+        <li><a class="services-link" href="#">Email Marketing</a></li>
+        <li><a class="services-link" href="#">Campaigns</a></li>
+        <li><a class="services-link" href="#">Branding</a></li>
+        <li><a class="services-link" href="#">Offline</a></li>
+       </ul>
+      </div>
+      <div class="footer__menu_about">
+       <div class="about-title">About</div>
+       <ul>
+        <li><a class="about-link" href="#">Our Story</a></li>
+        <li><a class="about-link" href="#">Benefits</a></li>
+        <li><a class="about-link" href="#">Team</a></li>
+        <li><a class="about-link" href="#">Careers</a></li>
+       </ul>
+      </div>
      </div>
     </div>
    </div>
    <div class="footer__subscribe">
-    <form action="#" class="form">
+    <form action="#" class="form" method="post">
      <div class="form__title">Subscribe to our
       newsletter</div>
-     <button class="form__button" placeholder="Email address"></button>
+     <div class="inputs">
+      <input class="form__input-email" type="text" value="Email address">
+      <input class="form__input-submit" type="submit">
+     </div>
     </form>
     <div class="footer__social">
-     <a href="" class="social-link"><img src="" alt="Facebook-icon"></a>
-     <a href="" class="social-link"><img src="" alt="Twitter-icon"></a>
-     <a href="" class="social-link"><img src="" alt="Instagram-icon"></a>
+     <a href="#" class="social-link"><img src="images/facebook.png" alt="Facebook-icon"></a>
+     <a href="#" class="social-link"><img src="images/twitter.png" alt="Twitter-icon"></a>
+     <a href="#" class="social-link"><img src="images/instagram.png" alt="Instagram-icon"></a>
     </div>
+   </div>
+   <div class="scrollup">
    </div>
   </div>
  </footer>
 
- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <div class="container">
+
+ </div>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+ <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+ <script src="js/slick.min.js"></script>
  <script src="js/main.js"></script>
 </body>
 
