@@ -1,0 +1,12 @@
+@media all and (max-width: 1100px) {
+ .about__left-block {
+  width: 100%;
+  margin-right: 22px;
+  margin-bottom: 30px;
+ }
+
+ .about__right-block {
+  width: 100%;
+  margin-left: 22px;
+ }
+}
