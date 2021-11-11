@@ -393,18 +393,19 @@ height: 100%;
 
 .wrap {
   padding: 0;
-  width: 361px;
+  max-width: 360px;
+  width: 100%;
 }
 .wrap__item {
   position: relative;
-  max-width: 361px;
+  max-width: 360px;
   width: 100%;
   height: 281px;
   background-color: green;
 }
 
 .wrap__item img {
-  width: 361px;
+  width: 360px;
   height: 281px;
   position: absolute;
   top: 0;
@@ -582,12 +583,17 @@ height: 100%;
   background-color: #286090;
   right: 20px;
   bottom: 20px;
-  padding: 6px 10px 4px;
+  padding: 6px;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   width: 33px;
   height: 33px;
 }
+
+.fa-chevron-up {
+margin-top: 6px;
+}
+
 .scrollup:hover {
   background-color: #d5d5d5;
