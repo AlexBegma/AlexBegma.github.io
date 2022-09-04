@@ -330,7 +330,7 @@ background: #f6f6f6;
 
 /* section class="excel" */
 .excel {
- display: -webkit-box;
+ /* display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
  -webkit-box-align: center;
@@ -338,7 +338,11 @@ background: #f6f6f6;
  align-items: center;
  -ms-flex-wrap: wrap;
  flex-wrap: wrap;
- gap: 2rem;
+ gap: 2rem; */
+}
+
+.excel .box:hover {
+background: #fff;
 }
 
 .excel .image {
@@ -379,22 +383,36 @@ background: #f6f6f6;
 
 }
 
-.list-wrapper {
-
+.box-wrapper {
+padding: 0 26px;
 }
 
-h4 {
+.box-header {
  font-size: 2.6rem;
  text-align: center;
  margin-bottom: 22px;
 }
 
-ul {
+.list {
  font-size: 2rem;
 }
 
-li {
- margin-bottom: 8px;
+.list-item {
+ margin-bottom: 12px;
+ padding: 5px 10px;
+}
+
+.list-item:hover {
+  color: #44bb6a;
+}
+
+.list-item-link {
+ padding: 0 16px;
+}
+
+.list-item-link:hover {
+  color: #44bb6a;
+  text-decoration: underline;
 }
 
 /* .internet-lessons .box-container .box {
