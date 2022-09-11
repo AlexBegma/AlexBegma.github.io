@@ -408,7 +408,9 @@ padding: 0 26px;
 }
 
 .list-item-link {
- padding: 0 16px;
+ padding: 8px 16px;
+ color: #000;
+ mb4px
 }
 
 .list-item-link:hover {
@@ -760,45 +762,6 @@ padding: 0 26px;
  text-decoration: underline;
 }
 
-@media (max-width: 1200px) {
- html {
-  font-size: 55%;
- }
-}
 
-@media (max-width: 991px) {
- body {
-  padding-left: 0;
- }
-
- #menu-btn {
-  display: block;
- }
-
- .header {
-  left: -110%;
- }
-
- .header.active {
-  left: 0;
-  -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
-  width: 35rem;
- }
-
- .home .content h3 {
-  font-size: 2.5rem;
- }
-}
-
-@media (max-width: 450px) {
- html {
-  font-size: 50%;
- }
-
- .contact .row form .inputBox input {
-  width: 100%;
- }
-}
 
 /*# sourceMappingURL=style.css.map */
