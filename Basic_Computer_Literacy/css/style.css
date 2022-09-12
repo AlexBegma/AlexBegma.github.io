@@ -49,32 +49,15 @@ p {
  color: #777;
  padding-bottom: 1rem;
  line-height: 1.4;
- max-width: 90%;
+ /* max-width: 90%; */
 }
 
-h3 {
- /* margin-bottom: 22px; */
-}
-
-/* .btn {
- display: inline-block;
- margin-top: 1rem;
- padding: 1.2rem 3rem;
- cursor: pointer;
- color: #fff;
- background: #263238;
- font-size: 1.7rem;
-}
-
-.btn:hover {
- background: #44bb6a;
-} */
 
 /* div id="menu-btn"  */
 #menu-btn {
  position: fixed;
  top: 1rem;
- right: 2rem;
+ right: 9rem;
  height: 5rem;
  width: 5rem;
  line-height: 5rem;
@@ -206,14 +189,6 @@ h3 {
  padding: 2rem 0;
 }
 
-/* .home .content h3 a {
-  color: #44bb6a;
-} */
-
-/* .home .content h3 a:hover {
-  text-decoration: underline;
-} */
-
 .home .content p {
  margin-left: 0;
 }
@@ -241,22 +216,10 @@ background: #fff;
  color: #263238;
 }
 
-/* .general-knowledge .box p {
- font-size: 1.5rem;
- color: #777;
-} */
-
-
 .heading {
  text-align: center;
  margin-bottom: 3rem;
 }
-
-/* .heading span {
- font-size: 2rem;
- color: #44bb6a;
- text-transform: uppercase;
-} */
 
 .heading h3 {
  font-size: 3rem;
@@ -269,6 +232,7 @@ margin-bottom: 12px;
 
 .heading p {
  font-size: 2rem;
+ max-width: 66%;
 }
 
 /* section class="ms-word"  */
@@ -299,7 +263,7 @@ background: #f6f6f6;
 .box-link {
  display: block;
  min-height: 100%;
- padding: 3rem 2rem;
+ padding: 1rem;
 }
 
 .box-container .box i {
@@ -321,7 +285,7 @@ background: #f6f6f6;
 }
 
 .box p {
- font-size: 1.8rem;
+ font-size: 2rem;
  color: #000;
  line-height: 1.5;
  padding-top: 1.5rem;
@@ -410,7 +374,7 @@ padding: 0 26px;
 .list-item-link {
  padding: 8px 16px;
  color: #000;
- mb4px
+font-size: 2.4rem;
 }
 
 .list-item-link:hover {

@@ -30,12 +30,19 @@
  }
 }
 
+@media (max-width: 768px) {
+ .heading p {
+   max-width: 88%;
+
+}
+}
+
 @media (max-width: 450px) {
  html {
   font-size: 50%;
  }
 
- .contact .row form .inputBox input {
+ /* .contact .row form .inputBox input {
   width: 100%;
- }
+ } */
 }
