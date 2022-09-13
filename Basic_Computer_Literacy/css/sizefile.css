@@ -115,6 +115,13 @@ h2 {
  margin-bottom: 22px;
 }
 
+hr {
+ display: block;
+ height: 1px;
+ background-color: #777;
+ margin: 15px 0;
+}
+
 @media (max-width: 1024px) {
  main {
   padding: 3rem;
