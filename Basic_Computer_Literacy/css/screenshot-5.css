@@ -107,6 +107,7 @@ a:hover {
 
 .block img {
  display: flex;
+ max-width: 990px;
  margin-bottom: 32px;
 }
 
