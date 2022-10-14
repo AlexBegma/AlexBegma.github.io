@@ -62,7 +62,7 @@ h1 {
  padding-top: 1rem;
 }
 
-.alignment-wrapp {
+.inscription-wrapp {
  padding: 2% 9%;
 }
 
@@ -107,7 +107,6 @@ a:hover {
 
 img {
  display: flex;
- align-items: center;
  margin-bottom: 32px;
 }
 
@@ -136,6 +135,7 @@ img {
 
 .li-flex img {
  margin: 0 14px 0 0;
+ height: 16px;
 }
 
 .li-flex p {
@@ -152,6 +152,12 @@ img {
 .p-border-left {
  border-left: 2px solid #666699;
  padding: 16px;
+}
+
+.p-span {
+ font-weight: bold;
+ font-style: italic;
+ text-decoration: underline;
 }
 
 .circle-border {
@@ -194,7 +200,7 @@ hr {
   padding: 3rem;
  }
 
- .alignment-wrapp {
+ .inscription-wrapp {
   padding: 2% 4%;
  }
 }
