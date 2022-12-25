@@ -235,7 +235,7 @@ margin-bottom: 12px;
 }
 
 .heading p {
- font-size: 2rem;
+ font-size: 1.9rem;
  max-width: 66%;
 }
 
@@ -383,7 +383,6 @@ font-size: 2.4rem;
 }
 
 .list-item-link:hover {
-  color: #44bb6a;
   text-decoration: underline;
 }
 
