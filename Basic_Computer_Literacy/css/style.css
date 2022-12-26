@@ -155,6 +155,17 @@ span {
  text-transform: none;
 }
 
+.links-to-sites {
+ display: flex;
+ flex-direction: column;
+}
+
+.links-to-sites a {
+ margin-bottom: 10px;
+ color: #fff;
+ font-size: 12px;
+}
+
 
 .home {
  display: -webkit-box;
@@ -200,7 +211,7 @@ span {
 
 /* section class="general-knowledge" */
 .general-knowledge .box:hover {
-background: #fff;
+ background: #fff;
 }
 
 .box i {
@@ -230,8 +241,8 @@ background: #fff;
  /* color: #263238; */
  color: #44bb6a;
  text-transform: uppercase;
-  padding-top: 1rem;
-margin-bottom: 12px;
+ padding-top: 1rem;
+ margin-bottom: 12px;
 }
 
 .heading p {
@@ -252,12 +263,12 @@ margin-bottom: 12px;
  text-align: center;
  /* padding: 3rem 2rem; */
  border: 0.1rem solid #999;
-  border-radius: 5px;
-  /* background-color: rgb(255, 255, 181); */
+ border-radius: 5px;
+ /* background-color: rgb(255, 255, 181); */
 }
 
 .ms-word .box:hover {
-background: #f6f6f6;
+ background: #f6f6f6;
 }
 
 .box-container .box:hover i {
@@ -311,7 +322,7 @@ background: #f6f6f6;
 }
 
 .excel .box:hover {
-background: #fff;
+ background: #fff;
 }
 
 .excel .image {
@@ -348,12 +359,10 @@ background: #fff;
 
 
 /* section class="internet-lessons" */
-.internet-lessons .box-container {
-
-}
+.internet-lessons .box-container {}
 
 .box-wrapper {
-padding: 0 26px;
+ padding: 0 26px;
 }
 
 .box-header {
@@ -363,7 +372,7 @@ padding: 0 26px;
 }
 
 .list {
-  font-size: 2rem;
+ font-size: 2rem;
 
 }
 
@@ -373,17 +382,17 @@ padding: 0 26px;
 }
 
 .list-item:hover {
-  color: #44bb6a;
+ color: #44bb6a;
 }
 
 .list-item-link {
  padding: 8px 16px;
  color: #000;
-font-size: 2.4rem;
+ font-size: 2.4rem;
 }
 
 .list-item-link:hover {
-  text-decoration: underline;
+ text-decoration: underline;
 }
 
 /* .internet-lessons .box-container .box {
