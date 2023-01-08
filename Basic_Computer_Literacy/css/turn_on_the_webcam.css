@@ -63,7 +63,7 @@ h1 {
  padding-top: 1rem;
 }
 
-.lines_shapes-wrapp {
+.turn_on_the_webcam-wrapp {
  padding: 2% 9%;
 }
 
@@ -221,7 +221,7 @@ hr {
   padding: 3rem;
  }
 
- .lines_shapes-wrapp {
+ .turn_on_the_webcam-wrapp {
   padding: 2% 4%;
  }
 }
@@ -270,7 +270,7 @@ hr {
   font-size: 1rem;
  }
 
-  .img-width-media,
+ .img-width-media,
  img {
   max-width: 240px;
  }
