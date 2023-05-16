@@ -145,8 +145,9 @@ h6 {
   position: relative;
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 90px;
   align-items: center;
+  margin-bottom: 22px;
 }
 
 .header__logo {
@@ -169,7 +170,7 @@ h6 {
 
 .header-icons {
   position: relative;
-  width: 822px;
+  width: 900px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -184,7 +185,7 @@ h6 {
 
 .header__list li {
   position: relative;
-  width: 125px;
+  width: 155px;
   height: 40px;
   z-index: 2;
   margin-right: 5px;
@@ -227,7 +228,7 @@ h6 {
   color: #446e84;
   padding: 2px 7px;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 16px;
   transition: 0.5s;
   transform: translateY(-15px);
   opacity: 1;

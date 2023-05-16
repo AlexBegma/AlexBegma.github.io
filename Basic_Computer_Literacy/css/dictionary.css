@@ -113,7 +113,8 @@ h2 {
 
 @media (max-width: 1024px) {
  main {
-  padding: 3rem;
+  /* padding: 3rem; */
+  padding: calc(2rem + (3 - 2) * ((100vw - 320px) / (1024 - 320)));
  }
 
  .dictionary-wrapp {
