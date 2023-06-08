@@ -110,6 +110,7 @@ img {
  align-items: center;
  margin-bottom: 32px;
  max-width: 990px;
+ width: 100%;
 }
 
 .img-width {
