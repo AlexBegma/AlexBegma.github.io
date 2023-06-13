@@ -1,0 +1,165 @@
+/*Elements*/
+#tips{
+    padding: 58px 0 62px;
+    background: url('../images/tip4drivers.png') no-repeat scroll center bottom @baseColor;
+    .sectionTitle{    
+        h4{
+            color: #fff;
+            border: 1px solid #FFF;
+            i{
+                color: #000;
+                background: #FFF;
+                &:after{
+                    border-left: 5px solid #FFF;
+                }
+            }
+        }
+    }
+}
+
+.leftAlignedTap{
+    border: 1px solid fade(#FFF,30%);
+    position: relative;
+    ul.nav-tabs{
+        float: left;
+        width: 235px;
+        border: 0;
+        border-right: 1px solid fade(#FFF,30%);
+        height: 100%;
+        margin: -1px 0 -0.5px;
+        li{
+            width: 100%;
+            height: ~"calc(100% / 4)";
+            border-bottom: 1px solid fade(#FFF,30%);
+            border-top: 1px solid fade(#FFF,30%);
+            a{
+                font-family: @baseFont;
+                color: #FFF;
+                font-size: 15px;
+                text-align: center;
+                line-height: 88px;
+                padding: 0;
+                border-radius: 0;
+                border: 0;
+                margin: 0;
+                i{
+                    font-size: 24px;
+                    display: inline-block;
+                    margin-right: 16px;
+                }
+            }
+            &:last-child{
+                a{
+                }
+            }
+            &.active,&:hover{
+                a{
+                    background: #FFF;
+                    color: #000;
+                    border: 0;
+                }
+            }
+        }
+    }
+    .tab-content{
+        width: ~"calc(100% - 235px)";
+        height: 100%;
+        float: left;
+        .tab-pane{
+            padding: 20px;            
+            color: #FFF;
+            font-size: 15px;
+            line-height: 24px;
+            font-family: @baseFont;
+        }
+    }
+}
+
+/*Accordion*/
+#hAccordion{
+    border: 1px solid fade(#FFF,30%);
+    border-width: 0 1px;
+    background: none;
+    margin-bottom: 0;
+    .panel{        
+        border-radius: 0;
+        border: 0;
+        margin: 0;
+        background-color: transparent;
+        .panel-heading{
+            border-top: 1px solid fade(#FFF,30%);
+            padding: 0;
+            background: none;
+            border-radius: 0;
+            .panel-title{
+                a{
+                    display: block;
+                    line-height: 47px;
+                    font-family: @baseFont;
+                    color: #000;
+                    background: #FFF;
+                    font-weight: 300;
+                    i{
+                        display: inline-block;
+                        width: 42px;
+                        text-align: center;
+                        color: @baseColor;
+                        font-size: 18px;
+                    }
+                    .sign{
+                        text-align: center;
+                        color: #000;
+                        width: 45px;
+                        float: right;
+                        line-height: 47px;
+                        border-left: 1px solid fade(@baseColor2,70%);
+                        &:before{
+                            content: "\f068";
+                            text-shadow: none;
+                        }
+                    }
+                    &.collapsed{
+                        background-color: transparent;
+                        color: #FFF;
+                        i{
+                            color: #FFF;
+                        }
+                        .sign{
+                            color: #FFF;
+                            height: 100%;
+                            &:before{
+                                content: "\f067";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .panel-collapse{
+            .panel-body{
+                padding: 20px;
+                .icon{
+                    width: 68px;
+                    line-height: 68px;
+                    color: @baseColor;
+                    background: #FFF;
+                    font-size: 30px;
+                    border-radius: 100%;
+                    text-align: center;
+                    float: left;
+                }
+                .texts{
+                    width: ~"calc(100% - 88px)";
+                    float: right;
+                    font-family: @baseFont;
+                    font-size: 15px;
+                    color: #FFF;
+                    line-height: 25px;
+                }
+            }
+        }
+        &:last-child{
+            border-bottom: 1px solid fade(#FFF,30%);
+        }
+    }
+}

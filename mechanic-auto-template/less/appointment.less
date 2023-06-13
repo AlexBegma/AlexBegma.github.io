@@ -1,0 +1,258 @@
+.datepicker.dropdown-menu{
+    border-radius: 0;
+}
+
+.btn-group.bootstrap-select{
+    &:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+        width: 100%;
+        &.preferedTimeRange{
+            margin-bottom: 20px;
+        }
+    }
+    &>.btn{
+        border-radius: 0;
+        height: 60px;
+        background: none transparent;
+        box-shadow: none;
+        color: #a0a2a5;
+        font-family: @baseFont;
+        font-size: 14px;
+        color: #a0a2a5;
+        padding: 0 60px 0 25px;
+        span{
+            line-height: 58px;
+        }
+        i{
+            color: #969696;
+            font-size: 20px;
+            line-height: 58px;
+            text-align: center;
+            padding: 0 20px; 
+            border-left: 1px solid @baseColor2;
+        }
+        &+ .dropdown-menu.open{
+            border-radius: 0;
+            padding: 0;
+            &> .dropdown-menu.inner.selectpicker{
+                li{
+                    a{
+                        line-height: 40px;
+                        padding: 0 25px;
+                        font-family: @baseFont;
+                        font-size: 14px;
+                        color: #a0a2a5;
+                        &:hover{
+                            background-color: #f6f7f8;
+                            background-image: none;
+                        }
+                    }
+                    &.selected{
+                        a{
+                            background: none #f6f7ff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#appointment{
+    padding: 40px 0 60px;
+}
+
+#appointmentForm{
+    h4{
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    label{
+        font-family: @baseFont;
+        font-weight: 300;
+        &.error{
+            padding: 0 15px;
+            line-height: 25px;
+            margin: -1px 0 0;
+            width: 100%;
+            border: 1px solid @baseColor2;
+        }
+    }
+    .mainLabel{
+        font-size: 16px;
+        color: #000;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    
+    .checkbox-inline{
+        padding: 0;        
+        margin-top: 10px;
+        margin-bottom: 30px;
+        &+ .checkbox-inline{
+            margin-left: 20px;
+        }
+    }
+    
+    .checkbox{
+        label{
+            padding-left: 0;
+        }
+    }
+    
+    input[type="checkbox"]{
+        display: none;
+        
+        &+ label{
+            color: #a0a2a5;
+            line-height: 22px;
+            font-size: 14px;
+            width: 100%;
+            &:before{
+                content: '';
+                width: 22px;
+                height: 22px;
+                background: url('../images/appointment/checkbox-unchecked.png') no-repeat scroll 0 0 transparent;
+                float: left;
+                margin-right: 18px;
+            }
+        }
+        
+        &:checked + label{
+            &:before{
+                background: url('../images/appointment/checkbox-checked.png') no-repeat scroll 0 0 transparent;
+            }
+        }
+        
+        &+ label + .additionalComment{
+            padding: 15px 20px;
+            border: 0;
+            width: 100%;
+            font-size: 13px;
+            line-height: 20px;
+            color: #a0a2a5;
+            display: none;
+            border-radius: 0;
+            .transition();
+        }
+        
+        &:checked + label + .additionalComment{
+            display: block;
+        }
+    }
+    
+    
+    .form-control{
+        font-family: @baseFont;
+        font-size: 14px;
+        color: #a0a2a5;
+        &+ span{
+        }
+        &::-moz-placeholder,
+        &:-ms-input-placeholder,
+        &::-webkit-input-placeholder{
+            
+        }
+    }
+    
+    .preferredDateInput{
+        margin-bottom: 20px;
+        .form-control{
+            line-height: 58px;
+            height: 60px;
+            border: 1px solid @baseColor2;
+            padding: 0 25px;
+            border-radius: 0;
+            &::-moz-placeholder,
+            &:-ms-input-placeholder,
+            &::-webkit-input-placeholder{
+                font-family: @baseFont;
+                font-size: 14px;
+                color: #a0a2a5;                
+            }
+        }
+        .input-group-addon{
+            border-radius: 0;
+            color: #969696;
+            font-size: 20px;
+            line-height: 58px;
+            text-align: center;
+            padding: 0 20px;
+            background-color: transparent;
+        }
+    }
+    
+    .list-group{
+        box-shadow: none;
+        .list-group-item{
+            border-radius: 0;
+            padding: 0;
+            .checkbox{
+                margin: 0;
+                input[type="checkbox"]{
+                    &+ label{
+                        line-height: 58px;
+                        &:before{
+                            height: 58px;
+                            background-position: 0 center;
+                            margin-left: 20px;
+                        }
+                    }
+                    &:checked + label{
+                        background: #f6f7f8;
+                    }
+                }
+            }
+        }
+    }
+    
+    .personalInformations{
+        .list-group{
+            .list-group-item{
+                .form-control{
+                    border-radius: 0;
+                    padding: 0 25px;
+                    line-height: 60px;
+                    border: none;
+                    height: 60px;
+                }
+                .btn-group.bootstrap-select{
+                    &>.btn{
+                        border: none;
+                        i{
+                            line-height: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .submitButton{
+        margin-top: 30px;
+        button{
+            background: @baseColor;
+            color: #FFF;
+            font-size: 18px;
+            font-family: @baseFont;
+            font-weight: bold;
+            text-shadow: none;
+            text-transform: uppercase;
+            padding: 25px 30px;
+            border-radius: 0;
+            border: none;
+            i{
+                width: 45px;
+                height: 45px;
+                border-radius: 100%;
+                line-height: 43px;
+                text-align: center;
+                margin-right: 18px;
+                background: fade(#000,20%);
+                border: 1px solid fade(#FFF,20%);
+            }
+        }
+    }
+}

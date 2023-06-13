@@ -1,0 +1,136 @@
+#testimonials{
+    padding: 57px 0 0;
+    .ptTab{
+        .nav-tabs{
+            border: none;
+            li{
+                margin-bottom: 30px;
+                a{
+                    border-radius: 0;
+                    padding: 0 22px;
+                    line-height: 108px;
+                    border: 1px solid @baseColor2;
+                    img{
+                        max-width: 100%;
+                        display: inline-block;
+                        opacity: 0.2;
+                    }
+                }
+                &:hover,&.active{
+                    a{
+                        border-color: @baseColor3;
+                        background-color: transparent;
+                        img{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .tab-content{
+            .tab-pane{
+                border: 1px solid @baseColor2;
+                .ptText{
+                    padding: 30px;
+                    border-right: 1px solid @baseColor2;
+                    .ptTextTitle{
+                        line-height: 30px;
+                        font-size: 22px;
+                        font-family: @baseFont;
+                        font-weight: bold;
+                        margin:0 0 20px;
+                        a{
+                            color: @baseColor;
+                        }
+                    }
+                    p{
+                        font-family: @baseFont;
+                        font-size: 15px;
+                        line-height: 31px;
+                        color: @baseColor3;
+                        font-weight: 300;
+                        margin-bottom: 0;
+                    }
+                }
+                .ptIntro{
+                    text-align: center;
+                    border-left: 1px solid @baseColor2;
+                    margin: 0 -1px;
+                    .ptImg{
+                        padding: 10px;
+                        border-bottom: 1px solid @baseColor2;
+                        margin-right: -17px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .ptIntroTexts{
+                        min-height: 160px;
+                        margin-right: -17px;
+                    }
+                    h4{
+                        font-family: @baseFont;
+                        font-size: 20px;
+                        font-weight: 200;
+                        margin-top: 40px;
+                        margin-bottom: 0;
+                    }
+                    h5{
+                        margin-top: 5px;
+                        font-family: @baseFont;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .ptTabNavs{
+            position: absolute;
+            right: 15px;
+            bottom: 0;
+            width: 238px;
+            height: 67px;
+            a{
+                position: relative;
+                display: inline-block;
+                line-height: 40px;
+                width: 119px;
+                padding-top: 27px;
+                cursor: pointer;
+                i{
+                    color: #FFF;
+                    font-size: 24px;
+                }
+                &:before{
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-top: 67px solid transparent;
+                    position: absolute;
+                    top: 0;
+                } 
+                &.prevTab{
+                    float: left;                    
+                    i{
+                        padding-left: 24px;
+                    }
+                    &:before{
+                        border-left: 119px solid @baseColor;
+                        left: 0;
+                    }                    
+                }
+                &.nextTab{
+                    float: right;
+                    text-align: right;
+                    i{
+                        padding-right: 24px;
+                    }
+                    &:before{
+                        border-right: 119px solid @baseColor;
+                        right: 0;
+                    } 
+                }
+            }
+        }
+    }
+}

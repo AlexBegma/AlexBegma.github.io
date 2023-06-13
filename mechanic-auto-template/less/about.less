@@ -1,0 +1,150 @@
+#aboutus{
+    padding: 40px 0;
+}
+
+.aboutSec{
+        margin-bottom: 50px;
+    .aboutImg{
+        img{
+            width: 100%;
+        }
+    }
+    .aboutTexts{
+        h3{
+            color: #000;
+            font-family: @baseFont;
+            font-size: 22px;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+        p{
+            font-size: 15px;
+            color: @baseColor4;
+            line-height: 30px;
+            font-family: @baseFont;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.teamMembers{
+    margin-bottom: 20px;
+    .teamMember{
+        margin-bottom: 30px;
+    }
+}
+
+.companyStats{
+    margin-bottom: 48px;
+    .stat{        
+        .statInner{
+            border-top: 1px solid @baseColor2;
+            border-bottom: 1px solid @baseColor2;
+            text-align: center;
+            padding: 60px 0;
+            i{
+                display: block;
+                color: @baseColor;
+                font-size: 40px;
+                &:after{
+                    content: '';
+                    width: 70px;
+                    height: 1px;
+                    background: #787878;
+                    display: block;
+                    margin: 20px auto;
+                }
+            }
+            .counter{
+                font-size: 36px;
+                line-height: 1;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .statType{
+                font-family: @baseFont;
+                font-size: 16px;
+                color: #787878;
+            }
+        }
+    }
+}
+
+.ourPricings{
+    margin-bottom: 20px;
+    cursor: pointer;
+    .pricing{
+        .pricingInner{
+            .list-group{
+                box-shadow: none;
+                margin-bottom: 0;
+                .list-group-item{
+                    line-height: 52px;
+                    font-size: 15px;
+                    padding: 0;
+                    text-align: center;
+                    &:first-child{
+                        padding: 35px 0;
+                        border-radius: 0;
+                        line-height: 1.4;
+                        background: @baseColor;
+                        h3{
+                            color: #FFF;
+                            margin: 0 0 5px;
+                            font-family: @baseFont;
+                        }
+                        h5{
+                            font-size: 16px;
+                            color: #FFF;
+                            margin: 0;
+                            font-weight: 300;
+                        }
+                    }
+                    &:last-child{
+                        padding: 20px 0;
+                        border-radius: 0;
+                        line-height: 50px;
+                        a{
+                            padding: 0 24px;
+                            display: inline-block;
+                            background: @baseColor;
+                            font-size: 16px;
+                            font-family: @baseFont;
+                            font-weight: bold;
+                            color: #FFF;
+                        }
+                    }
+                }
+                &:hover{
+                    .list-group-item{
+                        background: @baseColor;
+                        color: #FFF;
+                        border-color: fade(#000,20%);
+                        &:first-child{
+                            background: #FFF;
+                            h3{
+                                color: @baseColor;
+                            }
+                            h5{
+                                color: @baseColor;
+                            }
+                        }
+                        &:last-child{
+                            background: @baseColor;
+                            a{
+                                background: #FFF;
+                                color: @baseColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contentSection{
+    .sectionTitle{
+        text-transform: uppercase;
+    }
+}

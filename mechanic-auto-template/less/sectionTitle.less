@@ -1,0 +1,31 @@
+.sectionTitle{    
+    margin-bottom: 30px;
+    h4{
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+        line-height: 60px;
+        border: 1px solid @baseColor2;
+        margin: 0;
+        i{
+            color: #FFF;
+            width: 55px;
+            position: relative;
+            background: @baseColor;
+            line-height: 60px;
+            text-align: center;
+            margin-right: 20px;
+            &:after{
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: 5px solid @baseColor;
+                border-top: 31px solid transparent;
+                border-bottom: 31px solid transparent;
+                right: -5px;
+                top: 0;
+            }
+        }
+    }
+}

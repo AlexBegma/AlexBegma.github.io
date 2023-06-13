@@ -1,0 +1,218 @@
+footer{
+    margin-top: 30px;
+    padding: 50px 0;
+    background: @baseColor6;
+    
+    .widget{
+        margin-top: 30px;
+        .widgetInner{
+            background: @baseColor7;
+            padding: 32px;
+            border-top: 10px solid @baseColor;
+        }
+        h4{
+            font-family: @baseFont;
+            color: #FFF;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 0 5px;
+        }
+        p{
+            margin-bottom: 0;
+            font-family: @baseFont;
+        }
+        
+        &.recentPostWidget{
+            .nav{
+                li{
+                    a{
+                        color: @baseColor4;
+                        padding: 15px 0;
+                        line-height: 20px;
+                        font-family: @baseFont;
+                        &:hover,&:focus{
+                            background-color: transparent;
+                            color: #FFF;
+                        }
+                    }
+                    &+ li{
+                        border-top: 1px solid @baseColor6;
+                    }
+                }
+            }
+        }
+        &.aboutWidget{
+            text-align: center;
+            a{
+                display: block;
+                &:after{
+                    content: '';
+                    width: 45px;
+                    height: 2px;
+                    background: #FFF;
+                    display: block;
+                    margin: 16px auto;
+                }
+            }
+            p{
+                color: @baseColor4;
+                font-family: @baseFont;
+                line-height: 20px;
+            }
+        }
+        &.oppeningHoursWidget{
+            .nav{
+                margin-top: 15px;
+                border: 1px solid @baseColor8;
+                li{
+                    color: #FFF;
+                    line-height: 58px;
+                    padding: 0 20px;
+                    &:nth-child(odd){
+                        background: @baseColor8;
+                        &:after{
+                            content: '';
+                            width: 0;
+                            height: 0;
+                            border-top: 8px solid @baseColor8;
+                            border-left: 8px solid transparent;
+                            border-right: 8px solid transparent;
+                            position: absolute;
+                            bottom: -8px;
+                            left: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .copyrightRow{
+        background: @baseColor;
+        padding: 23px 15px;
+        margin-top: 30px;
+        .copyright{
+            color: @baseColor5;
+            line-height: 60px;
+            a{
+                color: @baseColor5;
+            }
+        }
+        .goTop{            
+            text-align: center;
+            a{
+                line-height: 58px;
+                width: 60px;
+                font-size: 26px;
+                color: #FFF;
+                border: 1px solid fade(#FFF,20%);
+                border-radius: 100%;
+                display: inline-block;
+            }
+        }
+        .footSocial{
+            margin: 7px 0;
+            .nav{
+                li{
+                    &+ li{
+                        margin-left: 10px;
+                    }
+                    a{
+                        border: 1px solid fade(#FFF,20%);
+                        line-height: 43px;
+                        width: 45px;
+                        color: #FFF;
+                        padding: 0;
+                        border-radius: 0;
+                        text-align: center;
+                        font-size: 17px;
+                        &:hover{
+                            color: @baseColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*Twitter Slider*/
+.widget.twitterSlide{
+    background: @baseColor7;
+    height: 185px;
+    text-align: center; 
+    color: #FFF;
+    font-family: @baseFont;
+    overflow: hidden;
+    margin-top: 0;
+    padding: 25px;
+    h4{
+        margin: 0 0 15px;
+    }
+    .tweetsHere{
+        .tweets_feed{
+            .tweet{
+                color: #FFF;
+                font-size: 13px;
+                .twitterIcon{
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+                a{
+                    color: #4d99ff;
+                    &[title="Visit this link"]{
+                        color: #88d9ff;
+                    }
+                }
+            }
+            .owl-controls{
+                position: absolute;
+                top: -70px;
+                left: -25px;
+                right: -25px;
+                .owl-nav{
+                    div{
+                        position: absolute;
+                        z-index: 2;
+                        &:before{
+                            content: '';
+                            width: 0;
+                            height: 0;
+                            border-bottom: 50px solid transparent;                            
+                            display: block;
+                            position: absolute;
+                            z-index: 0;
+                        }
+                        i{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 30px;
+                            text-align: left;
+                            padding:0 10px;
+                            color: @baseColor;
+                            z-index: 10;
+                            font-size: 18px;
+                        }
+                        &.owl-prev{
+                            left: 0;
+                            &:before{
+                                border-left: 50px solid #FFF;
+                            }
+                        }
+                        &.owl-next{
+                            right: 0;
+                            &:before{
+                                border-right: 50px solid #FFF;
+                            }
+                            i{
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

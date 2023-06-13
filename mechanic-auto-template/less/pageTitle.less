@@ -1,0 +1,50 @@
+#pageTitle{
+    position: relative;
+    margin-top: -228px;
+    height: 486px;
+    background: url('../images/page-title-bg1.jpg') no-repeat scroll center top @baseColor2;
+    background-size: cover;
+    text-align: center;
+    .pageTitle{
+        position: absolute;
+        left: 0;
+        bottom: 115px;
+        width: 100%;
+        span{
+            line-height: 65px;
+            border: 1px solid @baseColor;
+            padding: 0 25px;
+            background: fade(#000,70%);
+            font-family: @baseFont;
+            font-size: 24px;
+            color: #FFF;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+    .breadcrumbRow{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .list-inline{
+        background: #FFF;
+        display: inline-block;
+        padding: 0 20px;        
+        li{
+            font-size: 16px;
+            line-height: 40px;
+            i{
+                font-size: 20px;
+                margin-right: 10px;
+                display: inline-block;
+                line-height: 40px;
+                color: #000;
+            }
+            a{
+                color: #000;
+            }
+        }
+    }
+}

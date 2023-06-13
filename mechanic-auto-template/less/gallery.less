@@ -1,0 +1,91 @@
+#ourGallery{
+    padding: 30px 0;
+    .ourGallerSlide{
+        .owl-controls{
+            position: absolute;
+            top: -92px;
+            right: 15px;
+            .owl-nav{
+                div{
+                    width: 62px;
+                    line-height: 62px;
+                    border-left: 1px solid @baseColor2;
+                    display: inline-block;
+                    text-align: center;
+                    font-size: 24px;
+                    &:hover,&:focus{
+                        color: @baseColor;
+                    }
+                    &.owl-prev{}
+                    &.owl-next{}
+                }
+            }
+        }
+    }
+    .galleryItem{
+        padding: 0 15px;
+        .gImg{
+            img{
+                width: 100%;
+            }
+            .btn-group{
+                position: absolute;
+                bottom: 8px;
+                right: 8px;
+                .btn{
+                    background: none fade(#FFF,80%);
+                    border-color: transparent;
+                    border-radius: 0;
+                    color: #000;
+                    font-size: 16px;
+                    width: 40px;
+                    line-height: 38px;
+                    padding: 0;
+                    text-align: center;
+                    &:hover{
+                        background-color: #FFF;
+                    }
+                }
+            }
+        }
+        .gTitle{
+            a{
+                display: block;
+                line-height: 58px;
+                padding: 0 20px;
+                color: #FFF;
+                font-family: @baseFont;
+                background: @baseColor;
+            }
+        }
+    }
+    
+    &.contentSection{
+        padding: 40px 0 30px;
+        .galleryItem{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+#galleryDetails{
+    padding: 40px 0;
+    .galleryImg{
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+    }
+    h3{
+        font-size: 26px;
+        color: #000;
+        font-weight: bold;
+        margin: 25px 0 10px;
+    }
+    p{
+        color: @baseColor4;
+        font-size: 15px;
+        font-family: @baseFont;
+        line-height: 30px;
+    }
+}

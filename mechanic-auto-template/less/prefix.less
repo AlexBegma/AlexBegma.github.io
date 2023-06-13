@@ -1,0 +1,60 @@
+/*Prefix Styles*/
+.row{    
+    @media (max-width:1200px){
+        
+    }
+}
+
+.m0{margin: 0;}
+.m_30{
+    margin: 0 -30px;
+    @media (max-width:1200px){
+        margin: 0 -15px;
+    }
+}
+
+
+
+.p0{padding: 0;}
+.p015{padding: 0 15px;}
+
+*,body{
+    position: relative;
+    font-family: @baseFont3;
+    .transition();
+}
+
+/*Floating*/
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+
+/*Section Fix*/
+section, header, footer{
+    &.row{
+        margin: 0;
+        position: relative;
+    }
+}
+
+/*Ancore*/
+a,.btn,button{
+    outline: none;
+    &:focus,&:hover{
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+/*Modify Core CSS*/
+.list-inline{
+    margin: 0;
+}
+
+/*Unnecessary Horizontal Scroll Bar*/
+#ascrail2000-hr{
+//    display: none !important;
+}

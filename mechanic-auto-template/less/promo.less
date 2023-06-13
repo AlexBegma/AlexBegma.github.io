@@ -1,0 +1,57 @@
+#promo{
+    padding: 40px 0;
+    background: @baseColor2;
+    .container{
+        padding: 27.5px 35px;
+        background: #FFF;
+        font-family: @baseFont2;
+        font-size: 25px;
+        color: #000;
+        line-height: 52px;
+        .icon{
+            border: 2px solid @baseColor;
+            padding: 5px;
+            border-radius: 100%;
+            margin-right: 25px;
+            display: inline-block;
+            i{
+                width: 75px;
+                line-height: 75px;
+                border-radius: 100%;
+                background: @baseColor;
+                display: block;
+                color: #FFF;
+                text-align: center;
+            }
+        }
+        a{
+            background: @baseColor;
+            display: inline-block;
+            margin-left: 35px;
+            position: relative;
+            font-family: @baseFont2;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFF;
+            padding: 0 20px;
+            text-transform: uppercase;
+            &:before,&:after{
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-right: 5px solid @baseColor;
+                border-top: 26px solid transparent;
+                border-bottom: 26px solid transparent;
+                left: -5px;
+                top: 0;
+            }
+            &:after{
+                border-left: 5px solid @baseColor;
+                border-right: 0;
+                left: auto;
+                right: -5px;
+            }
+        }
+    }
+}
