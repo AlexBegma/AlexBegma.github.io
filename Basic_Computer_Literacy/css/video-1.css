@@ -197,6 +197,25 @@ hr {
  height: 444px;
 }
 
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.video-counter {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 0 10px 0 0;
+}
+
+.counter-content {
+  margin: 0;
+}
+
 
 @media (max-width: 1024px) {
  main {
