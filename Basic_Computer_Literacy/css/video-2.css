@@ -118,7 +118,8 @@ img {
  width: 100%;
 }
 
-.block {
+.block-video {
+  display: flex;
  margin-bottom: 56px;
 }
 
