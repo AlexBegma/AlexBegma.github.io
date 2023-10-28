@@ -108,7 +108,7 @@ span {
 
 .header .navbar a {
  display: block;
- font-size: 2rem;
+ font-size: 1.6rem;
  margin: 1.7rem 0;
  color: #fff;
  text-transform: capitalize;
@@ -150,7 +150,7 @@ span {
 .header .credit {
  text-align: center;
  color: #fff;
- font-size: 1.6rem;
+ font-size: 1.2rem;
  padding-top: 15%;
  text-transform: none;
 }
