@@ -378,7 +378,9 @@ span {
 
 .list-item {
  margin-bottom: 4px;
- padding: 5px 10px;
+ /* padding: 5px 10px; */
+ border: 1px solid #299624;
+ border-radius: 14px;
 }
 
 .list-item:hover {
@@ -386,13 +388,15 @@ span {
 }
 
 .list-item-link {
+  display: flex;
  padding: 8px 16px;
  color: #000;
  font-size: 2rem;
+ width: 100%;
 }
 
 .list-item-link:hover {
- text-decoration: underline;
+ color: #299624;
 }
 
 /* .internet-lessons .box-container .box {
