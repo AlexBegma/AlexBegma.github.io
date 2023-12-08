@@ -240,9 +240,15 @@ span {
  font-size: 3rem;
  /* color: #263238; */
  color: #44bb6a;
- text-transform: uppercase;
+ /* text-transform: uppercase; */
  padding-top: 1rem;
  margin-bottom: 12px;
+}
+
+.box-container .box h3 {
+  font-size: 2rem;
+  padding-bottom: .5rem;
+  color: #263238;
 }
 
 .heading p {
@@ -267,7 +273,7 @@ span {
  /* background-color: rgb(255, 255, 181); */
 }
 
-.ms-word .box:hover {
+.box:hover {
  background: #f6f6f6;
 }
 
