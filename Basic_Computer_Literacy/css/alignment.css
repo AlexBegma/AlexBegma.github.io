@@ -111,6 +111,11 @@ img {
  margin-bottom: 32px;
 }
 
+.inline-block {
+  display: inline-block;
+  margin: 0;
+}
+
 .img-width {
  max-width: 330px;
  width: 100%;
