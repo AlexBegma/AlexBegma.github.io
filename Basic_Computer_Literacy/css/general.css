@@ -60,6 +60,7 @@ h1 {
  color: #44bb6a;
  text-transform: uppercase;
  padding-top: 1rem;
+ margin-bottom: 12px;
 }
 
 .general-wrapp {
@@ -105,12 +106,17 @@ a:hover {
  font-style: italic;
 }
 
+.block img {
+  display: flex;
+  margin-bottom: 32px;
+ }
+
 img {
  display: flex;
  align-items: center;
  margin-bottom: 32px;
- max-width: 990px;
- width: 100%;
+ /* max-width: 990px;
+ width: 100%; */
 }
 
 .img-width {
@@ -201,6 +207,41 @@ hr {
  text-align: center;
  margin-bottom: 22px;
 }
+
+.table {
+  font-size: 2.5rem;
+  max-width: 1424px;
+  border: 1px solid #777;
+ }
+
+ .table-row {
+  display: flex;
+  width: 100%;
+ }
+
+ .table-row__item {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  padding: 12px 0 12px 12px;
+  margin-left: 0;
+ }
+
+ .column-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ }
+
+ .column-text p {
+  text-align: left;
+  font-size: 2.2rem;
+  margin: 0;
+ }
+
+ .table-hr {
+  margin: 0;
+ }
 
 
 @media (max-width: 1024px) {
