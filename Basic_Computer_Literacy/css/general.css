@@ -136,6 +136,10 @@ img {
   font-weight: bold;
 }
 
+.list-li p {
+  margin-bottom: 18px;
+}
+
 .li-flex {
   display: flex;
   align-items: center;
