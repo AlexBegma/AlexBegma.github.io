@@ -180,7 +180,15 @@ img {
   background: #fff;
   border-radius: 20px;
   padding: 25px;
-  width: 500px;
+  max-width: 500px;
+}
+
+.info__photo, .info__title {
+	margin-bottom: 12px;
+}
+
+.info__photo  {
+	max-width: 320px;
 }
 /* end map */
 

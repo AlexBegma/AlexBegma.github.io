@@ -109,7 +109,7 @@ display: flex;
 
 .sign a {
   color: #fff;
-line-height: 30px;  
+line-height: 30px;
 }
 
 .sign:hover {
@@ -247,3 +247,5 @@ footer {
 .right-links a {
  font-size: 16px;
 }
+
+/* Map */
