@@ -1,25 +1,103 @@
 * {
 	box-sizing: border-box;
 	padding: 0;
- margin: 0 auto;
+	margin: 0 auto;
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	width: 100%;
-	height: 100vh;
 	margin: 0;
-	border: 10px solid #2b81ac;
+	/* border: 10px solid #2b81ac;
 	background: #3399cc;
+	color: #fff; */
+}
+
+/* card */
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	max-width: 420px;
+	padding: 12px;
+	margin: 22px;
+	border-radius: 20px;
+	background-color: #000;
 	color: #fff;
 }
 
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-bar {
+	border: none;
+	border-radius: 22px;
+	outline: none;
+	padding: 8px;
+	margin: 8px;
+	background-color: #b9b9af;
+	width: 100%;
+}
+
+.search-bar:hover {
+	background-color: #c4c4c1;
+}
+
+.card button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 32px;
+	width: 100%;
+	height: 32px;
+	border: none;
+	border-radius: 50%;
+	outline: none;
+	cursor: pointer;
+	background-color: #b9b9af;
+	margin: 6px;
+}
+
+.card button:hover {
+	background-color: #c4c4c1;
+}
+
+.bi {}
+
+.bi-search {}
+
+.weather {}
+
+.city {}
+
+.temp {}
+
+.icon {}
+
+.description {}
+
+.humidity {}
+
+.wihd {}
+
 .container {
-	max-width: 960px;
+	max-width: 1400px;
 	width: 100%;
 	height: 100%;
 	display: block;
 	text-align: center;
-	margin: auto;
+	margin: 55px auto;
+	border: 10px solid #2b81ac;
+	background: #3399cc;
+	color: #fff;
 }
 
 h1 {
@@ -82,6 +160,7 @@ span {
 .towns:hover li {
 	opacity: .5;
 }
+
 .towns li:hover {
 	opacity: 1;
 }
