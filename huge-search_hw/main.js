@@ -24,8 +24,8 @@ continents.forEach((item) => {
     });
 
     item.addEventListener('mousemove', function(e) {
-        tooltip.style.top = (e.y + 1) + 'px';
-        tooltip.style.left = (e.x + 1) + 'px';
+        tooltip.style.top = (e.y + 2) + 'px';
+        tooltip.style.left = (e.x + 2) + 'px';
     });
 });
 
