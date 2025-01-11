@@ -14,6 +14,15 @@ body {
 	align-items: center;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	/* flex-wrap: wrap; */
+	margin: 0 auto;
+}
+
 .container-daily {
 	display: flex;
 	justify-content: center;
@@ -146,7 +155,7 @@ h1 {
 	display: flex;
 	min-width: 50%;
 	max-width: 650px;
-	padding: 54px;
+	padding: 72px;
 	font-family: 'Montserrat', sans-serif;
 	background: #4a4f50 url('../images/unsplash.png') 35% 90%;
 }
