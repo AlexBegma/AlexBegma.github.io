@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>RealStatic</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link href="vendor/prism/prism.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="vendor/phosphor-icons/css/icons.css">
+  <link rel="stylesheet" href="vendor/slick/slick.css">
+  <link rel="stylesheet" href="vendor/aos/aos.css">
+  <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+  <link href="css/theme.css" rel="stylesheet" />
+
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+
+<!-- 
+  #############
+  Navigation Menu
+  #############
+-->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-white" id="navigationBar">
+    <div class="container-fluid navbar-container">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.svg" alt="logo">
+        </a>
+        <a href="tel:2329872 " class="navbar-number align-items-center">
+          <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="3" cy="3.5" r="3" fill="#417086"/>
+          </svg>
+          <i class="ph-phone-bold"></i>
+          (546) 232 - 9872          
+        </a>
+      </div>
+      <div class=" d-none d-sm-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last">
+        <ul class="list-unstyled m-0">
+          <li class="nav-item ">
+            <a class="nav-link nav-search-link d-flex align-items-center" href="search.html"  >
+              <i class="ph-magnifying-glass-bold"></i>
+              Search
+            </a>
+          </li>
+        </ul>
+        <a class="btn btn-small btn-outline d-none d-lg-inline-block" data-bs-toggle="modal" href="#login" role="button">Log In</a>
+      </div>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="open ">
+          <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="1" y1="14.4004" x2="23" y2="14.4004" stroke="#1C4456" stroke-width="2" stroke-linecap="round"/>
+            <line x1="1" y1="8.40039" x2="23" y2="8.40039" stroke="#1C4456" stroke-width="2" stroke-linecap="round"/>
+            <line x1="1" y1="1.2002" x2="23" y2="1.2002" stroke="#1C4456" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+            Menu
+        </span>
+        
+        <span class="close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#1C4456" stroke-width="2.3" stroke-miterlimit="10"/>
+            <path d="M15 9L9 15" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 15L9 9" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Close              
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" >
+              Home
+            </a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="index.html">Home v1</a></li>
+              <li><a class="dropdown-item" href="index2.html">Home v2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link " href="listing.html" >
+              Listings
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" >
+              Agents
+            </a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="agent.html">Agent List</a></li>
+              <li><a class="dropdown-item" href="agent-details.html">Agent Profile</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" >
+              Other pages 
+            </a>
+            <ul class="dropdown-menu megamenu" >
+              <li class="megamenu-item d-flex justify-content-between">
+                <ul class="list-unstyled">
+                  <li><a href="blog.html" class="dropdown-item">Blog</a></li>
+                  <li><a href="blog-single.html" class="dropdown-item">Blog Single</a></li>
+                  <li><a href="contact.html" class="dropdown-item">Contact</a></li>
+                  <li><a href="privacy.html" class="dropdown-item">Privacy Policy</a></li>
+                  <li><a href="license.html" class="dropdown-item">License</a></li>
+                </ul>
+                <ul class="list-unstyled" >
+                  <li><a href="404.html" class="dropdown-item">404 Page</a></li>
+                  <li><a class="dropdown-item" data-bs-toggle="modal" href="#login" role="button">Log In</a></li>
+                  <li><a data-bs-toggle="modal" href="#otp" role="button" class="dropdown-item">Enter OTP</a></li>
+                  <li><a data-bs-toggle="modal" href="#newPassword" role="button" class="dropdown-item">New Password</a></li>
+                  <li><a data-bs-toggle="modal" href="#resetPassword" role="button" class="dropdown-item">Reset Password</a></li>
+                  <li><a data-bs-toggle="modal" href="#createAccount" role="button" class="dropdown-item">Create Account</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item d-none d-sm-inline-block d-lg-none">
+            <a class="btn btn-small btn-outline" data-bs-toggle="modal" href="#login" role="button">Log In</a>
+          </li>
+        </ul>
+        <div class="d-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last d-sm-none">
+          <ul class="list-unstyled m-0 search-dropdown">
+            <li class="nav-item ">
+                <a class="nav-link nav-search-link d-flex align-items-center" href="search.html"  >
+                  <i class="ph-magnifying-glass-bold"></i>
+                  Search
+                </a>
+            </li>
+          </ul>
+          <a class="btn btn-small btn-outline" data-bs-toggle="modal" href="#login" role="button">Log In</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- 
+  #############
+  Blog Single Section
+  #############
+-->
+<article class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="blog-single-container" >
+        <div class="blog-single-share active" id="blog-share">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 16C32 7.1625 24.8375 0 16 0C7.1625 0 0 7.1625 0 16C0 24.8375 7.1625 32 16 32C16.0938 32 16.1875 32 16.2812 31.9937V19.5438H12.8438V15.5375H16.2812V12.5875C16.2812 9.16875 18.3688 7.30625 21.4188 7.30625C22.8813 7.30625 24.1375 7.4125 24.5 7.4625V11.0375H22.4C20.7437 11.0375 20.4188 11.825 20.4188 12.9812V15.5312H24.3875L23.8687 19.5375H20.4188V31.3813C27.1063 29.4625 32 23.3062 32 16Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+            <li>
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM11.3506 24.1875H7.45386V12.4641H11.3506V24.1875ZM9.40234 10.8633H9.37695C8.06934 10.8633 7.22363 9.96313 7.22363 8.83813C7.22363 7.68774 8.09521 6.8125 9.42822 6.8125C10.7612 6.8125 11.5815 7.68774 11.6069 8.83813C11.6069 9.96313 10.7612 10.8633 9.40234 10.8633ZM25.4014 24.1875H21.5051V17.9158C21.5051 16.3396 20.9409 15.2646 19.531 15.2646C18.4546 15.2646 17.8135 15.9897 17.5317 16.6897C17.4287 16.9402 17.4036 17.2903 17.4036 17.6406V24.1875H13.5071C13.5071 24.1875 13.5581 13.564 13.5071 12.4641H17.4036V14.124C17.9214 13.3252 18.8479 12.189 20.9153 12.189C23.479 12.189 25.4014 13.8645 25.4014 17.4653V24.1875Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+            <li>
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM23.3054 12.4751C23.3125 12.6326 23.3159 12.7908 23.3159 12.9497C23.3159 17.8025 19.6221 23.3984 12.8669 23.3987H12.8672H12.8669C10.793 23.3987 8.86304 22.7908 7.23779 21.749C7.52515 21.783 7.81763 21.7998 8.11377 21.7998C9.83447 21.7998 11.418 21.2129 12.675 20.2278C11.0674 20.198 9.71191 19.1362 9.24414 17.677C9.46802 17.72 9.69824 17.7434 9.93433 17.7434C10.2695 17.7434 10.5942 17.6982 10.9028 17.614C9.22241 17.2776 7.95654 15.7925 7.95654 14.0142C7.95654 13.9976 7.95654 13.9827 7.95703 13.9673C8.4519 14.2424 9.01782 14.408 9.62036 14.4265C8.63428 13.7686 7.98608 12.6438 7.98608 11.3696C7.98608 10.6968 8.16797 10.0664 8.4834 9.52368C10.2944 11.7458 13.001 13.2073 16.0532 13.3608C15.9902 13.0918 15.9578 12.8115 15.9578 12.5234C15.9578 10.4961 17.6025 8.85132 19.6306 8.85132C20.687 8.85132 21.6411 9.29785 22.3113 10.0117C23.1479 9.84668 23.9336 9.54102 24.6433 9.12036C24.3687 9.97754 23.7866 10.6968 23.0283 11.1516C23.7712 11.0627 24.4792 10.8657 25.1372 10.5732C24.6458 11.3098 24.0225 11.9568 23.3054 12.4751Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+            <li>
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.3506 21.4593C18.6339 22.1761 17.098 22.4319 16.0035 22.4319C14.9058 22.4319 13.3731 22.1761 12.6563 21.4593C12.4866 21.2896 12.2147 21.2896 12.0452 21.4593C11.8755 21.629 11.8755 21.9009 12.0452 22.0704C13.1812 23.2064 15.3636 23.296 16.0035 23.296C16.6434 23.296 18.8226 23.2064 19.962 22.0704C20.1282 21.9007 20.1282 21.6287 19.962 21.4593C19.7923 21.2896 19.5203 21.2896 19.3506 21.4593Z" fill=""/>
+                  <path d="M13.9985 17.6672C13.9985 16.7488 13.2498 16 12.3313 16C11.4131 16 10.6641 16.7488 10.6641 17.6672C10.6641 18.5854 11.4131 19.3345 12.3313 19.3345C13.2498 19.3345 13.9985 18.5857 13.9985 17.6672Z" fill=""/>
+                  <path d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM25.2832 18.1343C25.3184 18.3647 25.3376 18.5984 25.3376 18.8352C25.3376 22.4255 21.1584 25.3345 16.0032 25.3345C10.8479 25.3345 6.6687 22.4255 6.6687 18.8352C6.6687 18.5952 6.68799 18.3584 6.72314 18.1279C5.9104 17.7632 5.34399 16.9473 5.34399 16C5.34399 14.7136 6.38721 13.6672 7.67676 13.6672C8.30396 13.6672 8.87036 13.9136 9.28955 14.3169C10.9087 13.1489 13.1489 12.4031 15.6416 12.3391C15.6416 12.3071 16.8064 6.7583 16.8064 6.7583C16.8289 6.64966 16.8928 6.55664 16.9856 6.49609C17.0784 6.4353 17.1904 6.41602 17.2993 6.43848L21.1777 7.26392C21.4497 6.71362 22.0095 6.33276 22.6655 6.33276C23.5872 6.33276 24.3328 7.07837 24.3328 8C24.3328 8.92163 23.5872 9.66724 22.6655 9.66724C21.7727 9.66724 21.0496 8.96313 21.0081 8.08008L17.5359 7.34082L16.4736 12.3425C18.9216 12.4287 21.1201 13.1711 22.7136 14.3232C23.1328 13.917 23.7024 13.6672 24.3328 13.6672C25.6226 13.6672 26.6655 14.7104 26.6655 16C26.6655 16.9536 26.0928 17.7695 25.2832 18.1343Z" fill=""/>
+                  <path d="M19.6672 15.999C18.7488 15.999 18 16.7478 18 17.6663C18 18.5845 18.7488 19.3335 19.6672 19.3335C20.5854 19.3335 21.3345 18.5845 21.3345 17.6663C21.3345 16.7478 20.5857 15.999 19.6672 15.999Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="blog-single-title">
+          <h3>10 Delightful Dining Room Decor Trends for Spring</h3>
+        </div>
+        <div class="blog-single-featured-thumb">
+          <img src="images/blog/blog-feature-image.png" alt="blog-feature-image" >
+        </div>
+        <div class="blog-single-text">
+          <p>What a time we are living in! A lot of things are coming back, bringing back nostalgia. Wondering why I am talking about nostalgia and all? Especially when it is supposed to be an article on websites! Well, because some old famous website technology is coming back too. Yes, I am talking about static websites.</p>
+          <p>Long ago, almost all websites were used to be static sites during the early days of the internet. Then dynamic sites came and blew the space. A lot of websites shifted to it. Obviously dynamic sites have their advantages. But static sites are making a comeback. And it’s coming stronger than before. In this article, you will cover the basics of static websites like what is a static website, what are the advantages, and when you should use a static website. Let’s kick things off.</p>
+        </div>
+        <div class="blog-single-blockquotes">
+          <h4>Blockquotes</h4>
+          <p>Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.</p>
+          <blockquote class="blog-single-blockquotes-v1">
+            <p class="bold">Performance: Faster Loading Speed</p>
+            <ul>
+              <li>
+                <p>Static websites are way faster than dynamic ones. As they 
+                  don’t have a back-end system, there is no time loss due to 
+                  database connection. Instead, the lightweight, pre-rendered HTML files load incredibly fast.</p>
+              </li>
+              <li>
+                <p>But why fast loading is important? According to Neil Patel, 
+                  47% of people on the internet expect a web page to load in less than 2 seconds.</p>
+              </li>
+            </ul>
+          </blockquote>
+          <blockquote class="blog-single-blockquotes-v2">
+            <div class="blog-single-blockquotes-content">
+              <p class="bold">Performance: Faster Loading Speed</p>
+              <ul>
+                <li>
+                  <p>Static websites are way faster than dynamic ones. As they 
+                    don’t have a back-end system, there is no time loss due to 
+                    database connection. Instead, the lightweight, pre-rendered HTML files load incredibly fast.</p>
+                </li>
+                <li>
+                  <p>But why fast loading is important? According to Neil Patel, 
+                    47% of people on the internet expect a web page to load in less than 2 seconds.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="blog-single-blockquotes-content">
+              <p class="bold">Flexibility: More Freedom to Develop Websites</p>
+              <ul>
+                <li>
+                  <p>Static websites are way faster than dynamic ones. As they 
+                    don’t have a back-end system, there is no time loss due to 
+                    database connection. Instead, the lightweight, pre-rendered HTML files load incredibly fast.</p>
+                </li>
+                <li>
+                  <p>But why fast loading is important? According to Neil Patel, 
+                    47% of people on the internet expect a web page to load in less than 2 seconds.</p>
+                </li>
+              </ul>
+            </div>
+          </blockquote>
+        </div>
+        <div class="blog-single-image">
+          <h4>Images</h4>
+          <p>Being a fast loading and more secure website, you can choose a static website for
+            beginner to medium level workload. Hopefully, you have got the answer to what is a static website and 
+            why should you use it. Decide carefully does static sites are enough for your need.</p>
+            <img src="images/blog/blog-feature-image2.png" alt="blog-feature-image">
+        </div>
+        <div class="blog-single-list">
+          <h4>Lists</h4>
+          <p>Being a fast loading and more secure website, you can choose a static website for beginner to medium level workload. Hopefully, you have got the answer to what is a static website and 
+            why should you use it. Decide carefully does static sites are enough for your need.</p>
+          <ul>
+            <li>Performance: Faster Loading Speed</li>
+            <li>Less Server-side Dependencies</li>
+            <li>Flexibility: More Freedom to Develop Websites</li>
+            <li>Performance: Faster Loading Speed</li>
+            <li>Less Server-side Dependencies</li>
+            <li>Flexibility: More Freedom to Develop Websites</li>
+          </ul>
+          <ol>
+            <li>Performance: Faster Loading Speed</li>
+            <li>Less Server-side Dependencies</li>
+            <li>Flexibility: More Freedom to Develop Websites</li>
+            <li>Performance: Faster Loading Speed</li>
+            <li>Less Server-side Dependencies</li>
+            <li>Flexibility: More Freedom to Develop Websites</li>
+          </ol>
+        </div>
+        <div class="blog-single-code">
+          <h4>Code</h4>
+          <p>Being a fast loading and more secure website, you can choose a static website.</p>
+          <pre class="language-html">
+            <code class=" language-html">
+              &lt;div&gt;
+                &lt;div&gt;
+                  &lt;h2&gt;JavaScript While Loop&lt;/h2&gt;
+                  &lt;p&gt;Lorem ipsum dolor sit amet consectetur&lt;/p&gt;
+                &lt;div&gt;
+              &lt;div&gt;
+            </code>
+          </pre>
+        </div>
+        <div class="blog-single-link">
+          <h4>Link</h4>
+          <p>Yes, a static website may have all its benefits, but is it suitable for you? That’s a big question. 
+            It depends on why you are going to build a website, what purpose it will <a href="#">serve</a>. 
+            That’s why you must when you should use a static website.</p>
+            <p>The followings are the common applications where using the static website is the best choice.
+             - <a href="#">Blog sites</a> - - Small business websites - Websites Under-Development - Personal Portfolio sites - Websites that contain basic information</p>
+        </div>
+        <div class="blog-single-table">
+          <h4>Table</h4>
+          <p>The followings are the common applications where using the static website is the best choice.
+            - Blog sites- - Small business websites.</p>
+          <div class="blog-single-table-container table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Full Name</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Email Address</th>
+                  <th scope="col">Phone Number</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Zakir Hossain</td>
+                  <td>UI, UX Designer</td>
+                  <td>example@gmail.com</td>
+                  <td>+88 00 088 882 222</td>
+                </tr>
+                <tr>
+                  <td>Zakir Hossain</td>
+                  <td>UI, UX Designer</td>
+                  <td>example@gmail.com</td>
+                  <td>+88 00 088 882 222</td>
+                </tr>
+                <tr>
+                  <td>Zakir Hossain</td>
+                  <td>UI, UX Designer</td>
+                  <td>example@gmail.com</td>
+                  <td>+88 00 088 882 222</td>
+                </tr>
+                <tr>
+                  <td>Zakir Hossain</td>
+                  <td>UI, UX Designer</td>
+                  <td>example@gmail.com</td>
+                  <td>+88 00 088 882 222</td>
+                </tr>
+                <tr>
+                  <td>Zakir Hossain</td>
+                  <td>UI, UX Designer</td>
+                  <td>example@gmail.com</td>
+                  <td>+88 00 088 882 222</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="blog-single-share d-flex align-items-center justify-content-end d-lg-none">
+          <h5 class="d-inline-block me-3 mb-0">Share This: </h5>
+          <ul class="list-unstyled list-inline d-inline-block">
+            <li class="list-inline-item mb-0">
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 16C32 7.1625 24.8375 0 16 0C7.1625 0 0 7.1625 0 16C0 24.8375 7.1625 32 16 32C16.0938 32 16.1875 32 16.2812 31.9937V19.5438H12.8438V15.5375H16.2812V12.5875C16.2812 9.16875 18.3688 7.30625 21.4188 7.30625C22.8813 7.30625 24.1375 7.4125 24.5 7.4625V11.0375H22.4C20.7437 11.0375 20.4188 11.825 20.4188 12.9812V15.5312H24.3875L23.8687 19.5375H20.4188V31.3813C27.1063 29.4625 32 23.3062 32 16Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+            <li  class="list-inline-item mb-0">
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM11.3506 24.1875H7.45386V12.4641H11.3506V24.1875ZM9.40234 10.8633H9.37695C8.06934 10.8633 7.22363 9.96313 7.22363 8.83813C7.22363 7.68774 8.09521 6.8125 9.42822 6.8125C10.7612 6.8125 11.5815 7.68774 11.6069 8.83813C11.6069 9.96313 10.7612 10.8633 9.40234 10.8633ZM25.4014 24.1875H21.5051V17.9158C21.5051 16.3396 20.9409 15.2646 19.531 15.2646C18.4546 15.2646 17.8135 15.9897 17.5317 16.6897C17.4287 16.9402 17.4036 17.2903 17.4036 17.6406V24.1875H13.5071C13.5071 24.1875 13.5581 13.564 13.5071 12.4641H17.4036V14.124C17.9214 13.3252 18.8479 12.189 20.9153 12.189C23.479 12.189 25.4014 13.8645 25.4014 17.4653V24.1875Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+            <li  class="list-inline-item mb-0">
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM23.3054 12.4751C23.3125 12.6326 23.3159 12.7908 23.3159 12.9497C23.3159 17.8025 19.6221 23.3984 12.8669 23.3987H12.8672H12.8669C10.793 23.3987 8.86304 22.7908 7.23779 21.749C7.52515 21.783 7.81763 21.7998 8.11377 21.7998C9.83447 21.7998 11.418 21.2129 12.675 20.2278C11.0674 20.198 9.71191 19.1362 9.24414 17.677C9.46802 17.72 9.69824 17.7434 9.93433 17.7434C10.2695 17.7434 10.5942 17.6982 10.9028 17.614C9.22241 17.2776 7.95654 15.7925 7.95654 14.0142C7.95654 13.9976 7.95654 13.9827 7.95703 13.9673C8.4519 14.2424 9.01782 14.408 9.62036 14.4265C8.63428 13.7686 7.98608 12.6438 7.98608 11.3696C7.98608 10.6968 8.16797 10.0664 8.4834 9.52368C10.2944 11.7458 13.001 13.2073 16.0532 13.3608C15.9902 13.0918 15.9578 12.8115 15.9578 12.5234C15.9578 10.4961 17.6025 8.85132 19.6306 8.85132C20.687 8.85132 21.6411 9.29785 22.3113 10.0117C23.1479 9.84668 23.9336 9.54102 24.6433 9.12036C24.3687 9.97754 23.7866 10.6968 23.0283 11.1516C23.7712 11.0627 24.4792 10.8657 25.1372 10.5732C24.6458 11.3098 24.0225 11.9568 23.3054 12.4751Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+            <li  class="list-inline-item mb-0">
+              <a href="#"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true" title='<span class="custom-tooltips">share this</span>'>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.3506 21.4593C18.6339 22.1761 17.098 22.4319 16.0035 22.4319C14.9058 22.4319 13.3731 22.1761 12.6563 21.4593C12.4866 21.2896 12.2147 21.2896 12.0452 21.4593C11.8755 21.629 11.8755 21.9009 12.0452 22.0704C13.1812 23.2064 15.3636 23.296 16.0035 23.296C16.6434 23.296 18.8226 23.2064 19.962 22.0704C20.1282 21.9007 20.1282 21.6287 19.962 21.4593C19.7923 21.2896 19.5203 21.2896 19.3506 21.4593Z" fill=""/>
+                  <path d="M13.9985 17.6672C13.9985 16.7488 13.2498 16 12.3313 16C11.4131 16 10.6641 16.7488 10.6641 17.6672C10.6641 18.5854 11.4131 19.3345 12.3313 19.3345C13.2498 19.3345 13.9985 18.5857 13.9985 17.6672Z" fill=""/>
+                  <path d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM25.2832 18.1343C25.3184 18.3647 25.3376 18.5984 25.3376 18.8352C25.3376 22.4255 21.1584 25.3345 16.0032 25.3345C10.8479 25.3345 6.6687 22.4255 6.6687 18.8352C6.6687 18.5952 6.68799 18.3584 6.72314 18.1279C5.9104 17.7632 5.34399 16.9473 5.34399 16C5.34399 14.7136 6.38721 13.6672 7.67676 13.6672C8.30396 13.6672 8.87036 13.9136 9.28955 14.3169C10.9087 13.1489 13.1489 12.4031 15.6416 12.3391C15.6416 12.3071 16.8064 6.7583 16.8064 6.7583C16.8289 6.64966 16.8928 6.55664 16.9856 6.49609C17.0784 6.4353 17.1904 6.41602 17.2993 6.43848L21.1777 7.26392C21.4497 6.71362 22.0095 6.33276 22.6655 6.33276C23.5872 6.33276 24.3328 7.07837 24.3328 8C24.3328 8.92163 23.5872 9.66724 22.6655 9.66724C21.7727 9.66724 21.0496 8.96313 21.0081 8.08008L17.5359 7.34082L16.4736 12.3425C18.9216 12.4287 21.1201 13.1711 22.7136 14.3232C23.1328 13.917 23.7024 13.6672 24.3328 13.6672C25.6226 13.6672 26.6655 14.7104 26.6655 16C26.6655 16.9536 26.0928 17.7695 25.2832 18.1343Z" fill=""/>
+                  <path d="M19.6672 15.999C18.7488 15.999 18 16.7478 18 17.6663C18 18.5845 18.7488 19.3335 19.6672 19.3335C20.5854 19.3335 21.3345 18.5845 21.3345 17.6663C21.3345 16.7478 20.5857 15.999 19.6672 15.999Z" fill=""/>
+                </svg>                  
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="blog-single-author">
+          <h5>Written By</h5>
+          <div class="blog-single-author-details d-flex align-items-center">
+            <div class="blog-single-author-details-thumb">
+              <img src="images/blog/review.png" alt="blog-author">
+            </div>
+            <div class="blog-single-author-details-content">
+              <h5>Kristin Watson</h5>
+              <p>Co-founder and CDO</p>
+            </div>
+            <div class="blog-single-author-details-date">
+              <span>July 20, 2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 
+  #############
+  Related Blog Section
+  #############
+-->
+<section class="blog-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>Recent News</h3>
+      </div>
+    </div>
+    <div class="row row-cols-lg-3 row-cols-md-3 g-4">
+      <!--Blog Items-->
+      <article class="blog-item">
+        <div class="blog-item-thumb">
+          <img src="images/blog/blog4.png" alt="blog">
+        </div>
+        <div class="blog-item-tag">
+          <a href="taxonomy.html" class="tag">
+            <span>Business</span>
+          </a>
+        </div>
+        <div class="blog-item-content">
+          <h5>10 Delightful Dining Room Decor Trends for Spring</h5>
+          <ul class="blog-item-content-date">
+            <li class="list-inline-item">July 20, 2022</li>
+            <li class="list-inline-item">7 min read</li>
+          </ul>
+          <a href="blog-single.html" class=" blog-item-content-link d-flex align-items-center">
+            <span>Continue Reading </span>
+            <i class="ph-arrow-right"></i>               
+          </a>
+        </div>
+      </article>
+      <!--Blog Items-->
+      <article class="blog-item">
+        <div class="blog-item-thumb">
+          <img src="images/blog/blog5.png" alt="blog">
+        </div>
+        <div class="blog-item-tag">
+          <a href="taxonomy.html" class="tag">
+            <span>Business</span>
+          </a>
+        </div>
+        <div class="blog-item-content">
+          <h5>10 Delightful Dining Room Decor Trends for Spring</h5>
+          <ul class="blog-item-content-date">
+            <li class="list-inline-item">July 20, 2022</li>
+            <li class="list-inline-item">7 min read</li>
+          </ul>
+          <a href="blog-single.html" class=" blog-item-content-link d-flex align-items-center">
+            <span>Continue Reading </span>
+            <i class="ph-arrow-right"></i>               
+          </a>
+        </div>
+      </article>
+      <!--Blog Items-->
+      <article class="blog-item">
+        <div class="blog-item-thumb">
+          <img src="images/blog/blog6.png" alt="blog">
+        </div>
+        <div class="blog-item-tag">
+          <a href="taxonomy.html" class="tag">
+            <span>Business</span>
+          </a>
+        </div>
+        <div class="blog-item-content">
+          <h5>10 usefull Method to Expand your business</h5>
+          <ul class="blog-item-content-date">
+            <li class="list-inline-item">July 20, 2022</li>
+            <li class="list-inline-item">7 min read</li>
+          </ul>
+          <a href="blog-single.html" class=" blog-item-content-link d-flex align-items-center">
+            <span>Continue Reading </span>
+            <i class="ph-arrow-right"></i>               
+          </a>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+  
+</section>
+</article>
+
+<!-- 
+  #############
+  Footer Navigation Section
+  #############
+-->
+<!--For Desktops -->
+<section class="footer d-none d-xl-block">
+  <div class="container-fluid footer-container">
+    <div class="row">
+      <div class="offset-xl-1 col-xl-3">
+        <div class="footer-widget">
+          <div class="footer-logo">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <div class="footer-address">
+            <p>
+              59 Bervely Hill Ave, Brooklyn Town, <br> 
+              New York, NY 5630, CA, US
+            </p>
+            <p class="contact-number mb-0"><a href="tel:+05656565656">+056 686 56 56 98</a></p>
+            <p class="contact-email mb-0" ><a href="mailto:info@staticmania.com">info@staticmania.com</a></p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 26.25C21.2132 26.25 26.25 21.2132 26.25 15C26.25 8.7868 21.2132 3.75 15 3.75C8.7868 3.75 3.75 8.7868 3.75 15C3.75 21.2132 8.7868 26.25 15 26.25Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.6875 10.3125H17.8125C17.0666 10.3125 16.3512 10.6088 15.8238 11.1363C15.2963 11.6637 15 12.3791 15 13.125V26.25" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.25 16.875H18.75" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                                        
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.0001 10.3128C15.0002 9.23584 15.3712 8.19171 16.0505 7.35601C16.7299 6.5203 17.6762 5.94397 18.7305 5.72391C19.7848 5.50386 20.8827 5.6535 21.8396 6.14767C22.7966 6.64185 23.5542 7.45042 23.9851 8.43746L28.1251 8.4375L24.3444 12.2183C24.0982 16.021 22.414 19.5875 19.6338 22.1935C16.8536 24.7996 13.1858 26.2499 9.37514 26.25C5.62514 26.25 4.68764 24.8438 4.68764 24.8438C4.68764 24.8438 8.43764 23.4375 10.3126 20.625C10.3126 20.625 2.81264 16.875 4.68764 6.5625C4.68764 6.5625 9.37514 11.25 14.9985 12.1875L15.0001 10.3128Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                                       
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 19.6875C17.5888 19.6875 19.6875 17.5888 19.6875 15C19.6875 12.4112 17.5888 10.3125 15 10.3125C12.4112 10.3125 10.3125 12.4112 10.3125 15C10.3125 17.5888 12.4112 19.6875 15 19.6875Z" stroke="#417086" stroke-width="2" stroke-miterlimit="10"/>
+                    <path d="M20.1562 4.21875H9.84375C6.73715 4.21875 4.21875 6.73715 4.21875 9.84375V20.1562C4.21875 23.2629 6.73715 25.7812 9.84375 25.7812H20.1562C23.2629 25.7812 25.7812 23.2629 25.7812 20.1562V9.84375C25.7812 6.73715 23.2629 4.21875 20.1562 4.21875Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.0938 10.3125C21.8704 10.3125 22.5 9.6829 22.5 8.90625C22.5 8.1296 21.8704 7.5 21.0938 7.5C20.3171 7.5 19.6875 8.1296 19.6875 8.90625C19.6875 9.6829 20.3171 10.3125 21.0938 10.3125Z" fill="#417086"/>
+                  </svg>                                     
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.8438 4.21875H5.15625C4.63848 4.21875 4.21875 4.63848 4.21875 5.15625V24.8438C4.21875 25.3615 4.63848 25.7812 5.15625 25.7812H24.8438C25.3615 25.7812 25.7812 25.3615 25.7812 24.8438V5.15625C25.7812 4.63848 25.3615 4.21875 24.8438 4.21875Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.0625 13.125V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3125 13.125V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.0625 16.4063C14.0625 15.536 14.4082 14.7014 15.0236 14.0861C15.6389 13.4707 16.4735 13.125 17.3438 13.125C18.214 13.125 19.0486 13.4707 19.6639 14.0861C20.2793 14.7014 20.625 15.536 20.625 16.4063V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3125 10.7812C11.0892 10.7812 11.7188 10.1517 11.7188 9.375C11.7188 8.59835 11.0892 7.96875 10.3125 7.96875C9.53585 7.96875 8.90625 8.59835 8.90625 9.375C8.90625 10.1517 9.53585 10.7812 10.3125 10.7812Z" fill="#417086"/>
+                  </svg>                                                            
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.75 15L13.125 11.25V18.75L18.75 15Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.8125 15C2.8125 18.4869 3.17275 20.5328 3.44661 21.5843C3.51982 21.8715 3.6604 22.1371 3.85671 22.3591C4.05302 22.5812 4.2994 22.7532 4.57546 22.861C8.49853 24.3686 15 24.3272 15 24.3272C15 24.3272 21.5014 24.3686 25.4245 22.861C25.7006 22.7532 25.9469 22.5812 26.1433 22.3592C26.3396 22.1371 26.4802 21.8715 26.5534 21.5844C26.8272 20.5329 27.1875 18.4869 27.1875 15C27.1875 11.513 26.8272 9.4671 26.5534 8.41559C26.4802 8.12842 26.3396 7.86282 26.1433 7.6408C25.947 7.41878 25.7006 7.24673 25.4245 7.13891C21.5015 5.63132 15 5.67272 15 5.67272C15 5.67272 8.49861 5.63132 4.57549 7.1389C4.29944 7.24671 4.05305 7.41876 3.85674 7.64078C3.66043 7.8628 3.51984 8.1284 3.44664 8.41557C3.17277 9.46707 2.8125 11.513 2.8125 15Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                    
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2">
+        <div class="footer-widget">
+          <h5>Pages</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link">Home v1</a></li>
+            <li><a href="index2.html" class="footer-link">Home v2</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+            <li><a href="search.html" class="footer-link">Search</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2">
+        <div class="footer-widget">
+          <h5>Company Details</h5>
+          <ul class="list-unstyled">
+            <li><a href="listing.html" class="footer-link">Listing</a></li>
+            <li><a href="property-details.html" class="footer-link">Property Details</a></li>
+            <li><a href="agent.html" class="footer-link">Agent List</a></li>
+            <li><a href="agent-details.html" class="footer-link">Agent Profile</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2">
+        <div class="footer-widget">
+          <h5>Other Pages</h5>
+          <ul class="list-unstyled">
+            <li><a href="blog.html" class="footer-link">Blog</a></li>
+            <li><a href="blog-single.html" class="footer-link">Blog-single</a></li>
+            <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+            <li><a href="license.html" class="footer-link">License</a></li>
+            <li><a href="404.html" class="footer-link">404 Page</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2">
+        <div class="footer-widget">
+          <h5>Others</h5>
+          <ul class="list-unstyled">
+            <li><a data-bs-toggle="modal" href="#login" role="button" class="footer-link">Log In</a></li>
+            <li><a data-bs-toggle="modal" href="#otp" role="button" class="footer-link">Enter OTP</a></li>
+            <li><a data-bs-toggle="modal" href="#newPassword" role="button" class="footer-link">New password</a></li>
+            <li><a data-bs-toggle="modal" href="#resetPassword" role="button" class="footer-link">Reset password</a></li>
+            <li><a data-bs-toggle="modal" href="#createAccount" role="button" class="footer-link">Create Account</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-1 col-11">
+        <p class="footer-copyright" >RealStatic Limited © <span class="newYear"></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--For Tablet -->
+<section class="footer d-none d-sm-block d-xl-none">
+  <div class="container-fluid footer-container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="footer-widget">
+          <div class="footer-logo">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <div class="footer-address">
+            <p>
+              59 Bervely Hill Ave, Brooklyn Town, <br> 
+              New York, NY 5630, CA, US
+            </p>
+            <p class="contact-number mb-0"><a href="tel:+05656565656">+056 686 56 56 98</a></p>
+            <p class="contact-email mb-0" ><a href="mailto:info@staticmania.com">info@staticmania.com</a></p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 26.25C21.2132 26.25 26.25 21.2132 26.25 15C26.25 8.7868 21.2132 3.75 15 3.75C8.7868 3.75 3.75 8.7868 3.75 15C3.75 21.2132 8.7868 26.25 15 26.25Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.6875 10.3125H17.8125C17.0666 10.3125 16.3512 10.6088 15.8238 11.1363C15.2963 11.6637 15 12.3791 15 13.125V26.25" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.25 16.875H18.75" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                                        
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.0001 10.3128C15.0002 9.23584 15.3712 8.19171 16.0505 7.35601C16.7299 6.5203 17.6762 5.94397 18.7305 5.72391C19.7848 5.50386 20.8827 5.6535 21.8396 6.14767C22.7966 6.64185 23.5542 7.45042 23.9851 8.43746L28.1251 8.4375L24.3444 12.2183C24.0982 16.021 22.414 19.5875 19.6338 22.1935C16.8536 24.7996 13.1858 26.2499 9.37514 26.25C5.62514 26.25 4.68764 24.8438 4.68764 24.8438C4.68764 24.8438 8.43764 23.4375 10.3126 20.625C10.3126 20.625 2.81264 16.875 4.68764 6.5625C4.68764 6.5625 9.37514 11.25 14.9985 12.1875L15.0001 10.3128Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                                       
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 19.6875C17.5888 19.6875 19.6875 17.5888 19.6875 15C19.6875 12.4112 17.5888 10.3125 15 10.3125C12.4112 10.3125 10.3125 12.4112 10.3125 15C10.3125 17.5888 12.4112 19.6875 15 19.6875Z" stroke="#417086" stroke-width="2" stroke-miterlimit="10"/>
+                    <path d="M20.1562 4.21875H9.84375C6.73715 4.21875 4.21875 6.73715 4.21875 9.84375V20.1562C4.21875 23.2629 6.73715 25.7812 9.84375 25.7812H20.1562C23.2629 25.7812 25.7812 23.2629 25.7812 20.1562V9.84375C25.7812 6.73715 23.2629 4.21875 20.1562 4.21875Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.0938 10.3125C21.8704 10.3125 22.5 9.6829 22.5 8.90625C22.5 8.1296 21.8704 7.5 21.0938 7.5C20.3171 7.5 19.6875 8.1296 19.6875 8.90625C19.6875 9.6829 20.3171 10.3125 21.0938 10.3125Z" fill="#417086"/>
+                  </svg>                                     
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.8438 4.21875H5.15625C4.63848 4.21875 4.21875 4.63848 4.21875 5.15625V24.8438C4.21875 25.3615 4.63848 25.7812 5.15625 25.7812H24.8438C25.3615 25.7812 25.7812 25.3615 25.7812 24.8438V5.15625C25.7812 4.63848 25.3615 4.21875 24.8438 4.21875Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.0625 13.125V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3125 13.125V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.0625 16.4063C14.0625 15.536 14.4082 14.7014 15.0236 14.0861C15.6389 13.4707 16.4735 13.125 17.3438 13.125C18.214 13.125 19.0486 13.4707 19.6639 14.0861C20.2793 14.7014 20.625 15.536 20.625 16.4063V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3125 10.7812C11.0892 10.7812 11.7188 10.1517 11.7188 9.375C11.7188 8.59835 11.0892 7.96875 10.3125 7.96875C9.53585 7.96875 8.90625 8.59835 8.90625 9.375C8.90625 10.1517 9.53585 10.7812 10.3125 10.7812Z" fill="#417086"/>
+                  </svg>                                                            
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.75 15L13.125 11.25V18.75L18.75 15Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.8125 15C2.8125 18.4869 3.17275 20.5328 3.44661 21.5843C3.51982 21.8715 3.6604 22.1371 3.85671 22.3591C4.05302 22.5812 4.2994 22.7532 4.57546 22.861C8.49853 24.3686 15 24.3272 15 24.3272C15 24.3272 21.5014 24.3686 25.4245 22.861C25.7006 22.7532 25.9469 22.5812 26.1433 22.3592C26.3396 22.1371 26.4802 21.8715 26.5534 21.5844C26.8272 20.5329 27.1875 18.4869 27.1875 15C27.1875 11.513 26.8272 9.4671 26.5534 8.41559C26.4802 8.12842 26.3396 7.86282 26.1433 7.6408C25.947 7.41878 25.7006 7.24673 25.4245 7.13891C21.5015 5.63132 15 5.67272 15 5.67272C15 5.67272 8.49861 5.63132 4.57549 7.1389C4.29944 7.24671 4.05305 7.41876 3.85674 7.64078C3.66043 7.8628 3.51984 8.1284 3.44664 8.41557C3.17277 9.46707 2.8125 11.513 2.8125 15Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                    
+                </a>
+              </li>
+            </ul>
+            <p class="footer-copyright" >RealStatic Limited ©<span class="newYearDesktop"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="row row-cols-2 gutter-5">
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Pages</h5>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="footer-link">Home v1</a></li>
+                <li><a href="index2.html" class="footer-link">Home v2</a></li>
+                <li><a href="about.html" class="footer-link">About</a></li>
+                <li><a href="contact.html" class="footer-link">Contact</a></li>
+                <li><a href="search.html" class="footer-link">Search</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Company Details</h5>
+              <ul class="list-unstyled">
+                <li><a href="listing.html" class="footer-link">Listing</a></li>
+                <li><a href="property-details.html" class="footer-link">Property Details</a></li>
+                <li><a href="agent.html" class="footer-link">Agent List</a></li>
+                <li><a href="agent-details.html" class="footer-link">Agent Profile</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Other Pages</h5>
+              <ul class="list-unstyled">
+                <li><a href="blog.html" class="footer-link">Blog</a></li>
+                <li><a href="blog-single.html" class="footer-link">Blog-single</a></li>
+                <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+                <li><a href="license.html" class="footer-link">License</a></li>
+                <li><a href="404.html" class="footer-link">404 Page</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Others</h5>
+              <ul class="list-unstyled">
+                <li><a data-bs-toggle="modal" href="#login" role="button" class="footer-link">Log In</a></li>
+                <li><a data-bs-toggle="modal" href="#otp" role="button" class="footer-link">Enter OTP</a></li>
+                <li><a data-bs-toggle="modal" href="#newPassword" role="button" class="footer-link">New password</a></li>
+                <li><a data-bs-toggle="modal" href="#resetPassword" role="button" class="footer-link">Reset password</a></li>
+                <li><a data-bs-toggle="modal" href="#createAccount" role="button" class="footer-link">Create Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--For Mobile -->
+<section class="footer d-block d-sm-none ">
+  <div class="container-fluid footer-container">
+    <div class="row gutter-5">
+      <div class="col-12">
+        <div class="footer-widget">
+          <div class="footer-logo">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="row row-cols-2 gutter-5">
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Pages </h5>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="footer-link">Home v1</a></li>
+                <li><a href="index2.html" class="footer-link">Home v2</a></li>
+                <li><a href="about.html" class="footer-link">About</a></li>
+                <li><a href="contact.html" class="footer-link">Contact</a></li>
+                <li><a href="search.html" class="footer-link">Search</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Company Details</h5>
+              <ul class="list-unstyled">
+                <li><a href="listing.html" class="footer-link">Listing</a></li>
+                <li><a href="property-details.html" class="footer-link">Property Details</a></li>
+                <li><a href="agent.html" class="footer-link">Agent List</a></li>
+                <li><a href="agent-details.html" class="footer-link">Agent Profile</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Other Pagess</h5>
+              <ul class="list-unstyled">
+                <li><a href="blog.html" class="footer-link">Blog</a></li>
+                <li><a href="blog-single.html" class="footer-link">Blog-single</a></li>
+                <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+                <li><a href="license.html" class="footer-link">License</a></li>
+                <li><a href="404.html" class="footer-link">404 Page</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="footer-widget">
+              <h5>Others</h5>
+              <ul class="list-unstyled">
+                <li><a data-bs-toggle="modal" href="#login" role="button" class="footer-link">Log In</a></li>
+                <li><a data-bs-toggle="modal" href="#otp" role="button" class="footer-link">Enter OTP</a></li>
+                <li><a data-bs-toggle="modal" href="#newPassword" role="button" class="footer-link">New password</a></li>
+                <li><a data-bs-toggle="modal" href="#resetPassword" role="button" class="footer-link">Reset password</a></li>
+                <li><a data-bs-toggle="modal" href="#createAccount" role="button" class="footer-link">Create Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="footer-widget">
+          <div class="footer-address">
+            <p>
+              59 Bervely Hill Ave, Brooklyn Town, <br> 
+              New York, NY 5630, CA, US
+            </p>
+            <p class="contact-number mb-0"><a href="tel:+05656565656">+056 686 56 56 98</a></p>
+            <p class="contact-email mb-0" ><a href="mailto:info@staticmania.com">info@staticmania.com</a></p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 26.25C21.2132 26.25 26.25 21.2132 26.25 15C26.25 8.7868 21.2132 3.75 15 3.75C8.7868 3.75 3.75 8.7868 3.75 15C3.75 21.2132 8.7868 26.25 15 26.25Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.6875 10.3125H17.8125C17.0666 10.3125 16.3512 10.6088 15.8238 11.1363C15.2963 11.6637 15 12.3791 15 13.125V26.25" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.25 16.875H18.75" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                                        
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.0001 10.3128C15.0002 9.23584 15.3712 8.19171 16.0505 7.35601C16.7299 6.5203 17.6762 5.94397 18.7305 5.72391C19.7848 5.50386 20.8827 5.6535 21.8396 6.14767C22.7966 6.64185 23.5542 7.45042 23.9851 8.43746L28.1251 8.4375L24.3444 12.2183C24.0982 16.021 22.414 19.5875 19.6338 22.1935C16.8536 24.7996 13.1858 26.2499 9.37514 26.25C5.62514 26.25 4.68764 24.8438 4.68764 24.8438C4.68764 24.8438 8.43764 23.4375 10.3126 20.625C10.3126 20.625 2.81264 16.875 4.68764 6.5625C4.68764 6.5625 9.37514 11.25 14.9985 12.1875L15.0001 10.3128Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                                       
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 19.6875C17.5888 19.6875 19.6875 17.5888 19.6875 15C19.6875 12.4112 17.5888 10.3125 15 10.3125C12.4112 10.3125 10.3125 12.4112 10.3125 15C10.3125 17.5888 12.4112 19.6875 15 19.6875Z" stroke="#417086" stroke-width="2" stroke-miterlimit="10"/>
+                    <path d="M20.1562 4.21875H9.84375C6.73715 4.21875 4.21875 6.73715 4.21875 9.84375V20.1562C4.21875 23.2629 6.73715 25.7812 9.84375 25.7812H20.1562C23.2629 25.7812 25.7812 23.2629 25.7812 20.1562V9.84375C25.7812 6.73715 23.2629 4.21875 20.1562 4.21875Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.0938 10.3125C21.8704 10.3125 22.5 9.6829 22.5 8.90625C22.5 8.1296 21.8704 7.5 21.0938 7.5C20.3171 7.5 19.6875 8.1296 19.6875 8.90625C19.6875 9.6829 20.3171 10.3125 21.0938 10.3125Z" fill="#417086"/>
+                  </svg>                                     
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.8438 4.21875H5.15625C4.63848 4.21875 4.21875 4.63848 4.21875 5.15625V24.8438C4.21875 25.3615 4.63848 25.7812 5.15625 25.7812H24.8438C25.3615 25.7812 25.7812 25.3615 25.7812 24.8438V5.15625C25.7812 4.63848 25.3615 4.21875 24.8438 4.21875Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.0625 13.125V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3125 13.125V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.0625 16.4063C14.0625 15.536 14.4082 14.7014 15.0236 14.0861C15.6389 13.4707 16.4735 13.125 17.3438 13.125C18.214 13.125 19.0486 13.4707 19.6639 14.0861C20.2793 14.7014 20.625 15.536 20.625 16.4063V20.625" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3125 10.7812C11.0892 10.7812 11.7188 10.1517 11.7188 9.375C11.7188 8.59835 11.0892 7.96875 10.3125 7.96875C9.53585 7.96875 8.90625 8.59835 8.90625 9.375C8.90625 10.1517 9.53585 10.7812 10.3125 10.7812Z" fill="#417086"/>
+                  </svg>                                                            
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.75 15L13.125 11.25V18.75L18.75 15Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.8125 15C2.8125 18.4869 3.17275 20.5328 3.44661 21.5843C3.51982 21.8715 3.6604 22.1371 3.85671 22.3591C4.05302 22.5812 4.2994 22.7532 4.57546 22.861C8.49853 24.3686 15 24.3272 15 24.3272C15 24.3272 21.5014 24.3686 25.4245 22.861C25.7006 22.7532 25.9469 22.5812 26.1433 22.3592C26.3396 22.1371 26.4802 21.8715 26.5534 21.5844C26.8272 20.5329 27.1875 18.4869 27.1875 15C27.1875 11.513 26.8272 9.4671 26.5534 8.41559C26.4802 8.12842 26.3396 7.86282 26.1433 7.6408C25.947 7.41878 25.7006 7.24673 25.4245 7.13891C21.5015 5.63132 15 5.67272 15 5.67272C15 5.67272 8.49861 5.63132 4.57549 7.1389C4.29944 7.24671 4.05305 7.41876 3.85674 7.64078C3.66043 7.8628 3.51984 8.1284 3.44664 8.41557C3.17277 9.46707 2.8125 11.513 2.8125 15Z" stroke="#417086" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>                    
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="footer-copyright" >RealStatic Limited ©<span class="newYearMobile"></span></p>
+</section>
+
+<!-- 
+  #############
+  Login Modals Section
+  #############
+-->
+<!-- Modal Log In -->
+<div class="modal fade modal-login" id="login"  tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4  id="loginLabel">Log In</h4>
+        <button type="button" class="btn-modal-close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#1C4456" stroke-width="2.3" stroke-miterlimit="10"></path>
+              <path d="M15 9L9 15" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15 15L9 9" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>                     
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="modal-property-details-form">
+            <form class="contact-form-items row">
+              <div class="col-12">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-user"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="user / email address">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-keyhole"></i>
+                  </span>
+                  <input type="password" class="form-control" placeholder="Password" >
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Remember
+                  </label>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-check text-end">
+                  <a  href="#resetPassword" data-bs-toggle="modal" data-bs-dismiss="modal"> Forget Password</a>
+                </div>
+              </div>
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large d-block w-100">Log In</button>
+              </div>
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large btn-outline d-block w-100  mt-3">
+                  <i class="ph-google-logo align-top"></i>
+                  <span>  Log In with Google </span> 
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer text-center justify-content-center">
+        <p class="bold">Don’t have an account? <a href="#createAccount" data-bs-toggle="modal" data-bs-dismiss="modal">Create Account</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Create Account -->
+<div class="modal fade modal-createAccount" id="createAccount"  tabindex="-2" aria-labelledby="createAccountLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 id="createAccountLabel">Request for Visit</h4>
+        <button type="button" class="btn-modal-close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#1C4456" stroke-width="2.3" stroke-miterlimit="10"></path>
+              <path d="M15 9L9 15" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15 15L9 9" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>             
+          
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="modal-property-details-form">
+            <form class="contact-form-items row">
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-user"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-envelope-simple-open"></i>
+                  </span>
+                  <input type="email" class="form-control" placeholder="Email Address" >
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-phone"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Phone Number">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-map-pin"></i>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Address">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-keyhole"></i>
+                  </span>
+                  <input type="password" class="form-control" placeholder="Password" >
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-keyhole"></i>
+                  </span>
+                  <input type="password" class="form-control" placeholder="Re-Password" >
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label" for="flexCheckDefault2">
+                    <span>I agree to All </span><a href="">Terms & Conditions</a> 
+                  </label>
+                </div>
+              </div>
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large d-block w-100">Create Account</button>
+              </div>
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large btn-outline d-block w-100  mt-3">
+                  <i class="ph-google-logo align-top"></i>
+                  <span>  Create Account with Google </span> 
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+      <div class="modal-footer text-center justify-content-center">
+        <p class="bold">Have an account? <a href="#login" data-bs-toggle="modal" data-bs-dismiss="modal">Log In </a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Reset Password -->
+<div class="modal fade modal-resetPassword" id="resetPassword"  tabindex="-1" aria-labelledby="loginLabel2" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4  id="loginLabel2">Reset Password</h4>
+        <button type="button" class="btn-modal-close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#1C4456" stroke-width="2.3" stroke-miterlimit="10"></path>
+              <path d="M15 9L9 15" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15 15L9 9" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>             
+        </button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="modal-property-details-form">
+            <p>Enter the email address associated with your account and we'll send you a link to reset your password.</p>
+            <form class="contact-form-items row">
+              <div class="col-12">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-user"></i>
+                  </span>
+                  <input type="email" class="form-control" placeholder="Email Address">
+                </div>
+              </div>
+
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large d-block w-100 mt-3" data-bs-target="#otp" data-bs-toggle="modal" data-bs-dismiss="modal">Get OTP</button>
+              </div>
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large btn-outline d-block w-100  mt-3" data-bs-target="#login" data-bs-toggle="modal" data-bs-dismiss="modal">
+                  <span>  Return To sign In </span> 
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer text-center justify-content-center">
+        <p class="bold">Don’t have an account? <a href="#createAccount" data-bs-toggle="modal" data-bs-dismiss="modal">Create Account</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal OTP -->
+<div class="modal fade modal-otp" id="otp"  tabindex="-1" aria-labelledby="loginLabel3" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4  id="loginLabel3">Enter OTP</h4>
+        <button type="button" class="btn-modal-close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#1C4456" stroke-width="2.3" stroke-miterlimit="10"></path>
+              <path d="M15 9L9 15" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15 15L9 9" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>             
+        </button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="modal-property-details-form text-center">
+            <p>Please check your mail, We sent an OTP code</p>
+            <form class="contact-form-items row justify-content-center">
+              <div class="col-2">
+                <input type="text" class="form-control" placeholder="0">
+              </div>
+              <div class="col-2">
+                <input type="text" class="form-control" placeholder="0">
+              </div>
+              <div class="col-2">
+                <input type="text" class="form-control" placeholder="0">
+              </div>
+              <div class="col-2">
+                <input type="text" class="form-control" placeholder="0">
+              </div>
+
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large d-block w-100 mt-3" data-bs-target="#newPassword" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</button>
+              </div>
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large btn-outline d-block w-100  mt-3" data-bs-target="#resetPassword" data-bs-toggle="modal" data-bs-dismiss="modal">
+                  <span> Request OTP again </span> 
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer text-center justify-content-center">
+        <p class="bold">Remeber The Password? <a href="#login" data-bs-toggle="modal" data-bs-dismiss="modal">login</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal New Password -->
+<div class="modal fade modal-resetPassword" id="newPassword"  tabindex="-1" aria-labelledby="loginLabel4" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4  id="loginLabel4">Reset Password</h4>
+        <button type="button" class="btn-modal-close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#1C4456" stroke-width="2.3" stroke-miterlimit="10"></path>
+              <path d="M15 9L9 15" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M15 15L9 9" stroke="#1C4456" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>             
+        </button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="modal-property-details-form">
+            <p>Enter your new password.</p>
+            <form class="contact-form-items row">
+              <div class="col-sm-12">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-keyhole"></i>
+                  </span>
+                  <input type="password" class="form-control" placeholder="Password" >
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="input-group">
+                  <span class="input-group-text" >
+                    <i class="ph-keyhole"></i>
+                  </span>
+                  <input type="password" class="form-control" placeholder="Re-Password" >
+                </div>
+              </div>
+
+              <div class="w-100 contact-form-button">
+                <button type="submit" class="btn btn-large d-block w-100 mt-3">Update Password</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer text-center justify-content-center">
+        <p class="bold">Remember the Password? <a href="#login" data-bs-toggle="modal" data-bs-dismiss="modal">Log In</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+  #############
+  Footer Area
+  #############
+-->
+<!-- Mark up for Script Section-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry"></script>
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="vendor/prism/prism.js"></script>
+<script src="vendor/isotope/isotope.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor//counter-up/countup.js"></script>
+<script src="vendor/waypoints/waypoints.min.js"></script>
+<script src="vendor/scrollit/scrollit.min.js"></script>
+<script src="vendor/magnific-popup/magnific-popup.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
