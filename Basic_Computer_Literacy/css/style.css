@@ -131,6 +131,11 @@ span {
  text-align: center;
 }
 
+.header .share p {
+ font-size: 18px;
+ color: #fff;
+}
+
 .header .share a {
  height: 4.5rem;
  width: 4.5rem;
@@ -158,6 +163,7 @@ span {
 .links-to-sites {
  display: flex;
  flex-direction: column;
+ margin-bottom: 33px;
 }
 
 .links-to-sites a {
