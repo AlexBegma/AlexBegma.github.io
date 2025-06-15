@@ -323,7 +323,7 @@ span {
 
 
 /* section class="excel" */
-.excel {
+/* .excel { */
   /* display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
@@ -333,7 +333,7 @@ span {
  -ms-flex-wrap: wrap;
  flex-wrap: wrap;
  gap: 2rem; */
-}
+/* } */
 
 .excel .box:hover {
   background: #fff;
